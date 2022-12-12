@@ -1,0 +1,16 @@
+"~/scripts/lang-ru.sh"
+    m:0x0 + c:72
+    F6
+
+"~/scripts/lang-us.sh"
+    m:0x0 + c:73
+    F7
+
+"~/scripts/screenshot.sh"
+    m:0x0 + c:107
+    Print
+
+"~/scripts/record-video.sh"
+    m:0x1 + c:107
+    Shift + Print
+

@@ -1,0 +1,17 @@
+{
+  "javascript.suggest.autoImports": true, 
+  "typescript.suggest.autoImports": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.disableSuccessMessage": true,
+  "list.maxPreviewHeight": 40,
+  "list.height": 40,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "scss"
+  ]
+}
