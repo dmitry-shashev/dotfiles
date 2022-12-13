@@ -14,6 +14,9 @@ alias lt='exa --tree --long --icons --all --git --octal-permissions --no-permiss
 alias lt2='exa --tree -L 2 --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first'
 alias lt3='exa --tree -L 3 --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first'
 
+# dotnet
+alias d=dotnet
+
 # tmux sessions
 export TMUX_TMPDIR=$HOME/.tmux-temp
 alias th='tmux source-file ~/.tmux.conf && tmux a -t home'
@@ -41,7 +44,6 @@ fl() {
 # docker
 alias dc=docker-compose
 alias dc@stop='docker stop $(docker ps -a -q)'
-alias d=docker
 # vim
 alias v=nvim
 alias vg=$'nvim -p $(git status -s | awk \'{print $2}\')'
