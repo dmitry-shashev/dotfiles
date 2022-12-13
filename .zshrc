@@ -46,7 +46,6 @@ alias d=docker
 alias v=nvim
 alias vg=$'nvim -p $(git status -s | awk \'{print $2}\')'
 # git
-# git summary --line
 alias gs='echo "[git status --short]" && git status --short'
 alias ga='echo "[git add --all]" && git add --all'
 alias gc='echo "[git add --all && git commit]" && git add --all && git commit'
@@ -63,40 +62,10 @@ function grh() {
   echo "[git clean -fd]"
   git clean -fd
 }
-#alias gbda='echo "[git branch | grep -v "master" | xargs git branch -D]" && git branch | grep -v "master" | xargs git branch -D'
 function gf () {
   preview="git diff $@ --color=always --staged --no-prefix -U1000 -- {-1}"
   git diff $@ --name-only | fzf -m --ansi --preview $preview
 }
-function gp () {
-  grh
-  echo "[git checkout master]"
-  git checkout master
-  echo "[git pull origin master]"
-  git pull origin master
-  echo "[git fetch --all]"
-  git fetch --all
-  echo "[git branch -D $1]"
-  git branch -D $1
-  echo "[git switch $1]"
-  git switch $1
-  echo "[git merge master -m 'REVIEW']"
-  git merge master -m 'REVIEW'
-  echo "[git reset --mixed master]"
-  git reset --mixed master
-}
-function gw () {
-  gp $1
-  echo "[npm run grpc]"
-  npm run grpc
-}
-
-# node
-alias nd='echo "[npm run dev]" && npm run dev'
-alias nt='echo "[npm run test]" && npm run test'
-alias nl='echo "[npm run eslint]" && npm run eslint'
-alias nr='echo "[npm run release-local]" && npm run release-local'
-alias nc='echo "[npm run cypress]" && npm run cypress'
 
 # --------------------------------------------------------
 function p() {

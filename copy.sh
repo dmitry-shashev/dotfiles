@@ -1,18 +1,10 @@
-FilePath=(
-  ".tmux.conf"
-  ".zshrc"
-  ".ideavimrc"
-  ".config/nvim/"
-  ".config/vifm/"
-  ".config/i3/"
-  ".config/dunst/"
-  ".config/kitty/"
-  ".config/sway/"
-  ".xbindkeysrc"
-)
-ScriptsPath=$(pwd)
-
-for Path in "${FilePath[@]}"
-do
-    cp -rf ~/$Path $ScriptsPath/$Path
-done
+cp -r ~/.tmux.conf .
+cp -r ~/.zshrc .
+cp -r ~/.ideavimrc .
+cp -r ~/.xbindkeysrc .
+cp -r ~/.config/nvim ./.config
+cp -r ~/.config/vifm ./.config
+cp -r ~/.config/i3 ./.config
+cp -r ~/.config/dunst ./.config
+cp -r ~/.config/kitty ./.config
+cp -r ~/.config/sway ./.config
