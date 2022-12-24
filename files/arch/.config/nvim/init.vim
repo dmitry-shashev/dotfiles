@@ -32,7 +32,7 @@ set splitbelow
 set nowrap
 set updatetime=100
 
-set spell spelllang=en_us
+" set spell spelllang=en_us
 "-------------------------------------------------------------------
 " fold start imports
 "set foldmethod=expr

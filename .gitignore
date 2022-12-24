@@ -1,0 +1,10 @@
+.idea
+build
+node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# if we run "tsc"
+tsconfig.tsbuildinfo

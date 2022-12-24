@@ -1,10 +1,11 @@
-eval "$(starship init zsh)"
+eval "$(/home/picnic/.cargo/bin/starship init zsh)"
 
 # solve the problem - command not found: compdef
 autoload -Uz compinit && compinit
 
 # use new curl instead of the default one
 export PATH="/opt/homebrew/opt/curl/bin:$PATH:/home/picnic/.cargo/bin:/home/picnic/.dotnet:/home/picnic/.dotnet/tools"
+export BROWSER='/usr/bin/google-chrome-stable'
 
 # --------------------------------------------------------
 
