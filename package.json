@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "copy-arch": "export TARGET=ARCH ACTION=COPY tsc && node ./build/index.js",
-    "copy-mac": "export TARGET=MAC ACTION=COPY tsc && node ./build/index.js"
+    "copy-mac": "export TARGET=MAC ACTION=COPY tsc && node ./build/index.js",
+    "restore-arch": "export TARGET=ARCH ACTION=RESTORE tsc && node ./build/index.js",
+    "restore-mac": "export TARGET=MAC ACTION=RESTORE tsc && node ./build/index.js"
   },
   "keywords": [],
   "author": "",
