@@ -1,9 +1,13 @@
 {
   "name": "new-dotfiles",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
+    "tsc": "tsc",
+    "lint": "eslint",
+    "prettier-format": "prettier --write . && git add --all",
     "copy-arch": "export TARGET=ARCH ACTION=COPY tsc && node ./build/index.js",
     "copy-mac": "export TARGET=MAC ACTION=COPY tsc && node ./build/index.js",
     "restore-arch": "export TARGET=ARCH ACTION=RESTORE tsc && node ./build/index.js",
@@ -35,6 +39,7 @@
   },
   "packageManager": "pnpm@7.5.2",
   "dependencies": {
+    "husky": "8.0.2",
     "recursive-copy": "2.0.14"
   }
 }

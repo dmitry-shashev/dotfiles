@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "plugin:@typescript-eslint/recommended"
-  ],
+  "extends": ["plugin:@typescript-eslint/recommended"],
   "plugins": ["import", "@typescript-eslint"],
   "env": {
     "es6": true
@@ -16,9 +14,7 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": [
-    "build/*"
-  ],
+  "ignorePatterns": ["build/*"],
   "overrides": [
     {
       "files": ["*.ts"],
