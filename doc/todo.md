@@ -1,1 +1,1 @@
-Files for mac
+Add ~/.profile for arch

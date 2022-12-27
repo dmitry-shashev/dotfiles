@@ -1,6 +1,6 @@
 {
   "name": "new-dotfiles",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "tsc": "tsc",
     "lint": "eslint",
     "prettier-format": "prettier --write . && git add --all",
-    "copy-arch": "export TARGET=ARCH ACTION=COPY tsc && node ./build/index.js",
-    "copy-mac": "export TARGET=MAC ACTION=COPY tsc && node ./build/index.js",
-    "restore-arch": "export TARGET=ARCH ACTION=RESTORE tsc && node ./build/index.js",
-    "restore-mac": "export TARGET=MAC ACTION=RESTORE tsc && node ./build/index.js"
+    "copy-arch": "export TARGET=ARCH ACTION=COPY && tsc && node ./build/index.js",
+    "copy-mac": "export TARGET=MAC ACTION=COPY && tsc && node ./build/index.js",
+    "restore-arch": "export TARGET=ARCH ACTION=RESTORE && tsc && node ./build/index.js",
+    "restore-mac": "export TARGET=MAC ACTION=RESTORE && tsc && node ./build/index.js"
   },
   "keywords": [],
   "author": "",

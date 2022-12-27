@@ -1,0 +1,39 @@
+{
+  "gtabs": [{ "panes": [{ "ptabs": [{}] }, { "ptabs": [{}] }] }],
+  "trash": [
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(1).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(1).pub"
+    },
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(2).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(2).pub"
+    },
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(3).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(3).pub"
+    },
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(4).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(4).pub"
+    },
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(5).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(5).pub"
+    },
+    {
+      "trashed": "/Users/picnic/.local/share/vifm/Trash/000_id_rsa(6).pub",
+      "original": "/Users/picnic/.ssh-keys/hamilton/id_rsa(6).pub"
+    }
+  ],
+  "marks": {
+    "H": { "dir": "/Users/picnic/", "file": "..", "ts": 1653502926 },
+    "b": { "dir": "/Users/picnic/bin/", "file": "..", "ts": 1653502926 },
+    "d": { "dir": "/Users/picnic/Downloads", "file": "..", "ts": 1653503736 },
+    "h": { "dir": "/Users/picnic/", "file": "..", "ts": 1653502926 },
+    "l": { "dir": "/Users/picnic/lib", "file": "..", "ts": 1653503736 },
+    "w": { "dir": "/Users/picnic/domains", "file": "..", "ts": 1653503736 },
+    "z": { "dir": "/Users/picnic/.config/vifm", "file": "..", "ts": 1653502926 }
+  },
+  "bmarks": {}
+}
