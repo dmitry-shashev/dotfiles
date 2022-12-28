@@ -10,6 +10,7 @@ export const FILES_LIST_ARCH: ReadonlyArray<string> = [
   '.config/dunst',
   '.config/kitty',
   '.config/sway',
+  '.profile',
 ]
 
 export const FILES_LIST_MAC: ReadonlyArray<string> = [
