@@ -1,1 +1,1 @@
-Add ~/.profile for arch
+Add `zz` vim navigations
