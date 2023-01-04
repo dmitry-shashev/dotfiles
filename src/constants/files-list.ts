@@ -20,4 +20,6 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   '.config/nvim',
   '.config/vifm',
   '.config/kitty',
+  '.yabairc',
+  '.skhdrc',
 ]

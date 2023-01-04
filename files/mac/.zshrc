@@ -152,3 +152,35 @@ cf() {
   l
 }
 
+#-------------------------------------------------------
+
+function vl() {
+  cd ~/lib
+  v
+}
+
+function vb() {
+  cd ~/domains/lf-backend
+  v
+}
+
+function vf() {
+  cd ~/domains/lost-and-found
+  v
+}
+
+function vw() {
+  cd ~/domains/Winter
+  v
+}
+
+function vm() {
+  cd ~/domains/mono-graph
+  v
+}
+
+function vh() {
+  cd ~/domains/hospitality-solutions
+  v
+}
+

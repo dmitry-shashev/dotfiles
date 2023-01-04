@@ -52,11 +52,11 @@ vnoremap <M-f> <ESC>
 
 " remap fast bookmarks
 noremap ma mA
-noremap <space>a `A
+noremap <space>a `A<CR>zz<CR>
 noremap ms mS
-noremap <space>s `S
+noremap <space>s `S<CR>zz<CR>
 noremap md mD
-noremap <space>d `D
+noremap <space>d `D<CR>zz<CR>
 noremap mf :delmarks A<CR>:delmarks S<CR>:delmarks D<CR>
 
 " fast react component search

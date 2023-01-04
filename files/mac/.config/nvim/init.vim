@@ -104,11 +104,11 @@ nnoremap <silent> 't :<C-u>NERDTreeFind<CR>
 
 " remap fast bookmarks
 noremap ma mA
-noremap <space>a `Azz12<C-e>
+noremap <space>a `Azz<C-e>
 noremap ms mS
-noremap <space>s `Szz12<C-e>
+noremap <space>s `Szz<C-e>
 noremap md mD
-noremap <space>d `Dzz12<C-e>
+noremap <space>d `Dzz<C-e>
 noremap mf :delmarks A<CR>:delmarks S<CR>:delmarks D<CR>
 
 " fast react component search
