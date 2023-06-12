@@ -1,10 +1,9 @@
 import { homedir } from 'os'
-import * as fs from 'fs'
-import copy from 'recursive-copy'
+import { existsSync, cpSync, CopySyncOptions } from 'fs'
 
-const options = {
-  overwrite: true,
-  dot: true,
+const options: CopySyncOptions = {
+  recursive: true,
+  force: true,
 }
 
 export abstract class FileHelper {
@@ -15,10 +14,10 @@ export abstract class FileHelper {
     const userHomeDir = homedir()
     files.forEach((file) => {
       const fileBasePath = `${userHomeDir}/${file}`
-      if (!fs.existsSync(fileBasePath)) {
+      if (!existsSync(fileBasePath)) {
         return
       }
-      copy(fileBasePath, `./files/${subFolderName}/${file}`, options)
+      cpSync(fileBasePath, `./files/${subFolderName}/${file}`, options)
     })
   }
 
@@ -29,10 +28,10 @@ export abstract class FileHelper {
     const userHomeDir = homedir()
     files.forEach((file) => {
       const fileBasePath = `${userHomeDir}/${file}`
-      if (!fs.existsSync(fileBasePath)) {
+      if (!existsSync(fileBasePath)) {
         return
       }
-      copy(`./files/${subFolderName}/${file}`, fileBasePath, options)
+      cpSync(`./files/${subFolderName}/${file}`, fileBasePath, options)
     })
   }
 }

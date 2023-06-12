@@ -1,6 +1,6 @@
 {
   "name": "new-dotfiles",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -39,7 +39,6 @@
   },
   "packageManager": "pnpm@7.5.2",
   "dependencies": {
-    "husky": "8.0.2",
-    "recursive-copy": "2.0.14"
+    "husky": "8.0.2"
   }
 }
