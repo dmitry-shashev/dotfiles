@@ -4,7 +4,7 @@ eval "$(/home/picnic/.cargo/bin/starship init zsh)"
 autoload -Uz compinit && compinit
 
 # use new curl instead of the default one
-export PATH="/opt/homebrew/opt/curl/bin:$PATH:/home/picnic/.cargo/bin:/home/picnic/.dotnet:/home/picnic/.dotnet/tools"
+export PATH="/opt/homebrew/opt/curl/bin:$PATH:/home/picnic/.cargo/bin:/home/picnic/.dotnet:/home/picnic/.dotnet/tools:/home/picnic/.local/bin"
 export BROWSER='/usr/bin/google-chrome-stable'
 
 # --------------------------------------------------------
