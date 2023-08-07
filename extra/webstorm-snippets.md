@@ -1,0 +1,163 @@
+```bash
+<template name="=" value=" === $END$" description="=" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="a" value="Array&lt;$END$&gt;" description="Array" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="acl" value="abstract class $END$ {&#10;  // content&#10;}" description="abstract class" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="b" value="boolean$END$" description="boolean" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="c" value="const $END$" description="const" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="ca" value="($START$) =&gt; [&#10;&#9;$END$&#10;]" description="callback array" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="cb" value="($START$) =&gt; {&#10;&#9;$END$&#10;}" description="callbach" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="cc" value="// @#$&#10;// eslint-disable-next-line no-console&#10;console.log($END$)" description="console log" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="cn" value="($START$) =&gt; $END$" description="callback simple" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="cv" value="($START$) =&gt; ({&#10;&#9;$END$&#10;})" description="callback value" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="d" value="default $END$" description="default" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="e" value="export $END$" description="export" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="ed" value="export default $END$" description="export default" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="f" value="function $START$($MIDDLE$): void {&#10;  $END$&#10;}" description="function" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="MIDDLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="i" value="interface $START$ {&#10;  $END$&#10;}" description="interface" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="if" value="if ($START$) {&#10;  $END$&#10;}" description="if" toReformat="false" toShortenFQNames="true">
+  <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="ir" value="import React from 'react'" description="import react" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="n" value="number$END$" description="number" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="p" value="Promise&lt;$END$&gt;" description="promise" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="rc" value="import React, { FC } from 'react'&#10;&#10;export const $1$: FC = () =&gt; {&#10;  $END$&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;div&gt;content&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;" description="react component" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="rci" value="import React, { FC } from 'react'&#10;&#10;interface Props {&#10;  data: string$END$&#10;}&#10;&#10;export const $1$: FC&lt;Props&gt; = ({ data }) =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;div&gt;content&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;" description="reac component with props" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="ro" value="readonly $END$" description="readonly" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="si" value="setInterval(() =&gt; {&#10;  $2$&#10;}, $1$)" description="set interval" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="" defaultValue="1000" alwaysStopAt="true" />
+  <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="st" value="setTimeout(() =&gt; {&#10;  $2$&#10;}, $1$)" description="set timeout" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="" defaultValue="1000" alwaysStopAt="true" />
+  <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+  </context>
+</template>
+<template name="ti" value="// @ts-ignore" description="ts ignore" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="ue" value="useEffect(() =&gt; {&#10;  $END$&#10;}, [])" description="use effect" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="us" value="const [$CONSTANT$, set$CAPITALIZED_CONSTANT$] = useState($END$);" description="use state" toReformat="false" toShortenFQNames="true">
+  <variable name="CONSTANT" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CAPITALIZED_CONSTANT" expression="capitalize(CONSTANT)" defaultValue="" alwaysStopAt="false" />
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+<template name="v" value="Value$END$" description="Value" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
+```
