@@ -1,6 +1,9 @@
 " f8 / F8 - switch themes
-" NextColorScheme
-"
+" colorscheme evening
+
+let g:main_color_scheme = "evening"
+let g:terminal_color_scheme = "slate"
+
 "-------------------------------------------------------------------
 set encoding=UTF-8
 
@@ -262,6 +265,40 @@ let g:gitgutter_map_keys = 0
 nmap <space>h <Plug>(GitGutterNextHunk)<Plug>(GitGutterPreviewHunk)
 nmap <space>l <Plug>(GitGutterPrevHunk)<Plug>(GitGutterPreviewHunk)
 nmap <space>H :<C-u>GitGutterFold<CR>
+"-------------------------------------------------------------------
+" terminal
+"   insert mode - to command line
+"   ; + f12 - to visual mode
+"   f12 - toggle
+
+let g:term_buf = 0
+let g:term_win = 0
+
+function! Term_toggle(height)
+    if win_gotoid(g:term_win)
+            exec "colorscheme " . g:main_color_scheme
+        hide
+    else
+            exec "colorscheme " . g:terminal_color_scheme
+        botright new
+        exec "resize " . a:height
+        try
+            exec "buffer " . g:term_buf
+        catch
+            call termopen("tmux", {"detach": 0})
+            let g:term_buf = bufnr("")
+        endtry
+        startinsert!
+        let g:term_win = win_getid()
+    endif
+endfunction
+
+
+nnoremap <f12> :call Term_toggle(40)<cr>
+tnoremap <f12> <C-\><C-n>:call Term_toggle(40)<cr>
+" Terminal go back to normal mode
+tnoremap ;<f12> <C-\><C-n>
+
 "-------------------------------------------------------------------
 ":CocInstall coc-css
 ":CocInstall coc-html
