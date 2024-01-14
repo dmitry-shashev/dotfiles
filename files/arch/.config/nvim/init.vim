@@ -263,7 +263,7 @@ nmap <space>H :<C-u>GitGutterFold<CR>
 "-------------------------------------------------------------------
 " terminal
 "   insert mode - to command line
-"   ; + f12 - to visual mode
+"   ;i - to visual mode
 "   f12 - toggle
 
 let g:term_buf = 0
@@ -292,7 +292,7 @@ endfunction
 nnoremap <f12> :call Term_toggle(40)<cr>
 tnoremap <f12> <C-\><C-n>:call Term_toggle(40)<cr>
 " Terminal go back to normal mode
-tnoremap ;<f12> <C-\><C-n>
+tnoremap ;i <C-\><C-n>
 "-------------------------------------------------------------------
 ":CocInstall coc-css
 ":CocInstall coc-html
