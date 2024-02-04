@@ -22,4 +22,5 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   '.config/kitty',
   '.yabairc',
   '.skhdrc',
+  'scripts',
 ]
