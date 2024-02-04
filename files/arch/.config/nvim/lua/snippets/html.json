@@ -1,0 +1,17 @@
+{
+  "Div": {
+    "prefix": "d",
+    "body": ["<div>$1</div>"],
+    "description": "Div"
+  },
+  "Button": {
+    "prefix": "bb",
+    "body": ["<button type=\"button\">$1</button>"],
+    "description": "Button"
+  },
+  "Link": {
+    "prefix": "aa",
+    "body": ["<a href=\"$2\" rel=\"noopener noreferrer\">$1</a>"],
+    "description": "Button"
+  }
+}
