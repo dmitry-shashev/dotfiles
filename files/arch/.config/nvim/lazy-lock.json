@@ -35,10 +35,6 @@
     "branch": "main",
     "commit": "16ec236fabb40b2cebfe283b1d701338886462db"
   },
-  "gruvbox": {
-    "branch": "master",
-    "commit": "f1ecde848f0cdba877acb0c740320568252cc482"
-  },
   "image.nvim": {
     "branch": "master",
     "commit": "21f2073505d8c475008512db59bbd82ccc9ec5d5"
@@ -98,6 +94,10 @@
   "nvim-web-devicons": {
     "branch": "master",
     "commit": "aaec87dbdaa776bfa0a13c8694bec9bcb7454719"
+  },
+  "onenord.nvim": {
+    "branch": "main",
+    "commit": "ad19a49d38e34a5dde8224882ac711c1310565a0"
   },
   "plenary.nvim": {
     "branch": "master",

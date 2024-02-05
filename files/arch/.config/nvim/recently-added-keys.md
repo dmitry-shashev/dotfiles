@@ -35,7 +35,7 @@
 :Lazy
 
 > open the previous session related to the folder
-> alt + o
+> O
 
 ## Snippets
 

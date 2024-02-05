@@ -36,20 +36,20 @@
 --     end,
 -- }
 
--- return {
---    "rmehri01/onenord.nvim",
---     lazy = false,
---     priority = 1000,
---     config = function()
---       vim.cmd([[colorscheme onenord]])
---     end,
--- }
-
 return {
-   "morhetz/gruvbox",
+   "rmehri01/onenord.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd([[colorscheme gruvbox]])
+      vim.cmd([[colorscheme onenord]])
     end,
 }
+
+-- return {
+--    "morhetz/gruvbox",
+--     lazy = false,
+--     priority = 1000,
+--     config = function()
+--       vim.cmd([[colorscheme gruvbox]])
+--     end,
+-- }

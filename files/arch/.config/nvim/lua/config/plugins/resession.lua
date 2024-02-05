@@ -15,7 +15,7 @@ return {
     })
 
 
-    vim.keymap.set("n", "<A-o>", function()
+    vim.keymap.set("n", ";o", function()
       if vim.fn.argc(-1) == 0 then
         resession.load(vim.fn.getcwd(), { dir = "dirsession", silence_errors = true })
       end
