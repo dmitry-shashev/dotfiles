@@ -23,4 +23,6 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   '.yabairc',
   '.skhdrc',
   'scripts',
+  'os-scripts',
+  '.warp',
 ]
