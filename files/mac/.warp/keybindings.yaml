@@ -1,0 +1,7 @@
+---
+'workspace:activate_prev_tab': 'ctrl-,'
+'workspace:activate_next_tab': ctrl-.
+'workspace:close_active_tab': ctrl-q
+'workspace:rename_active_tab': ctrl-n
+'workspace:new_tab': ctrl-t
+'editor_view:down': none

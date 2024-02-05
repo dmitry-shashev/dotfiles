@@ -1,0 +1,47 @@
+{
+  "Number": {
+    "prefix": "n",
+    "body": ["number"],
+    "description": "number"
+  },
+  "String": {
+    "prefix": "s",
+    "body": ["string"],
+    "description": "string"
+  },
+  "Promise": {
+    "prefix": "p",
+    "body": ["Promise<$1>"],
+    "description": "Promise"
+  },
+  "Array": {
+    "prefix": "a",
+    "body": ["Array<$1>"],
+    "description": "Array"
+  },
+  "Boolean": {
+    "prefix": "b",
+    "body": ["boolean"],
+    "description": "boolean"
+  },
+  "Interface": {
+    "prefix": "i",
+    "body": ["interface $1 {", "}"],
+    "description": "interface"
+  },
+  "ReadOnly": {
+    "prefix": "re",
+    "body": ["readonly $1"],
+    "description": "readonly"
+  },
+  "ReadonlyArray": {
+    "prefix": "ra",
+    "body": ["ReadonlyArray<$1>"],
+    "description": "readonly array"
+  },
+  "TsIgnore": {
+    "prefix": "ti",
+    "body": ["// @ts-expect-error @#$"],
+    "description": "ts ignore"
+  }
+}
