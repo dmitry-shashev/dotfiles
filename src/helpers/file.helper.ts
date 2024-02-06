@@ -1,5 +1,5 @@
 import { homedir } from 'os'
-import { existsSync, cpSync, CopySyncOptions } from 'fs'
+import { cpSync, existsSync, CopySyncOptions } from 'fs'
 
 const options: CopySyncOptions = {
   recursive: true,
@@ -13,11 +13,13 @@ export abstract class FileHelper {
   ): void {
     const userHomeDir = homedir()
     files.forEach((file) => {
-      const fileBasePath = `${userHomeDir}/${file}`
-      if (!existsSync(fileBasePath)) {
-        return
+      const basePath = `${userHomeDir}/${file}`
+      // we could specify in a list of files for backuping
+      // which doesn't exist in the current linux distro
+      if (existsSync(basePath)) {
+        const finalPath = `./files/${subFolderName}/${file}`
+        cpSync(basePath, finalPath, options)
       }
-      cpSync(fileBasePath, `./files/${subFolderName}/${file}`, options)
     })
   }
 
@@ -27,11 +29,9 @@ export abstract class FileHelper {
   ): void {
     const userHomeDir = homedir()
     files.forEach((file) => {
-      const fileBasePath = `${userHomeDir}/${file}`
-      if (!existsSync(fileBasePath)) {
-        return
-      }
-      cpSync(`./files/${subFolderName}/${file}`, fileBasePath, options)
+      const basePath = `./files/${subFolderName}/${file}`
+      const finalPath = `${userHomeDir}/${file}`
+      cpSync(basePath, finalPath, options)
     })
   }
 }
