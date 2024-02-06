@@ -1,4 +1,4 @@
-import { FILES_LIST_ARCH, FILES_LIST_MAC } from '../constants/files-list'
+import { FILES_LIST_LINUX, FILES_LIST_MAC } from '../constants/files-list'
 import { TargetData } from '../interfaces/target-data'
 
 export abstract class DataHelper {
@@ -7,9 +7,9 @@ export abstract class DataHelper {
     let folder = ''
     const target = String(process.env.TARGET)
     switch (target) {
-      case 'ARCH':
-        files = FILES_LIST_ARCH
-        folder = 'arch'
+      case 'LINUX':
+        files = FILES_LIST_LINUX
+        folder = 'linux'
         break
 
       case 'MAC':

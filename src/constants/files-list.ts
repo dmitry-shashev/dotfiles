@@ -1,4 +1,4 @@
-export const FILES_LIST_ARCH: ReadonlyArray<string> = [
+export const FILES_LIST_LINUX: ReadonlyArray<string> = [
   '.tmux.conf',
   '.zshrc',
   '.ideavimrc',
