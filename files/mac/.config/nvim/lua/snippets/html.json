@@ -5,13 +5,28 @@
     "description": "Div"
   },
   "Button": {
-    "prefix": "bb",
+    "prefix": "btn",
     "body": ["<button type=\"button\">$1</button>"],
     "description": "Button"
   },
   "Link": {
-    "prefix": "aa",
+    "prefix": "ah",
     "body": ["<a href=\"$2\" rel=\"noopener noreferrer\">$1</a>"],
     "description": "Button"
+  },
+  "Input": {
+    "prefix": "inp",
+    "body": ["<input type=\"text\" value=\"$1\" />"],
+    "description": "Input"
+  },
+  "Ul": {
+    "prefix": "ul",
+    "body": ["<ul>$1</ul>"],
+    "description": "ul"
+  },
+  "Li": {
+    "prefix": "li",
+    "body": ["<li>$1</li>"],
+    "description": "li"
   }
 }
