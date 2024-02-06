@@ -1,41 +1,41 @@
 ## Nvim
 
 > diff mode
-> space + H
+space + H
 
 > rollback hunk
-> space + L
+space + L
 
 > git blame
-> ;g
+;g
 
 > open the commit
-> ;G
+;G
 
 > search among changed files
-> 'f
+'f
 
 > show modified files as a tree
-> ;m
+;m
 
 > lsp code actions
-> ; + space
+; + space
 
 > apply the first pre-defined lsp action:
-> import, deps
-> ' + space
+>   import, deps
+' + space 
 
 > close the tree node
-> z
+z
 > close all tree nodes
-> Z
+Z
 
 :LspInfo
 :LspRestart
 :Lazy
 
 > open the previous session related to the folder
-> O
+O
 
 ## Snippets
 
@@ -55,17 +55,19 @@ tmux new -s home
 ## zsh scripts
 
 > Git
-> gbla
-> gblr
-> greview
-> gbd
-> gd
-> go
-> cdg
+gbla
+gblr
+greview
+gbd
+gd
+go
+cdg
 
 > Navi
-> lt / lt2 / lt3
-> ff
-> fo
-> fd
-> cdp
+lt / lt2 / lt3
+ff
+fo
+fd
+cdp
+
+

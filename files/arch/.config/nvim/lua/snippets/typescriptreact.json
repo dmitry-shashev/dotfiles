@@ -1,7 +1,9 @@
 {
   "ImportReact": {
     "prefix": "ir",
-    "body": ["import React from 'react'"],
+    "body": [
+      "import React from 'react'"
+    ],
     "description": "import react"
   },
   "ReactComponent": {
@@ -31,7 +33,9 @@
   },
   "ClassName": {
     "prefix": "cl",
-    "body": ["className={$1}"],
+    "body": [
+      "className={$1}"
+    ],
     "description": "class name"
   }
 }
