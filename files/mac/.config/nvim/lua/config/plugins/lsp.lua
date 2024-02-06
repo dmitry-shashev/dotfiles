@@ -101,5 +101,9 @@ return {
     require'lspconfig'.html.setup {
       capabilities = capabilities,
     }
+
+    -- yaml
+    -- sudo npm i -g yaml-language-server
+    require'lspconfig'.yamlls.setup({})
   end
 }
