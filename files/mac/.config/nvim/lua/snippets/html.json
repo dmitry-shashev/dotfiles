@@ -1,32 +1,44 @@
 {
   "Div": {
     "prefix": "d",
-    "body": ["<div>$1</div>"],
+    "body": [
+      "<div>$1</div>"
+    ],
     "description": "Div"
   },
   "Button": {
     "prefix": "btn",
-    "body": ["<button type=\"button\">$1</button>"],
+    "body": [
+      "<button type=\"button\">$1</button>"
+    ],
     "description": "Button"
   },
   "Link": {
     "prefix": "ah",
-    "body": ["<a href=\"$2\" rel=\"noopener noreferrer\">$1</a>"],
+    "body": [
+      "<a href=\"$2\" rel=\"noopener noreferrer\">$1</a>"
+    ],
     "description": "Button"
   },
   "Input": {
     "prefix": "inp",
-    "body": ["<input type=\"text\" value=\"$1\" />"],
+    "body": [
+      "<input type=\"text\" value=\"$1\" />"
+    ],
     "description": "Input"
   },
   "Ul": {
     "prefix": "ul",
-    "body": ["<ul>$1</ul>"],
+    "body": [
+      "<ul>$1</ul>"
+    ],
     "description": "ul"
   },
   "Li": {
     "prefix": "li",
-    "body": ["<li>$1</li>"],
+    "body": [
+      "<li>$1</li>"
+    ],
     "description": "li"
   }
 }
