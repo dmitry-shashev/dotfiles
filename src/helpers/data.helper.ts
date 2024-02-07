@@ -1,8 +1,12 @@
-import { FILES_LIST_LINUX, FILES_LIST_MAC } from '../constants/files-list'
+import {
+  FILES_LIST_ALL,
+  FILES_LIST_LINUX,
+  FILES_LIST_MAC,
+} from '../constants/files-list'
 import { TargetData } from '../interfaces/target-data'
 
 export abstract class DataHelper {
-  public static getTargetData(): TargetData {
+  public static getTargetData(): Array<TargetData> {
     let files: ReadonlyArray<string> = []
     let folder = ''
     const target = String(process.env.TARGET)
@@ -22,9 +26,15 @@ export abstract class DataHelper {
       throw new Error('Can not determine the target')
     }
 
-    return {
-      files,
-      folder,
-    }
+    return [
+      {
+        files,
+        folder,
+      },
+      {
+        files: FILES_LIST_ALL,
+        folder: 'all',
+      },
+    ]
   }
 }

@@ -1,7 +1,9 @@
-import { FileHelper } from '../helpers/file.helper'
 import { DataHelper } from '../helpers/data.helper'
+import { FileHelper } from '../helpers/file.helper'
 
 export function copyAction(): void {
-  const { files, folder } = DataHelper.getTargetData()
-  FileHelper.copyFolders(files, folder)
+  const data = DataHelper.getTargetData()
+  data.map(({ files, folder }) => {
+    FileHelper.copyFolders(files, folder)
+  })
 }
