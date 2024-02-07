@@ -7,6 +7,7 @@ export const FILES_LIST_LINUX: ReadonlyArray<string> = [
   '.config/nvim',
   '.config/vifm',
   '.config/i3',
+  '.config/i3blocks',
   '.config/dunst',
   '.config/kitty',
   '.config/sway',
