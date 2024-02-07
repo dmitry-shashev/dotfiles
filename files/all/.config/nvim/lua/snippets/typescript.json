@@ -27,6 +27,13 @@
     ],
     "description": "Array"
   },
+  "ReadonlyArray": {
+    "prefix": "ra",
+    "body": [
+      "ReadonlyArray<$1>"
+    ],
+    "description": "readonly array"
+  },
   "Boolean": {
     "prefix": "b",
     "body": [
@@ -48,13 +55,6 @@
       "readonly $1"
     ],
     "description": "readonly"
-  },
-  "ReadonlyArray": {
-    "prefix": "ra",
-    "body": [
-      "ReadonlyArray<$1>"
-    ],
-    "description": "readonly array"
   },
   "TsIgnore": {
     "prefix": "ti",
