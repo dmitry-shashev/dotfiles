@@ -10,7 +10,7 @@ local paths=(
   "$HOME/.local/bin"
 )
 export PATH=$PATH:${"${paths[*]}"// /:}
-export BROWSER='/usr/bin/google-chrome-stable'
+# export BROWSER='/usr/bin/google-chrome-stable'
 export EDITOR='nvim'
 export VISUAL='nvim'
 
