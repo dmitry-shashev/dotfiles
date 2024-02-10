@@ -65,6 +65,12 @@
     <option name="TypeScript" value="true" />
   </context>
 </template>
+<template name="ct" value="constructor($END$) {&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
 <template name="cv" value="($START$) =&gt; ({&#10;&#9;$END$&#10;})" description="callback value" toReformat="false" toShortenFQNames="true">
   <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
   <context>

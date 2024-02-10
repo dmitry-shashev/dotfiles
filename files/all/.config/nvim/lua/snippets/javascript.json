@@ -8,6 +8,14 @@
     ],
     "description": "Console Log"
   },
+  "Constructor": {
+    "prefix": "ct",
+    "body": [
+      "constructor($1) {",
+      "}"
+    ],
+    "description": "constructor"
+  },
   "Equal": {
     "prefix": "=",
     "body": [
