@@ -32,3 +32,6 @@ i3-msg 'exec slack'
 
 xrandr --output HDMI-0 --mode 3840x2160 --rate 120
 
+# turn off emodzi - otherwise webstorm prevent using "ctrl+."
+gsettings set org.freedesktop.ibus.panel.emoji hotkey "[]"
+gsettings set org.freedesktop.ibus.panel.emoji unicode-hotkey "[]"
