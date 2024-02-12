@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "lib": ["es6"],
+    "lib": [
+      "es6"
+    ],
     "allowJs": true,
     "outDir": "build",
     "rootDir": "src",
@@ -11,5 +13,12 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "useUnknownInCatchVariables": false
-  }
+  },
+  "exclude": [
+    "files",
+    "build",
+    "doc",
+    "extra",
+    "node_modules"
+  ]
 }

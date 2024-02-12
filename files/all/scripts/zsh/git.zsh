@@ -80,3 +80,23 @@ function cdg() {
   local REPO_PATH="$(git rev-parse --show-toplevel)"
   cd $REPO_PATH
 }
+
+function gw() {
+  echo '[git worktree <command>]'
+  git worktree $@
+}
+
+function gwl() {
+  echo '[git worktree list]'
+  git worktree list
+}
+
+function gwa() {
+  echo '[git worktree add <name>]'
+  git worktree add $@
+}
+
+function gwr() {
+  echo '[git worktree remove <name>]'
+  git worktree remove $@
+}
