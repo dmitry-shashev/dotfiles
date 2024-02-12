@@ -43,5 +43,5 @@ setInterval(() => {
       cwd: backupFolder
     })
   }
-}, 10000)
+}, 60000)
 
