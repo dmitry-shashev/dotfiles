@@ -43,5 +43,5 @@ setInterval(() => {
       cwd: backupFolder
     })
   }
-}, 60000)
+}, 300000) // 5 min interval
 
