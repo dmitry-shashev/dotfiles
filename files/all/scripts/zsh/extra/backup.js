@@ -24,9 +24,6 @@ setInterval(() => {
     cwd: backupFolder
   })
   if (shouldCommit.toString()) {
-    execSync('git switch master', {
-      cwd: backupFolder,
-    })
     execSync(`git add --all`, {
       cwd: backupFolder
     })

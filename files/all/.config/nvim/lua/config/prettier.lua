@@ -6,7 +6,7 @@ vim.api.nvim_create_autocmd(
     {
        -- it can also handle json, but script implementation
        -- works better
-        pattern = "*.tsx,*.ts,*.js,*.jsx,*.css,*.scss",
+        pattern = "*.tsx,*.ts,*.js,*.jsx,*.css,*.scss,*.json",
         group = "AutoFormatPrettier",
         callback = function()
           if  io.open("./node_modules/.bin/prettier", "r") == nil then
