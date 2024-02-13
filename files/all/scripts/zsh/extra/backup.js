@@ -6,6 +6,8 @@ const targetFolder = process.argv[2]
 const hash = require('crypto').createHash('sha256').update(targetFolder, 'utf8').digest('hex').slice(0, 6);
 const currentFolderName = targetFolder.split('/').pop()
 const backupFolder = `${os.homedir()}/backups/${currentFolderName}-${hash}`
+const foldersForExlude = require('./folders-to-exclude.json')
+const exclude = foldersForExlude.map(v => `--exclude ${v}`).join(' ')
 
 if (!fs.existsSync(backupFolder)) {
   fs.mkdirSync(backupFolder, { recursive: true }) 
@@ -15,20 +17,6 @@ if (!fs.existsSync(backupFolder)) {
 }
 
 setInterval(() => {
-  const exclude = [
-    '.git',
-    'node_modules',
-    'dist',
-    'out',
-    '.next',
-    '.idea',
-    'tmp',
-    'out-tsc',
-    'coverage',
-    '.DS_Store',
-    'Thumbs.db',
-    'tsconfig.tsbuildinfo'
-  ].map(v => `--exclude ${v}`).join(' ')
   const result = execSync(`rsync -ahv ${exclude} ${targetFolder}/ ${backupFolder}/ --delete`)
   console.log(result.toString())
 
@@ -36,6 +24,9 @@ setInterval(() => {
     cwd: backupFolder
   })
   if (shouldCommit.toString()) {
+    execSync('git switch master', {
+      cwd: backupFolder,
+    })
     execSync(`git add --all`, {
       cwd: backupFolder
     })
