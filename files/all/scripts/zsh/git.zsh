@@ -1,7 +1,12 @@
-alias gs='echo "[git status --short]" && git status --short'
 alias gc='echo "[git add --all && git commit]" && git add --all && git commit'
 alias gh='echo "[git checkout]" && git checkout'
 alias gb='echo "[git checkout -b]" && git checkout -b'
+
+function gs() {
+  echo "[\"$(git log -1 --format=%h)\"] $(git log -1 --format="%s")"
+  echo '[git status --short]'
+  git status --short
+}
 
 function gl() {
   echo '[git log --graph --all --abbrev-commit --decorate]'
@@ -28,7 +33,7 @@ function gblr() {
   git show-branch --remote
 }
 
-function gs() {
+function gsearch() {
   echo 'git log --all -i --grep=<value>'
   git log --all -i --grep="$@"
 }

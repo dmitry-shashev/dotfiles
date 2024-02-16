@@ -1,8 +1,11 @@
 return {
   {
+    -- smooth scrolling
     "karb94/neoscroll.nvim",
     config = function ()
-      require('neoscroll').setup {}
+      require('neoscroll').setup({
+        -- easing_function = 'quadratic'
+      })
       local t = {}
       t[';u'] = {'scroll', {'-vim.wo.scroll', 'true', '250'}}
       t[';d'] = {'scroll', { 'vim.wo.scroll', 'true', '250'}}
