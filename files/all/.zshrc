@@ -8,7 +8,7 @@ local paths=(
   "$HOME/.dotnet"
   "$HOME/.dotnet/tools"
   "$HOME/.local/bin"
-  "/opt/homebrew/bin/nvim"
+  "/opt/homebrew/bin"
 )
 export PATH=$PATH:${"${paths[*]}"// /:}
 # export BROWSER='/usr/bin/google-chrome-stable'
