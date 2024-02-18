@@ -6,7 +6,7 @@ wget -O $TELEGRAM_ARCH_PATH https://telegram.org/dl/desktop/linux
 
 tar -xvf $TELEGRAM_ARCH_PATH -C /tmp
 
-mv $TELEGRAM_TEMP_FOLDER/Telegram /usr/bin/telegram-desktop
+sudo mv $TELEGRAM_TEMP_FOLDER/Telegram /usr/bin/telegram-desktop
 
 rm $TELEGRAM_ARCH_PATH
 rm -rf $TELEGRAM_TEMP_FOLDER
