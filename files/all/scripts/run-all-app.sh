@@ -31,7 +31,7 @@ sleep 1
 i3-msg 'exec slack'
 
 # instead "nvidia-settings"
-# xrandr --output HDMI-0 --mode 3840x2160 --rate 120
+xrandr --output HDMI-0 --mode 3840x2160 --rate 144
 
 # turn off emodzi - otherwise webstorm prevent using "ctrl+."
 gsettings set org.freedesktop.ibus.panel.emoji hotkey "[]"
