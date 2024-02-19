@@ -16,20 +16,18 @@ if (!fs.existsSync(backupFolder)) {
   })
 }
 
-setInterval(() => {
-  const result = execSync(`rsync -ahv ${exclude} ${targetFolder}/ ${backupFolder}/ --delete`)
-  console.log(result.toString())
+const result = execSync(`rsync -ahv ${exclude} ${targetFolder}/ ${backupFolder}/ --delete`)
+console.log(result.toString())
 
-  const shouldCommit = execSync(`git status --short`, {
+const shouldCommit = execSync(`git status --short`, {
+  cwd: backupFolder
+})
+if (shouldCommit.toString()) {
+  execSync(`git add --all`, {
     cwd: backupFolder
   })
-  if (shouldCommit.toString()) {
-    execSync(`git add --all`, {
-      cwd: backupFolder
-    })
-    execSync(`git commit -m "${(new Date()).toISOString()}"`, {
-      cwd: backupFolder
-    })
-  }
-}, 300000) // 5 min interval
+  execSync(`git commit -m "${(new Date()).toISOString()}"`, {
+    cwd: backupFolder
+  })
+}
 

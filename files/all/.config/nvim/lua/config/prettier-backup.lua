@@ -13,6 +13,7 @@ vim.api.nvim_create_autocmd(
             vim.cmd(command)
           end
 
+          -- we need it here in order to be sure that we backup it after formatting
           if not (io.open("./.gitignore", "r") == nil) then
             local command = 'silent !node ~/scripts/zsh/extra/backup.js ' .. vim.fn.getcwd()
             vim.cmd(command)
