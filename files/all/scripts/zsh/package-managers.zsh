@@ -15,3 +15,7 @@ function y() {
 function y() {
   npm $@
 }
+
+function pd() {
+  COMMAND="pnpm $@" dc up
+}
