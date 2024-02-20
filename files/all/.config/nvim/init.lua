@@ -21,7 +21,8 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("config.plugins")
 require("config.options")
 require("config.keymaps")
-require("config.prettier-backup")
+require("config.prettier")
+require("config.backup")
 
 require("luasnip.loaders.from_vscode").lazy_load {
   paths = { "~/.config/nvim/lua/snippets" }

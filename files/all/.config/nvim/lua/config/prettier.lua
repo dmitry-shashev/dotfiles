@@ -12,11 +12,6 @@ vim.api.nvim_create_autocmd(
             local command = 'silent !./node_modules/.bin/prettier ' .. buffer_path .. ' --write'
             vim.cmd(command)
           end
-
-          if not (io.open("./.gitignore", "r") == nil) then
-            local command = 'silent !node ~/scripts/zsh/extra/backup.js ' .. vim.fn.getcwd()
-            vim.cmd(command)
-          end
         end,
     }
 )
