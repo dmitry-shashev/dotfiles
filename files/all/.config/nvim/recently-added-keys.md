@@ -35,33 +35,38 @@ Z
 :Lazy
 
 > open the previous session related to the folder
-O
+;O
 
 ## Snippets
 
-d
 cl
-bb
-aa
+d
+btn
+ah
+inp
+ul
+li
+ct
 
 ## tmux
 
-ctrl + a -> ctrl + <
-ctrl + a -> ctrl + >
+ctrl + a -> shift + <
+ctrl + a -> shift + >
 
-tmux ls
-tmux new -s home
+t ls
+t new -s home
 
 ## zsh scripts
 
 > Git
-gbla
-gblr
 greview
-gbd
+gsearch
+groot
 gd
 go
-cdg
+gbla
+gblr
+gbd
 
 > Navi
 lt / lt2 / lt3

@@ -81,7 +81,7 @@ function greview() {
 }
 
 # navigate to the git root
-function cdg() {
+function groot() {
   local REPO_PATH="$(git rev-parse --show-toplevel)"
   cd $REPO_PATH
 }
