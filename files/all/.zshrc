@@ -15,6 +15,11 @@ export PATH=$PATH:${"${paths[*]}"// /:}
 export EDITOR='nvim'
 export VISUAL='nvim'
 
+if [[ `uname` == Linux ]] then
+    find $HOME/.ssh-keys -type f -iname "id_rsa" | xargs -o /usr/bin/keychain &> /dev/null
+    source $HOME/.keychain/$HOST-sh
+fi
+
 # ensure we are not in vim mode
 bindkey -e
 
