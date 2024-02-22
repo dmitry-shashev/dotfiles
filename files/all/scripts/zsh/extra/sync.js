@@ -10,7 +10,9 @@ const DOMAINS_DIR = `${HOME_DIR}/domains`
   const pullResult = await pullAllRepositories(repoFolders)
   // eslint-disable-next-line no-console
   console.log(pullResult)
-  restoreDotfiles()
+  const restoreDotfilesResult = restoreDotfiles()
+  // eslint-disable-next-line no-console
+  console.log(restoreDotfilesResult)
 })()
 
 //------------------------------------------------------------
@@ -57,9 +59,9 @@ async function pullAllRepositories(repoFolders) {
 }
 
 function restoreDotfiles() {
-  execSync('pnpm run restore-linux', {
+  return execSync('pnpm run restore-linux', {
     cwd: `${DOMAINS_DIR}/dotfiles`
-  })
+  }).toString()
 }
 
 
