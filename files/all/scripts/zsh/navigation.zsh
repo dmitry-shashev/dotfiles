@@ -6,15 +6,18 @@ alias lt3='exa --tree -L 3 --long --icons --all --git --octal-permissions --no-p
 
 # find files
 function ff() {
-  find . -type f -iname "*$1*"|grep -v ".git"| sed 's/ /\\ /g' | xargs -o exa --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first
+  find . -type f -iname "*$1*" ! -path '*/node_modules/*' ! -path '*/.*/*'| sed 's/ /\\ /g' | xargs -o exa --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first
+}
+function ffpure() {
+  find ~+ -type f -iname "*$1*" ! -path '*/node_modules/*' ! -path '*/.*/*'
 }
 
 function fo() {
-  find . -type f -iname "*$1*"|grep -v ".git"| sed 's/ /\\ /g'| xargs -o nvim -p
+  find . -type f -iname "*$1*" ! -path '*/node_modules/*' ! -path '*/.*/*'| sed 's/ /\\ /g'| xargs -o nvim -p
 }
 # find directories
 function fd() {
-  find . -type d -iname "*$1*"|grep -v ".git"| sed 's/ /\\ /g' | xargs -o exa --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first
+  find . -type d -iname "*$1*" ! -path '*/node_modules/*' ! -path '*/.*/*'| sed 's/ /\\ /g' | xargs -o exa --long --icons --all --git --octal-permissions --no-permissions --time-style=long-iso --group-directories-first
 }
 function cd() {
   builtin cd "$@"
