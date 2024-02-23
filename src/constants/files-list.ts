@@ -8,7 +8,6 @@ export const FILES_LIST_LINUX: ReadonlyArray<string> = [
 ]
 
 export const FILES_LIST_MAC: ReadonlyArray<string> = [
-  '.yabairc',
   '.skhdrc',
   'os-scripts',
   '.warp',
