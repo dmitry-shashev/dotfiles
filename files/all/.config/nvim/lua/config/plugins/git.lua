@@ -45,7 +45,7 @@ return {
               vim.schedule(function()
                 gs.diffthis()
               end)
-            end  
+            end
             return '<Ignore>'
           end, {})
 
@@ -66,6 +66,16 @@ return {
       map('n', ';G', ':<C-u>GitBlameCopyCommitURL<CR>:<C-u>GitBlameOpenCommitURL<CR>', default_opts)
 
       require("gitblame").setup { enabled = false }
+
+      vim.keymap.set('n', ';J', function()
+        local git_blame = require('gitblame')
+        local text = git_blame.get_current_blame_text()
+        local task_id = string.gsub(text, ".*feat/(%d+).*", "%1")
+        local url = 'https://www.google.com/search?q=' .. task_id
+
+        vim.cmd('silent exec "!open \'' .. url .. '\'"')
+      end)
+
     end,
   }
 }
