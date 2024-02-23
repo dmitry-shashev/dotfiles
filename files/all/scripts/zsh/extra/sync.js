@@ -59,7 +59,11 @@ async function pullAllRepositories(repoFolders) {
 }
 
 function restoreDotfiles() {
-  return execSync('pnpm run restore-linux', {
+  let system = 'linux'
+  if (os.arch() === 'arm64') {
+    system = 'mac'
+  }
+  return execSync(`pnpm run restore-${system}`, {
     cwd: `${DOMAINS_DIR}/dotfiles`
   }).toString()
 }
