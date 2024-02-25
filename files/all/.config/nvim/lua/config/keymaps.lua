@@ -54,3 +54,11 @@ map('n', 'mf', ':delmarks A<CR>:delmarks S<CR>:delmarks D<CR>', default_opts)
 vim.keymap.set('n', '<space>k', vim.diagnostic.goto_prev)
 vim.keymap.set('n', '<space>j', vim.diagnostic.goto_next)
 
+-- apply prettier
+vim.keymap.set('n', ';p', function()
+  local buffer_path = vim.api.nvim_buf_get_name(0)
+  local command = 'silent !prettier ' .. buffer_path .. ' --write --config ~/.config/prettier/.prettierrc.json --ignore-path'
+  vim.cmd(command)
+  print('prettier formatting applied')
+end)
+

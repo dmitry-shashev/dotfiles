@@ -16,6 +16,7 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
 export const FILES_LIST_ALL: ReadonlyArray<string> = [
   'scripts',
   '.config/nvim',
+  '.config/prettier',
   '.config/vifm',
   '.config/kitty',
   '.zshrc',
