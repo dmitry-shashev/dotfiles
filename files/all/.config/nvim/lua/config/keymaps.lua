@@ -58,6 +58,7 @@ vim.keymap.set('n', '<space>j', vim.diagnostic.goto_next)
 vim.keymap.set('n', ';p', function()
   local buffer_path = vim.api.nvim_buf_get_name(0)
   local command = 'silent !prettier ' .. buffer_path .. ' --write --config ~/.config/prettier/.prettierrc.json --ignore-path'
+  vim.cmd('w')
   vim.cmd(command)
   print('prettier formatting applied')
 end)
