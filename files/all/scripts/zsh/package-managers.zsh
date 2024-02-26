@@ -12,7 +12,7 @@ function p() {
 function y() {
   yarn $@
 }
-function y() {
+function n() {
   npm $@
 }
 
