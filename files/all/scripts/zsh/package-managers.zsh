@@ -12,9 +12,9 @@ function p() {
 function y() {
   yarn $@
 }
-function n() {
-  npm $@
-}
+# function n() {
+#   npm $@
+# }
 
 function pd() {
   COMMAND="pnpm $@" dc up
