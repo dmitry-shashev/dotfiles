@@ -12,4 +12,5 @@ chmod 666 /etc/hosts
 
 ```bash
 brew install gh
+brew install redis
 ```
