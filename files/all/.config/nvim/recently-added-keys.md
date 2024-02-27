@@ -67,6 +67,7 @@ go
 gbla
 gblr
 gbd
+gch
 
 > Navi
 lt / lt2 / lt3
@@ -75,4 +76,5 @@ fo
 fd
 cdp
 
-
+> Run prettier with a global config
+;p
