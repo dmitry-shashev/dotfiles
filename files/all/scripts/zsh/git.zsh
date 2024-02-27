@@ -1,5 +1,5 @@
 alias gc='echo "[git add --all && git commit]" && git add --all && git commit'
-alias gh='echo "[git checkout]" && git checkout'
+alias gch='echo "[git checkout]" && git checkout'
 alias gb='echo "[git checkout -b]" && git checkout -b'
 
 function gs() {
