@@ -117,5 +117,7 @@ return {
 
     -- sudo npm i -g yaml-language-server
     require'lspconfig'.yamlls.setup({})
+
+    -- sudo npm i -g prettier
   end
 }
