@@ -4,6 +4,8 @@ const fs = require("fs")
 const fullBasePath = process.argv[2]
 const resources = process.argv.slice(3)
 
+const subPathToSkipList = ['/node_modules/', '/.git/']
+
 function scanResources(pathForSearching) {
   let resources  = []
 
@@ -23,8 +25,15 @@ function scanResources(pathForSearching) {
   return resources
 }
 
+//----------------------------------------------------------
+// Find resources for removing
+
 const foundResources = scanResources(fullBasePath)
-const resourcesForRemoving = foundResources.filter(v => resources.some(t => v.endsWith(t)))
+const resourcesForRemoving = foundResources
+  .filter(v => resources.some(t => v.endsWith(t)))
+  .filter(v => subPathToSkipList.every(t => !v.includes(t)))
+
+//----------------------------------------------------------
 
 if (resourcesForRemoving.length === 0) {
   console.log('No resources were found')
