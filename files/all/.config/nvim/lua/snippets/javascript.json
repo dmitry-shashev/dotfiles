@@ -10,133 +10,87 @@
   },
   "Constructor": {
     "prefix": "ct",
-    "body": [
-      "constructor($1) {",
-      "}"
-    ],
+    "body": ["constructor($1) {", "}"],
     "description": "constructor"
   },
   "Equal": {
     "prefix": "=",
-    "body": [
-      " === "
-    ],
+    "body": [" === "],
     "description": "Equal"
   },
   "If": {
     "prefix": "if",
-    "body": [
-      "if ($1) {",
-      "}"
-    ],
+    "body": ["if ($1) {", "}"],
     "description": "If"
   },
   "Const": {
     "prefix": "c",
-    "body": [
-      "const $1"
-    ],
+    "body": ["const $1"],
     "description": "const"
   },
   "CallbackArray": {
     "prefix": "ca",
-    "body": [
-      "($1) => [",
-      "]"
-    ],
+    "body": ["($1) => [", "]"],
     "description": "callback array"
   },
   "Callback": {
     "prefix": "cb",
-    "body": [
-      "($1) => {",
-      "}"
-    ],
+    "body": ["($1) => {", "}"],
     "description": "callback"
   },
   "Callback Simplie": {
     "prefix": "cn",
-    "body": [
-      "($1) => $2"
-    ],
+    "body": ["($1) => $2"],
     "description": "callback simple"
   },
   "Callback value": {
     "prefix": "cv",
-    "body": [
-      "($1) => ({",
-      "})"
-    ],
+    "body": ["($1) => ({", "})"],
     "description": "callback value"
   },
   "Export default": {
     "prefix": "ed",
-    "body": [
-      "export default $1"
-    ],
+    "body": ["export default $1"],
     "description": "export default"
   },
   "Export": {
     "prefix": "e",
-    "body": [
-      "export $1"
-    ],
+    "body": ["export $1"],
     "description": "export"
   },
   "Default": {
     "prefix": "d",
-    "body": [
-      "default $1"
-    ],
+    "body": ["default $1"],
     "description": "default"
   },
   "Describe": {
     "prefix": "de",
-    "body": [
-      "describe('$1', () => {",
-      "})"
-    ],
+    "body": ["describe('$1', () => {", "})"],
     "description": "default"
   },
   "It": {
     "prefix": "it",
-    "body": [
-      "it('$1', () => {",
-      "})"
-    ],
+    "body": ["it('$1', () => {", "})"],
     "description": "it"
   },
   "Function": {
     "prefix": "f",
-    "body": [
-      "function $1($2) {",
-      "}"
-    ],
+    "body": ["function $1($2) {", "}"],
     "description": "function"
   },
   "Return": {
     "prefix": "r",
-    "body": [
-      "return $1"
-    ],
+    "body": ["return $1"],
     "description": "return"
   },
   "SetInterval": {
     "prefix": "si",
-    "body": [
-      "setInterval(() => {",
-      "$2",
-      "}, $1)"
-    ],
+    "body": ["setInterval(() => {", "$2", "}, $1)"],
     "description": "set interval"
   },
   "SetTimeout": {
     "prefix": "st",
-    "body": [
-      "setTimeout(() => {",
-      "$2",
-      "}, $1)"
-    ],
+    "body": ["setTimeout(() => {", "$2", "}, $1)"],
     "description": "set timeout"
   },
   "useState": {
@@ -149,29 +103,22 @@
   },
   "useEffect": {
     "prefix": "ue",
-    "body": [
-      "useEffect(() => {",
-      "$1",
-      "}, [])"
-    ],
+    "body": ["useEffect(() => {", "$1", "}, [])"],
     "description": "use effect"
   },
   "useCallback": {
     "prefix": "uc",
-    "body": [
-      "useCallback(() => {",
-      "$1",
-      "}, [])"
-    ],
+    "body": ["useCallback(() => {", "$1", "}, [])"],
     "description": "use callback"
   },
   "useMemo": {
     "prefix": "um",
-    "body": [
-      "useMemo(() => {",
-      "$1",
-      "}, [])"
-    ],
+    "body": ["useMemo(() => {", "$1", "}, [])"],
     "description": "use memo"
+  },
+  "expect": {
+    "prefix": "ee",
+    "body": ["expect($1)"],
+    "description": "Expect"
   }
 }
