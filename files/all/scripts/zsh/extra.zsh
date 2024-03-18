@@ -14,7 +14,12 @@ function restore() {
   node "$HOME/scripts/zsh/extra/restore.js" "$CURRENT_PATH" $@
 }
 
-function sync-global() {
+function sync() {
   local CURRENT_PATH=$(pwd)
   node "$HOME/scripts/zsh/extra/sync.js"
+}
+
+function run() {
+  sync
+  ~/run.sh
 }
