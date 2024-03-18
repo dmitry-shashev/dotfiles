@@ -14,12 +14,20 @@ function restore() {
   node "$HOME/scripts/zsh/extra/restore.js" "$CURRENT_PATH" $@
 }
 
+function update() {
+  sudo apt-get update
+  sudo apt-get upgrade -y
+  sudo apt-get autoremove -y
+  sudo apt-get clean -y
+}
+
 function sync() {
   local CURRENT_PATH=$(pwd)
   node "$HOME/scripts/zsh/extra/sync.js"
 }
 
 function run() {
+  update
   sync
   ~/run.sh
 }
