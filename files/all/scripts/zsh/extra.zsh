@@ -31,3 +31,13 @@ function run() {
   sync
   ~/run.sh
 }
+
+function prs() {
+  echo "[REQUEST REVIEW PRs]"
+  gh search prs --review-requested=@me --state=open
+
+
+  echo "-------------------------------------------------"
+  echo "[TEAM PRs]"
+  gh search prs --head=XPND --state=open
+}
