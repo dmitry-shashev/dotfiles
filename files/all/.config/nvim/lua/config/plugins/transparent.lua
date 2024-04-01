@@ -21,6 +21,6 @@ return {
     require('transparent').clear_prefix('NeoTree')
     -- require('transparent').clear_prefix('lualine')
 
-    vim.g.transparent_enabled = true
+    vim.g.transparent_enabled = false
   end
 }

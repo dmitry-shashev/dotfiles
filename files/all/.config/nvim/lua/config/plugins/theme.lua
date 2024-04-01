@@ -1,3 +1,4 @@
+-- transparent.lua contains opacity
 -- vim.o.bg="light"
 
 -- return {
@@ -36,14 +37,14 @@
 --     end,
 -- }
 
-return {
-   "rmehri01/onenord.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd([[colorscheme onenord]])
-    end,
-}
+-- return {
+--    "rmehri01/onenord.nvim",
+--     lazy = false,
+--     priority = 1000,
+--     config = function()
+--       vim.cmd([[colorscheme onenord]])
+--     end,
+-- }
 
 -- return {
 --    "morhetz/gruvbox",
@@ -53,3 +54,14 @@ return {
 --       vim.cmd([[colorscheme gruvbox]])
 --     end,
 -- }
+
+-- vim.g.material_style = "deep ocean"
+vim.g.material_style = "lighter"
+return {
+    "marko-cerovac/material.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd([[colorscheme material]])
+    end,
+}
