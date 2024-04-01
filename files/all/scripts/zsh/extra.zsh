@@ -41,3 +41,10 @@ function prs() {
   echo "[TEAM PRs]"
   gh search prs --head=XPND --state=open
 }
+
+function pr() {
+  gh pr checkout $@
+  value=`cat .nvmrc`
+  n $value
+  yarn install
+}
