@@ -48,3 +48,7 @@ function pr() {
   n $value
   yarn install
 }
+
+function pro() {
+  gh pr view $@ -w
+}
