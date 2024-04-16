@@ -84,6 +84,12 @@
     <option name="TypeScript" value="true" />
   </context>
 </template>
+<template name="dr" value="debugger" description="debugger" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
 <template name="e" value="export $END$" description="export" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JAVA_SCRIPT" value="true" />

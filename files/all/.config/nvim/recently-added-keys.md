@@ -78,3 +78,7 @@ cdp
 
 > Run prettier with a global config
 ;p
+
+> Debugger
+
+dr
