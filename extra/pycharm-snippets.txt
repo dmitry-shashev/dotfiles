@@ -1,0 +1,30 @@
+<template name="cc" value="# @#$&#10;print(&quot;@@@@@@@@@@@@@@@@@@@@@@@@@@@&quot;)&#10;print($END$)&#10;print(&quot;@@@@@@@@@@@@@@@@@@@@@@@@@@@&quot;)" description="print" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="cl" value="class $END$:&#10;    def __init__(self):&#10;        pass&#10;" description="classs" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="ctor" value="def __init__(self$END$):" description="constructor" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="f" value="def $END$():" description="function" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="fc" value="def $END$(self):" description="class method" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
