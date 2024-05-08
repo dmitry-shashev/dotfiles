@@ -19,3 +19,10 @@ function y() {
 function pd() {
   COMMAND="pnpm $@" dc up
 }
+
+function py() {
+  python3 $@
+}
+function python() {
+  python3 $@
+}
