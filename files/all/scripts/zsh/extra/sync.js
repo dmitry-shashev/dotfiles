@@ -18,7 +18,7 @@ const DOMAINS_DIR = `${HOME_DIR}/domains`
 //------------------------------------------------------------
 
 function findAllRepositories() {
-  const result = execSync(`find ${DOMAINS_DIR} -type f -iname "*.gitignore*" ! -path "*/node_modules/*" ! -path "*/.*/*"`, {
+  const result = execSync(`find ${DOMAINS_DIR} -type f -iname "*.gitignore*" ! -path "*/node_modules/*" ! -path "*/.*/*" ! -path "*/domains/temp/*"`, {
     cwd: DOMAINS_DIR
   })
     .toString()
