@@ -1,4 +1,9 @@
-<template name="cc" value="# @#$&#10;print(&quot;@@@@@@@@@@@@@@@@@@@@@@@@@@@&quot;)&#10;print($END$)&#10;print(&quot;@@@@@@@@@@@@@@@@@@@@@@@@@@@&quot;)" description="print" toReformat="false" toShortenFQNames="true">
+<template name="b" value="bool" description="bool" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="cc" value="print(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;)  # @#$&#10;print($END$)&#10;print(&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;)" description="print" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="Python" value="true" />
   </context>
@@ -8,22 +13,43 @@
     <option name="Python" value="true" />
   </context>
 </template>
+<template name="cn" value="lambda $1$: $2$" description="lambda" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
 <template name="ctor" value="def __init__(self$END$):" description="constructor" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="Python" value="true" />
   </context>
 </template>
-<template name="f" value="def $END$():" description="function" toReformat="false" toShortenFQNames="true">
+<template name="f" value="def $1$() -&gt; $2$:" description="function" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="2" expression="" defaultValue="&quot;None&quot;" alwaysStopAt="true" />
   <context>
     <option name="Python" value="true" />
   </context>
 </template>
-<template name="fc" value="def $END$(self):" description="class method" toReformat="false" toShortenFQNames="true">
+<template name="fc" value="def $1$(self) -&gt; $2$:" description="class method" toReformat="false" toShortenFQNames="true">
+  <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="2" expression="" defaultValue="&quot;None&quot;" alwaysStopAt="true" />
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="n" value="int" description="int" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="Python" value="true" />
   </context>
 </template>
 <template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python" value="true" />
+  </context>
+</template>
+<template name="s" value="str" description="str" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="Python" value="true" />
   </context>
