@@ -1,7 +1,7 @@
 eval "$($HOME/.cargo/bin/starship init zsh)"
 
 # ruby
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # solve the problem - command not found: compdef
 autoload -Uz compinit && compinit
