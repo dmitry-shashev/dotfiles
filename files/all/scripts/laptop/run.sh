@@ -1,5 +1,7 @@
 xbindkeys
 
+./scripts/keyboard-asus.sh
+
 i3-msg 'workspace 1'
 sleep 1
 i3-msg 'exec kitty tmux & sleep 8'
