@@ -1,6 +1,6 @@
 {
   "name": "new-dotfiles",
-  "version": "1.0.113",
+  "version": "1.0.114",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   "engines": {
     "node": ">=16.16.0"
   },
-  "packageManager": "pnpm@7.5.2",
+  "packageManager": "^pnpm@7.5.2",
   "dependencies": {
     "husky": "8.0.2"
   }
