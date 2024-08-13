@@ -2,6 +2,11 @@ alias gc='echo "[git add --all && git commit]" && git add --all && git commit'
 alias gch='echo "[git checkout]" && git checkout'
 alias gb='echo "[git checkout -b]" && git checkout -b'
 
+function gchm() {
+  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  git checkout $DEFAULT_BRANCH_NAME
+}
+
 function gs() {
   echo "[\"$(git log -1 --format=%h)\"] $(git log -1 --format="%s")"
   echo '[git status --short]'
