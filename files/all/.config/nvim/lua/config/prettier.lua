@@ -15,3 +15,16 @@ vim.api.nvim_create_autocmd(
         end,
     }
 )
+
+vim.api.nvim_create_autocmd(
+    "BufWritePost",
+    {
+        pattern = "*.cpp,*.h",
+        group = "AutoFormatPrettier",
+        callback = function()
+            local buffer_path = vim.api.nvim_buf_get_name(0)
+            local command = 'silent !clang-format -i ' .. buffer_path
+            vim.cmd(command)
+        end,
+    }
+)
