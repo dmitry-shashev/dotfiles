@@ -11,6 +11,28 @@ vim.api.nvim_create_autocmd(
     }
 )
 
+
+
+-- go to split
+vim.keymap.set('n', 'gv', function()
+  vim.cmd('vsp')
+  require('telescope.builtin').lsp_definitions({})
+end, { buffer = bufnr })
+
+-- get all uses
+vim.keymap.set('n', 'gr', function()
+  require('telescope.builtin').lsp_references({})
+end, { buffer = bufnr })
+
+-- go to definition
+vim.keymap.set('n', 'gd', function()
+  require('telescope.builtin').lsp_definitions({})
+end, { buffer = bufnr })
+
+vim.keymap.set('n', ';<space>', vim.lsp.buf.code_action, { buffer = bufnr })
+
+
+
 return {
   "neovim/nvim-lspconfig",
   config = function ()
@@ -59,23 +81,6 @@ return {
           command = "EslintFixAll",
         })
 
-        -- go to split
-        vim.keymap.set('n', 'gv', function()
-          vim.cmd('vsp')
-          require('telescope.builtin').lsp_definitions({})
-        end, { buffer = bufnr })
-
-        -- get all uses
-        vim.keymap.set('n', 'gr', function()
-          require('telescope.builtin').lsp_references({})
-        end, { buffer = bufnr })
-
-        -- go to definition
-        vim.keymap.set('n', 'gd', function()
-          require('telescope.builtin').lsp_definitions({})
-        end, { buffer = bufnr })
-
-        vim.keymap.set('n', ';<space>', vim.lsp.buf.code_action, { buffer = bufnr })
         vim.keymap.set('n', "'<space>", function()
           vim.lsp.buf.code_action({
             filter = function(action)
@@ -119,5 +124,19 @@ return {
     require'lspconfig'.yamlls.setup({})
 
     -- sudo npm i -g prettier
+    
+    -- sudo apt install ccls
+    -- each cpp project must contain ".git" folder
+    vim.fn.setenv("CPLUS_INCLUDE_PATH", "/usr/include/c++/11:/usr/include/x86_64-linux-gnu/c++/11")
+    require'lspconfig'.ccls.setup {
+      init_options = {
+        index = {
+          threads = 0;
+        };
+        clang = {
+          excludeArgs = { "-frounding-math"};
+        };
+      }
+    }
   end
 }
