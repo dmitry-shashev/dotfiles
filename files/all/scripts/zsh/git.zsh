@@ -4,13 +4,16 @@ alias gb='echo "[git checkout -b]" && git checkout -b'
 
 function gchm() {
   local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  echo "[git checkout $DEFAULT_BRANCH_NAME]"
   git checkout $DEFAULT_BRANCH_NAME
 }
 
 function gpm() {
   local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
   git checkout $DEFAULT_BRANCH_NAME
+  echo "[git checkout $DEFAULT_BRANCH_NAME]"
   git pull origin $DEFAULT_BRANCH_NAME
+  echo "[git pull origin $DEFAULT_BRANCH_NAME]"
 }
 
 function gs() {
