@@ -7,6 +7,12 @@ function gchm() {
   git checkout $DEFAULT_BRANCH_NAME
 }
 
+function gpm() {
+  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  git checkout $DEFAULT_BRANCH_NAME
+  git pull origin $DEFAULT_BRANCH_NAME
+}
+
 function gs() {
   echo "[\"$(git log -1 --format=%h)\"] $(git log -1 --format="%s")"
   echo '[git status --short]'
