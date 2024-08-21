@@ -1,66 +1,130 @@
-alias gc='echo "[git add --all && git commit]" && git add --all && git commit'
-alias gch='echo "[git checkout]" && git checkout'
-alias gb='echo "[git checkout -b]" && git checkout -b'
+function printCommand() {
+  # Black: 30
+  # Red: 31
+  # Green: 32
+  # Yellow: 33
+  # Blue: 34
+  # Magenta: 35
+  # Cyan: 36
+  # White: 37
+  local FG_COLOR='\033[0;37m'
+
+  # Black: 40
+  # Red: 41
+  # Green: 42
+  # Yellow: 43
+  # Blue: 44
+  # Magenta: 45
+  # Cyan: 46
+  # White: 47
+  local BG_COLOR='\033[46m'
+
+  local RESET_COLOR='\033[0m'
+  echo $FG_COLOR$BG_COLOR$@$RESET_COLOR
+}
+
+function gch() {
+  git checkout
+  printCommand "[git checkout]"
+}
+
+function gc() {
+  git add --all && git commit
+  printCommand "[git add --all && git commit]"
+}
+
+function gb() {
+  git checkout -b
+  printCommand "[git checkout -b]"
+}
 
 function gchm() {
   local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
-  echo "[git checkout $DEFAULT_BRANCH_NAME]"
   git checkout $DEFAULT_BRANCH_NAME
+  printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
 }
 
-function gpm() {
+function gsync() {
   local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
   git checkout $DEFAULT_BRANCH_NAME
-  echo "[git checkout $DEFAULT_BRANCH_NAME]"
+  printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
   git pull origin $DEFAULT_BRANCH_NAME
-  echo "[git pull origin $DEFAULT_BRANCH_NAME]"
+  printCommand "[git pull origin $DEFAULT_BRANCH_NAME]"
+}
+
+function gmerge() {
+  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+  git checkout $DEFAULT_BRANCH_NAME
+  printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
+  git pull origin $DEFAULT_BRANCH_NAME
+  printCommand "[git pull origin $DEFAULT_BRANCH_NAME]"
+  git checkout $CURRENT_BRANCH_NAME
+  printCommand "[git checkout $CURRENT_BRANCH_NAME]"
+  git merge $DEFAULT_BRANCH_NAME
+  printCommand "[git merge $DEFAULT_BRANCH_NAME]"
+}
+
+function grebase() {
+  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+  git checkout $DEFAULT_BRANCH_NAME
+  printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
+  git pull origin $DEFAULT_BRANCH_NAME
+  printCommand "[git pull origin $DEFAULT_BRANCH_NAME]"
+  git checkout $CURRENT_BRANCH_NAME
+  printCommand "[git checkout $CURRENT_BRANCH_NAME]"
+  git rebase $DEFAULT_BRANCH_NAME
+  printCommand "[git rebase $DEFAULT_BRANCH_NAME]"
+}
+
+function gpush() {
+  local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+  git push origin $CURRENT_BRANCH_NAME
+  printCommand "[git push origin $CURRENT_BRANCH_NAME]"
 }
 
 function gs() {
-  echo "[\"$(git log -1 --format=%h)\"] $(git log -1 --format="%s")"
-  echo '[git status --short]'
   git status --short
+  printCommand '[git status --short]'
+  echo "[\"$(git log -1 --format=%h)\"] $(git log -1 --format="%s")"
 }
 
 function gl() {
-  echo '[git log --graph --all --abbrev-commit --decorate]'
   git log --graph --all --abbrev-commit --decorate --reflog
+  printCommand '[git log --graph --all --abbrev-commit --decorate]'
 }
 
 function gbl() {
-  echo '[git branch]'
   git branch
+  printCommand '[git branch]'
 }
 
 function gbla() {
-  echo '[git branch -a]'
   git branch -a
+  printCommand '[git branch -a]'
 }
 
 function gbd() {
-  echo '[git branch -D <name>]'
   git branch -D $@
+  printCommand '[git branch -D <name>]'
 }
 
 function gblr() {
-  echo '[git show-branch --remote]'
   git show-branch --remote
+  printCommand '[git show-branch --remote]'
 }
 
 function gsearch() {
-  echo 'git log --all -i --grep=<value>'
   git log --all -i --grep="$@"
+  printCommand 'git log --all -i --grep=<value>'
 }
 
 function grh() {
-  echo "[git reset --hard]"
   git reset --hard
-  echo "[git clean -fd]"
+  printCommand "[git reset --hard]"
   git clean -fd
-}
-function gd () {
-  preview="git diff $@ --color=always --staged --no-prefix -U1000 -- {-1}"
-  git diff $@ --name-only | fzf -m --ansi --preview $preview
+  printCommand "[git clean -fd]"
 }
 
 #open changed files
@@ -101,21 +165,21 @@ function groot() {
 }
 
 function gw() {
-  echo '[git worktree <command>]'
   git worktree $@
+  printCommand '[git worktree <command>]'
 }
 
 function gwl() {
-  echo '[git worktree list]'
   git worktree list
+  printCommand '[git worktree list]'
 }
 
 function gwa() {
-  echo '[git worktree add <name>]'
   git worktree add $@
+  printCommand '[git worktree add <name>]'
 }
 
 function gwr() {
-  echo '[git worktree remove <name>]'
   git worktree remove $@
+  printCommand '[git worktree remove <name>]'
 }
