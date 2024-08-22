@@ -34,7 +34,7 @@ function gc() {
 }
 
 function gb() {
-  git checkout -b
+  git checkout -b $@
   printCommand "[git checkout -b]"
 }
 
