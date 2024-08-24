@@ -34,10 +34,15 @@ alias r=reset
 alias e=exit
 
 # --------------------------------------------------------
+# Highlight completion
+
+zstyle ":completion:*" menu select
+zstyle ":completion:*" group-name ''
+
+# --------------------------------------------------------
 # Load config files
 
 for conf in "$HOME/scripts/zsh/"*.zsh; do
   source "${conf}"
 done
 unset conf
-

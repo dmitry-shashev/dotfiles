@@ -23,8 +23,15 @@ function printCommand() {
   echo $FG_COLOR$BG_COLOR$@$RESET_COLOR
 }
 
+function _gch_autocomplete() {
+  local -a branches
+  branches=("${(@f)$(git branch --format="%(refname:short)")}")
+  _describe 'branch' branches
+}
+compdef _gch_autocomplete gch
+
 function gch() {
-  git checkout
+  git checkout $@
   printCommand "[git checkout]"
 }
 
