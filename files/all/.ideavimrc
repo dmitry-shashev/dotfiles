@@ -42,8 +42,8 @@ nnoremap gl <C-W><C-L>
 nnoremap gi <C-I>
 nnoremap go <C-O>
 
-nnoremap ;u <C-u>zz
-nnoremap ;d <C-d>zz
+nnoremap ;u <C-u>
+nnoremap ;d <C-d>
 
 nnoremap q :wq<cr>
 
