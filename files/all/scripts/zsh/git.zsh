@@ -23,13 +23,6 @@ function printCommand() {
   echo $FG_COLOR$BG_COLOR$@$RESET_COLOR
 }
 
-function _gch_autocomplete() {
-  local -a branches
-  branches=("${(@f)$(git branch --format="%(refname:short)")}")
-  _describe 'branch' branches
-}
-compdef _gch_autocomplete gch
-
 function gch() {
   git checkout $@
   printCommand "[git checkout]"
@@ -190,3 +183,16 @@ function gwr() {
   git worktree remove $@
   printCommand '[git worktree remove <name>]'
 }
+
+
+#----------------------------------------------------------
+# Autocompletion
+
+function _gch_autocomplete() {
+  local -a branches
+  branches=("${(@f)$(git branch --format="%(refname:short)")}")
+  _describe 'branch' branches
+}
+
+compdef _gch_autocomplete gch
+compdef _gch_autocomplete gbd
