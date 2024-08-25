@@ -184,6 +184,11 @@
     <option name="TypeScript" value="true" />
   </context>
 </template>
+<template name="s" value="string$END$" description="string" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="TypeScript" value="true" />
+  </context>
+</template>
 <template name="si" value="setInterval(() =&gt; {&#10;  $2$&#10;}, $1$)" description="set interval" toReformat="false" toShortenFQNames="true">
   <variable name="1" expression="" defaultValue="1000" alwaysStopAt="true" />
   <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
