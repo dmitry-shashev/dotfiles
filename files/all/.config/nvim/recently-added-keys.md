@@ -68,6 +68,13 @@ gbla
 gblr
 gbd
 gch
+gsync
+gpush
+gmerge
+grebase
+pr
+prs
+pro
 
 > Navi
 lt / lt2 / lt3

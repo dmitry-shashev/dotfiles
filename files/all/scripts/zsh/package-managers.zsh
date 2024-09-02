@@ -12,6 +12,9 @@ function p() {
 function y() {
   yarn $@
 }
+function b() {
+  bun $@
+}
 # function n() {
 #   npm $@
 # }
