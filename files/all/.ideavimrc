@@ -113,3 +113,7 @@ nnoremap <space>L :<C-u>action Vcs.RollbackChangedLines<CR>
 nnoremap ;G :<C-u>action GitToolBox.BlameDetails<CR>
 nnoremap ;g :<C-u>action GitToolBox.ShowInlineBlame<CR>
 
+"----------------------------------------------------------------
+"
+nnoremap ;p :<C-u>action ReformatWithPrettierAction<CR>
+
