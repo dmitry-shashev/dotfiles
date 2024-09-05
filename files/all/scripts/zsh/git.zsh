@@ -52,6 +52,14 @@ function gsync() {
   printCommand "[git pull origin $DEFAULT_BRANCH_NAME]"
 }
 
+function gfilerevert() {
+  local COMMIT_HASH=$1
+  local FILE_PATH=$2
+  git checkout $COMMIT_HASH -- $FILE_PATH
+  git add $FILE_PATH
+  git commit -m "Revert $2 from commit $1"
+}
+
 function gmerge() {
   local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
   local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
