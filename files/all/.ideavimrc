@@ -97,8 +97,7 @@ nnoremap <silent> ;a :<C-u>action QuickImplementations<CR>
 
 " copies filepath to clipboard by pressing y<template name="=" value=" === $END$" description="=" toReformat="false" toShortenFQNames="true">
 nnoremap <silent> yf :<C-u>action CopyContentRootPath<CR>
-" copies pwd to clipboard: command yd
-" nnoremap <silent> yd :<C-u>action SplitHorizontally<CR>
+nnoremap <silent> yF :<C-u>action CopyAbsolutePath<CR>
 
 "nnoremap gv gd gv gh q gl<CR>
 noremap <silent> Q :<C-u>action CloseAllEditors<CR>

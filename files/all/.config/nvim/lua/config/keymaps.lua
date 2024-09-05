@@ -5,7 +5,7 @@ local default_opts = {noremap = true, silent = true}
 map('i', '<space>', "<Space><C-g>u", default_opts)
 
 -- copy file/folder path
-map('n', 'yf', ":let @+=expand('%:p')<CR>", default_opts)
+map('n', 'yF', ":let @+=expand('%:p')<CR>", default_opts)
 map('n', 'yd', ":let @+=expand('%:p:h')<CR>", default_opts)
 
 -- close buffer/tab
