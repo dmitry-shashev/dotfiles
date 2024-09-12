@@ -46,3 +46,10 @@ for conf in "$HOME/scripts/zsh/"*.zsh; do
   source "${conf}"
 done
 unset conf
+
+# --------------------------------------------------------
+# Tmux auto-closing setup
+
+alias tmuxn='tmux new-session -s $$'
+_trap_exit() { tmux kill-session -t $$; }
+trap _trap_exit EXIT
