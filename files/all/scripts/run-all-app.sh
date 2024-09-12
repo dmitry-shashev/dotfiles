@@ -2,8 +2,6 @@ xbindkeys
 
 i3-msg 'workspace 1'
 sleep 1
-i3-msg 'exec kitty tmux & sleep 8'
-sleep 8
 i3-msg 'exec google-chrome-stable'
 sleep 4
 i3-msg 'workspace 2'
