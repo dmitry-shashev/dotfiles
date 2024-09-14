@@ -52,6 +52,11 @@ function gsync() {
   printCommand "[git pull origin $DEFAULT_BRANCH_NAME]"
 }
 
+function gamend() {
+  git add --all
+  git commit --amend --no-edit
+}
+
 function gfilerevert() {
   local COMMIT_HASH=$1
   local FILE_PATH=$2
