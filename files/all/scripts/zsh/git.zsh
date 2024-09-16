@@ -54,15 +54,20 @@ function gsync() {
 
 function gamend() {
   git add --all
+  printCommand "[git add --all]"
   git commit --amend --no-edit
+  printCommand "[git commit --amend --no-edit]"
 }
 
 function gfilerevert() {
   local COMMIT_HASH=$1
   local FILE_PATH=$2
   git checkout $COMMIT_HASH -- $FILE_PATH
+  printCommand "[git checkout $COMMIT_HASH -- $FILE_PATH]"
   git add $FILE_PATH
+  printCommand "[git add $FILE_PATH]"
   git commit -m "Revert $2 from commit $1"
+  printCommand "[git commit -m \"Revert $2 from commit $1\"]"
 }
 
 function gmerge() {
@@ -95,6 +100,12 @@ function gpush() {
   local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
   git push origin $CURRENT_BRANCH_NAME
   printCommand "[git push origin $CURRENT_BRANCH_NAME]"
+}
+
+function gpushforce() {
+  local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+  git push origin $CURRENT_BRANCH_NAME --force
+  printCommand "[git push origin $CURRENT_BRANCH_NAME --force]"
 }
 
 function gs() {
