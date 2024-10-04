@@ -55,6 +55,8 @@
 # toggle window fullscreen
 #cmd - f : yabai -m window --toggle zoom-fullscreen
 
+# restart using terminal
+# skhd --stop-service && skhd --start-service
 
 # Layouts
 shift + cmd - q : osascript ~/os-scripts/layouts/q-ide-bw-30-70.scpt
@@ -74,4 +76,13 @@ f8 : osascript ~/os-scripts/f8.scpt
 f9 : osascript ~/os-scripts/f9.scpt
 f10 : osascript ~/os-scripts/f10.scpt
 
-
+shift + alt + ctrl - 1 : osascript ~/os-scripts/clipboards/clipboard-1.scpt
+shift + alt + ctrl - 2 : osascript ~/os-scripts/clipboards/clipboard-2.scpt
+shift + alt + ctrl - 3 : osascript ~/os-scripts/clipboards/clipboard-3.scpt
+shift + alt + ctrl - 4 : osascript ~/os-scripts/clipboards/clipboard-4.scpt
+shift + alt + ctrl - 5 : osascript ~/os-scripts/clipboards/clipboard-5.scpt
+shift + alt + ctrl - 6 : osascript ~/os-scripts/clipboards/clipboard-6.scpt
+shift + alt + ctrl - 7 : osascript ~/os-scripts/clipboards/clipboard-7.scpt
+shift + alt + ctrl - 8 : osascript ~/os-scripts/clipboards/clipboard-8.scpt
+shift + alt + ctrl - 9 : osascript ~/os-scripts/clipboards/clipboard-9.scpt
+shift + alt + ctrl - 0 : osascript ~/os-scripts/clipboards/clipboard-0.scpt
