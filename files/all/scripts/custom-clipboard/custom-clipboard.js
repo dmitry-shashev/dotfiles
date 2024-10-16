@@ -31,6 +31,10 @@ function copyToClipboard(str) {
 }
 
 function sendPaste() {
-  ks.sendCombination(['control', 'shift', 'v'], 200);
+  if (os.arch() === 'arm64') {
+    // we send for macs using AppleScript
+    return
+  }
+  ks.sendCombination(['control', 'shift', 'v'], 200)
 }
 //----------------------------------------------------------
