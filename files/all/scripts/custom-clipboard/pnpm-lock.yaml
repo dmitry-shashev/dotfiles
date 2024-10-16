@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      node-key-sender:
+        specifier: ^1.0.11
+        version: 1.0.11
+
+packages:
+
+  node-key-sender@1.0.11:
+    resolution: {integrity: sha512-vv2IXd8QdZBFYXaIy02uy2rK6EKj+tOTEuoTxJKS9l8zw8Cz6DeLffR8ompj7N2A3h6XK7aiy+YAcTaeOqwp2Q==}
+
+snapshots:
+
+  node-key-sender@1.0.11: {}
