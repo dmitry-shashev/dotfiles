@@ -1,3 +1,5 @@
+-- brew install rg
+
 return {
   'nvim-telescope/telescope.nvim',
   tag = '0.1.5',
@@ -16,12 +18,19 @@ return {
       end
     end
 
-    local opts = {noremap = true, silent = true}
+    local opts = { noremap = true, silent = true }
+
+    -- Telescope setup with ignored patterns
+    require('telescope').setup({
+      defaults = {
+        file_ignore_patterns = { "node_modules", "venv", "%.git/", "build", "dist", "%.idea/" }
+      }
+    })
 
     -- for visual mode we try to find the selected
     local tb = require('telescope.builtin')
     local keymap = vim.keymap.set
-    keymap ('v', ';f', function()
+    keymap('v', ';f', function()
       local text = vim.getVisualSelection()
       tb.find_files({ default_text = text })
     end, opts)
@@ -29,7 +38,6 @@ return {
       local text = vim.getVisualSelection()
       tb.live_grep({ default_text = text })
     end, opts)
-
 
     local map = vim.api.nvim_set_keymap
     map('n', ';f', ':<C-u>Telescope find_files<CR>', opts)

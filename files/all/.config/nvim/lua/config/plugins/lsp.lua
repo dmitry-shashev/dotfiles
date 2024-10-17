@@ -1,15 +1,15 @@
 -- due to problems with LSP - restart it on save
-vim.api.nvim_create_augroup("AutoRestart_LSP", {})
-vim.api.nvim_create_autocmd(
-    "BufWritePost",
-    {
-        pattern = "*.{js,jsx,ts,tsx}",
-        group = "AutoRestart_LSP",
-        callback = function()
-          vim.cmd('LspRestart')
-        end,
-    }
-)
+-- vim.api.nvim_create_augroup("AutoRestart_LSP", {})
+-- vim.api.nvim_create_autocmd(
+--     "BufWritePost",
+--     {
+--         pattern = "*.{js,jsx,ts,tsx}",
+--         group = "AutoRestart_LSP",
+--         callback = function()
+--           vim.cmd('LspRestart')
+--         end,
+--     }
+-- )
 
 
 
@@ -43,8 +43,7 @@ return {
     }
 
     -- sudo npm install -g typescript typescript-language-server
-    local capabilities = require("cmp_nvim_lsp").default_capabilities()
-    require("lspconfig").tsserver.setup({ capabilities = capabilities })
+    require("lspconfig").ts_ls.setup({ capabilities = capabilities })
 
     -- sudo npm i -g @olrtg/emmet-language-server
     require("lspconfig").emmet_language_server.setup({
@@ -138,5 +137,13 @@ return {
         };
       }
     }
+
+    -- pip install ruff
+  local lspconfig = require('lspconfig')
+  lspconfig.ruff.setup({
+    cmd = { "./venv/bin/ruff", "server" },
+    root_dir = lspconfig.util.root_pattern(".git", "pyproject.toml")
+  })
+
   end
 }

@@ -3,12 +3,14 @@
     <option name="Python" value="true" />
   </context>
 </template>
-<template name="cc" value="print(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;)  # @#$&#10;print($END$)&#10;print(&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;)" description="print" toReformat="false" toShortenFQNames="true">
+<template name="cc" value="print(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;)  # @#$&#10;print(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;)&#10;print(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;)&#10;&#10;def DEBUG_PRINT_$date$(obj):&#10;    try:&#10;        import json&#10;&#10;        if hasattr(obj, &quot;dict&quot;) and callable(getattr(obj, &quot;dict&quot;)):&#10;            print(json.dumps(obj.dict(), indent=4, default=str))&#10;            return&#10;        print(json.dumps(obj, indent=4, default=str))&#10;    except (TypeError, OverflowError):&#10;        print(repr(obj))&#10;&#10;DEBUG_PRINT_$date$($END$)&#10;print(&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;)&#10;print(&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;)&#10;print(&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;)" description="print" toReformat="false" toShortenFQNames="true">
+  <variable name="date" expression="date(&quot;HHMMSS&quot;)" defaultValue="" alwaysStopAt="false" />
   <context>
     <option name="Python" value="true" />
   </context>
 </template>
-<template name="cl" value="class $END$:&#10;    def __init__(self):&#10;        pass&#10;" description="classs" toReformat="false" toShortenFQNames="true">
+<template name="cl" value="class $CLASS_NAME$:&#10;    def __init__(self):&#10;        pass&#10;" description="classs" toReformat="false" toShortenFQNames="true">
+  <variable name="CLASS_NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
   <context>
     <option name="Python" value="true" />
   </context>

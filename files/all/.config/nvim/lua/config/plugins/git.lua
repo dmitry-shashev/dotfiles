@@ -16,16 +16,20 @@ return {
           -- Navigation
           map('n', '<space>h', function()
             vim.schedule(function()
-              gs.next_hunk()
-              gs.preview_hunk()
+                gs.next_hunk()
+                vim.defer_fn(function()
+                    gs.preview_hunk_inline()
+                end, 50)
             end)
             return '<Ignore>'
-          end, {expr=true})
+          end, { expr = true })
 
           map('n', '<space>l', function()
             vim.schedule(function()
-              gs.prev_hunk()
-              gs.preview_hunk()
+                gs.prev_hunk()
+                vim.defer_fn(function()
+                    gs.preview_hunk_inline()
+                end, 50)
             end)
             return '<Ignore>'
           end, {expr=true})

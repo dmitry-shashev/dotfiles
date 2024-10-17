@@ -6,6 +6,7 @@ map('i', '<space>', "<Space><C-g>u", default_opts)
 
 -- copy file/folder path
 map('n', 'yF', ":let @+=expand('%:p')<CR>", default_opts)
+map('n', 'yf', ":let @+=substitute(expand('%:p'), systemlist('git rev-parse --show-toplevel')[0] . '/', '', '')<CR>", default_opts)
 map('n', 'yd', ":let @+=expand('%:p:h')<CR>", default_opts)
 
 -- close buffer/tab
@@ -63,3 +64,13 @@ vim.keymap.set('n', ';p', function()
   print('prettier formatting applied')
 end)
 
+
+vim.api.nvim_create_autocmd("TextYankPost", {
+  pattern = "*",
+  callback = function()
+    vim.highlight.on_yank({
+      higroup = "IncSearch", -- or any other highlight group you like
+      timeout = 80,         -- time in ms
+    })
+  end,
+})

@@ -1,7 +1,8 @@
 import {
-  FILES_LIST_ALL,
+  FILES_LIST_UNIX,
   FILES_LIST_LINUX,
   FILES_LIST_MAC,
+  FILES_LIST_WINDOWS,
 } from '../constants/files-list'
 import { TargetData } from '../interfaces/target-data'
 
@@ -20,6 +21,14 @@ export abstract class DataHelper {
         files = FILES_LIST_MAC
         folder = 'mac'
         break
+
+      case 'WINDOWS':
+        return [
+          {
+            files: FILES_LIST_WINDOWS,
+            folder: 'windows',
+          },
+        ]
     }
 
     if (!folder) {
@@ -32,7 +41,7 @@ export abstract class DataHelper {
         folder,
       },
       {
-        files: FILES_LIST_ALL,
+        files: FILES_LIST_UNIX,
         folder: 'all',
       },
     ]

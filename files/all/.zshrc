@@ -11,6 +11,8 @@ local paths=(
   "$HOME/.dotnet"
   "$HOME/.dotnet/tools"
   "$HOME/.local/bin"
+  "$HOME/miniconda/bin"
+  "/opt/homebrew/Caskroom/miniconda/base/bin"
   "/opt/homebrew/bin"
 )
 export PATH=$PATH:${"${paths[*]}"// /:}
@@ -53,3 +55,19 @@ unset conf
 alias tmuxn='tmux new-session -s $$'
 _trap_exit() { tmux kill-session -t $$; }
 trap _trap_exit EXIT
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/dshashev/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/dshashev/miniconda/etc/profile.d/conda.sh" ]; then
+        . "/Users/dshashev/miniconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/dshashev/miniconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
