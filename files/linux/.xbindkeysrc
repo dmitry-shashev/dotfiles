@@ -14,42 +14,78 @@
     m:0x41 + c:15
     Shift+Mod4 + 6
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 1"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 1"
     m:0x9 + c:10
     Shift+Alt + 1
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 2"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 2"
     m:0x9 + c:11
     Shift+Alt + 2
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 3"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 3"
     m:0x9 + c:12
     Shift+Alt + 3
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 4"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 4"
     m:0x9 + c:13
     Shift+Alt + 4
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 5"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 5"
     m:0x9 + c:14
     Shift+Alt + 5
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 6"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 6"
     m:0x9 + c:15
     Shift+Alt + 6
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 7"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 7"
     m:0x9 + c:16
     Shift+Alt + 7
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 8"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 8"
     m:0x9 + c:17
     Shift+Alt + 8
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 9"
+"tsx ~/scripts/custom-clipboard/load-clipboard.ts 9"
     m:0x9 + c:18
     Shift+Alt + 9
 
-"node ~/scripts/custom-clipboard/custom-clipboard.js 0"
-    m:0x9 + c:19
-    Shift+Alt + 0
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 1"
+    m:0xd + c:10
+    Control+Shift+Alt + 1
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 2"
+    m:0xd + c:11
+    Control+Shift+Alt + 2
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 3"
+    m:0xd + c:12
+    Control+Shift+Alt + 3
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 4"
+    m:0xd + c:13
+    Control+Shift+Alt + 4
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 5"
+    m:0xd + c:37
+    Control+Shift+Alt + Control_L
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 6"
+    m:0xd + c:15
+    Control+Shift+Alt + 6
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 7"
+    m:0xd + c:16
+    Control+Shift+Alt + 7
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 8"
+    m:0xd + c:17
+    Control+Shift+Alt + 8
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 9"
+    m:0xd + c:18
+    Control+Shift+Alt + 9
+
+"tsx ~/scripts/custom-clipboard/save-clipboard.ts 0"
+    m:0xd + c:19
+    Control+Shift+Alt + 0
