@@ -76,13 +76,24 @@ f8 : osascript ~/os-scripts/f8.scpt
 f9 : osascript ~/os-scripts/f9.scpt
 f10 : osascript ~/os-scripts/f10.scpt
 
-shift + alt - 1 : osascript ~/os-scripts/clipboards/clipboard-1.scpt
-shift + alt - 2 : osascript ~/os-scripts/clipboards/clipboard-2.scpt
-shift + alt - 3 : osascript ~/os-scripts/clipboards/clipboard-3.scpt
-shift + alt - 4 : osascript ~/os-scripts/clipboards/clipboard-4.scpt
-shift + alt - 5 : osascript ~/os-scripts/clipboards/clipboard-5.scpt
-shift + alt - 6 : osascript ~/os-scripts/clipboards/clipboard-6.scpt
-shift + alt - 7 : osascript ~/os-scripts/clipboards/clipboard-7.scpt
-shift + alt - 8 : osascript ~/os-scripts/clipboards/clipboard-8.scpt
-shift + alt - 9 : osascript ~/os-scripts/clipboards/clipboard-9.scpt
-shift + alt - 0 : osascript ~/os-scripts/clipboards/clipboard-0.scpt
+shift + alt - 1 : osascript ~/os-scripts/clipboards/load/clipboard-1.scpt
+shift + alt - 2 : osascript ~/os-scripts/clipboards/load/clipboard-2.scpt
+shift + alt - 3 : osascript ~/os-scripts/clipboards/load/clipboard-3.scpt
+shift + alt - 4 : osascript ~/os-scripts/clipboards/load/clipboard-4.scpt
+shift + alt - 5 : osascript ~/os-scripts/clipboards/load/clipboard-5.scpt
+shift + alt - 6 : osascript ~/os-scripts/clipboards/load/clipboard-6.scpt
+shift + alt - 7 : osascript ~/os-scripts/clipboards/load/clipboard-7.scpt
+shift + alt - 8 : osascript ~/os-scripts/clipboards/load/clipboard-8.scpt
+shift + alt - 9 : osascript ~/os-scripts/clipboards/load/clipboard-9.scpt
+shift + alt - 0 : osascript ~/os-scripts/clipboards/load/clipboard-0.scpt
+
+ctrl + shift + alt - 1 : osascript ~/os-scripts/clipboards/save/clipboard-1.scpt
+ctrl + shift + alt - 2 : osascript ~/os-scripts/clipboards/save/clipboard-2.scpt
+ctrl + shift + alt - 3 : osascript ~/os-scripts/clipboards/save/clipboard-3.scpt
+ctrl + shift + alt - 4 : osascript ~/os-scripts/clipboards/save/clipboard-4.scpt
+ctrl + shift + alt - 5 : osascript ~/os-scripts/clipboards/save/clipboard-5.scpt
+ctrl + shift + alt - 6 : osascript ~/os-scripts/clipboards/save/clipboard-6.scpt
+ctrl + shift + alt - 7 : osascript ~/os-scripts/clipboards/save/clipboard-7.scpt
+ctrl + shift + alt - 8 : osascript ~/os-scripts/clipboards/save/clipboard-8.scpt
+ctrl + shift + alt - 9 : osascript ~/os-scripts/clipboards/save/clipboard-9.scpt
+ctrl + shift + alt - 0 : osascript ~/os-scripts/clipboards/save/clipboard-0.scpt
