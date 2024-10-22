@@ -38,14 +38,19 @@ function gb() {
   printCommand "[git checkout -b]"
 }
 
+function gmainname() {
+  # local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  git remote show origin 2>/dev/null | grep 'HEAD branch' | awk '{print $NF}'
+}
+
 function gchm() {
-  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local DEFAULT_BRANCH_NAME=$(gmainname)
   git checkout $DEFAULT_BRANCH_NAME
   printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
 }
 
 function gsync() {
-  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local DEFAULT_BRANCH_NAME=$(gmainname)
   git checkout $DEFAULT_BRANCH_NAME
   printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
   git pull origin $DEFAULT_BRANCH_NAME
@@ -71,7 +76,7 @@ function gfilerevert() {
 }
 
 function gmerge() {
-  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local DEFAULT_BRANCH_NAME=$(gmainname)
   local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
   git checkout $DEFAULT_BRANCH_NAME
   printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
@@ -84,7 +89,7 @@ function gmerge() {
 }
 
 function grebase() {
-  local DEFAULT_BRANCH_NAME=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  local DEFAULT_BRANCH_NAME=$(gmainname)
   local CURRENT_BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
   git checkout $DEFAULT_BRANCH_NAME
   printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
