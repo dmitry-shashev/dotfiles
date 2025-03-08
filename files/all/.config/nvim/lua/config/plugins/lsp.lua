@@ -138,5 +138,39 @@ return {
         };
       }
     }
+
+    -- sudo apt install black
+    -- .venv/bin/python -m pip show python-lsp-server python-lsp-black python-lsp-ruff
+    local util = require 'lspconfig.util'
+    require'lspconfig'.pylsp.setup {
+      cmd = { ".venv/bin/pylsp" },
+      filetypes = { 'python' },
+      settings = {
+        pylsp = {
+          configurationSources = {"pycodestyle"},
+          plugins = {
+            ruff = { enabled = true },
+            black = { enabled = true },
+            mypy = { enabled = true },
+            pyflakes = { enabled = false },
+            pycodestyle = { enabled = false },
+            jedi = { environment = ".venv" },
+          }
+        }
+      },
+      root_dir = function(fname)
+        local root_files = {
+          'pyproject.toml',
+          'setup.py',
+          'setup.cfg',
+          'requirements.txt',
+          'Pipfile',
+        }
+        return util.root_pattern(unpack(root_files))(fname)
+          or vim.fs.dirname(vim.fs.find('.git', { path = fname, upward = true })[1])
+      end,
+      single_file_support = true,
+    }
+
   end
 }
