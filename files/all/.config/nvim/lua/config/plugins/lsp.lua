@@ -43,8 +43,7 @@ return {
     }
 
     -- sudo npm install -g typescript typescript-language-server
-    local capabilities = require("cmp_nvim_lsp").default_capabilities()
-    require("lspconfig").tsserver.setup({ capabilities = capabilities })
+    require("lspconfig").ts_ls.setup({ capabilities = capabilities })
 
     -- sudo npm i -g @olrtg/emmet-language-server
     require("lspconfig").emmet_language_server.setup({

@@ -4,12 +4,11 @@ return {
     "karb94/neoscroll.nvim",
     config = function ()
       require('neoscroll').setup({
-        -- easing_function = 'quadratic'
+        mappings = {
+          [';u'] = {'scroll', {'-vim.wo.scroll', 'true', '250'}},
+          [';d'] = {'scroll', { 'vim.wo.scroll', 'true', '250'}}
+        }
       })
-      local t = {}
-      t[';u'] = {'scroll', {'-vim.wo.scroll', 'true', '250'}}
-      t[';d'] = {'scroll', { 'vim.wo.scroll', 'true', '250'}}
-      require('neoscroll.config').set_mappings(t)
     end
   },
   {
