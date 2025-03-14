@@ -12,6 +12,7 @@ local paths=(
   "$HOME/.dotnet/tools"
   "$HOME/.local/bin"
   "$HOME/miniconda/bin"
+  "/opt/homebrew/Caskroom/miniconda/base/bin"
   "/opt/homebrew/bin"
 )
 export PATH=$PATH:${"${paths[*]}"// /:}
