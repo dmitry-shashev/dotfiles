@@ -139,7 +139,7 @@ return {
     }
 
     -- sudo apt install black
-    -- ./venv/bin/python3.9 -m pip install python-lsp-server python-lsp-black python-lsp-ruff
+    -- ./venv/bin/python3.9 -m pip install python-lsp-server python-lsp-black python-lsp-ruff black
     local util = require 'lspconfig.util'
     require'lspconfig'.pylsp.setup {
       cmd = { "venv/bin/pylsp" },
@@ -153,7 +153,7 @@ return {
             mypy = { enabled = true },
             pyflakes = { enabled = false },
             pycodestyle = { enabled = false },
-            jedi = { environment = ".venv" },
+            jedi = { environment = "venv" },
           }
         }
       },
