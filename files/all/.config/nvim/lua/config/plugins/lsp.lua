@@ -139,7 +139,7 @@ return {
     }
 
     -- sudo apt install black
-    -- .venv/bin/python -m pip show python-lsp-server python-lsp-black python-lsp-ruff
+    -- .venv/bin/python -m pip install python-lsp-server python-lsp-black python-lsp-ruff
     local util = require 'lspconfig.util'
     require'lspconfig'.pylsp.setup {
       cmd = { ".venv/bin/pylsp" },
