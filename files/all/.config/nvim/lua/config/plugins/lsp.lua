@@ -139,7 +139,7 @@ return {
     }
 
     -- sudo apt install black
-    -- ./venv/bin/python -m pip install python-lsp-server python-lsp-black python-lsp-ruff
+    -- ./venv/bin/python3.9 -m pip install python-lsp-server python-lsp-black python-lsp-ruff
     local util = require 'lspconfig.util'
     require'lspconfig'.pylsp.setup {
       cmd = { "venv/bin/pylsp" },
@@ -165,8 +165,8 @@ return {
           'requirements.txt',
           'Pipfile',
         }
-        return util.root_pattern(unpack(root_files))(fname)
-          or vim.fs.dirname(vim.fs.find('.git', { path = fname, upward = true })[1])
+        return vim.fs.dirname(vim.fs.find('.git', { path = fname, upward = true })[1])
+          or util.root_pattern(unpack(root_files))(fname)
       end,
       single_file_support = true,
     }
