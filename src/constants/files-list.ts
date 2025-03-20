@@ -1,24 +1,26 @@
 export const FILES_LIST_LINUX: ReadonlyArray<string> = [
-  '.xbindkeysrc',
   '.config/i3',
   '.config/i3blocks',
   '.config/dunst',
   '.config/sway',
+  '.config/JetBrains',
   '.profile',
+  '.xbindkeysrc',
 ]
 
 export const FILES_LIST_MAC: ReadonlyArray<string> = [
-  '.skhdrc',
-  'os-scripts',
+  '.config/JetBrains',
   '.warp',
+  'os-scripts',
+  '.skhdrc',
 ]
 
 export const FILES_LIST_ALL: ReadonlyArray<string> = [
-  'scripts',
   '.config/nvim',
   '.config/prettier',
   '.config/vifm',
   '.config/kitty',
+  'scripts',
   '.zshrc',
   '.tmux.conf',
   '.ideavimrc',
