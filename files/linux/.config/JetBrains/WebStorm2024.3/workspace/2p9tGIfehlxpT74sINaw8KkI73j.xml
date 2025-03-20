@@ -11,8 +11,8 @@
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="140">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="260">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -27,12 +27,12 @@
       "lastUsed": 1732190105954
     },
     "WebPreview": {
-      "usageCount": 1,
-      "lastUsed": 1732190106324
+      "usageCount": 2,
+      "lastUsed": 1742473012594
     },
     "JSON": {
-      "usageCount": 4,
-      "lastUsed": 1742472934213
+      "usageCount": 5,
+      "lastUsed": 1742473011227
     }
   }
 }]]></component>
@@ -46,7 +46,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JSON">
-      <summary usageCount="4" lastUsage="1742472934215" />
+      <summary usageCount="5" lastUsage="1742473011229" />
     </language>
     <language id="Markdown">
       <summary usageCount="2" lastUsage="1732190105956" />
@@ -392,7 +392,7 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1392000" />
+    <option name="totallyTimeSpent" value="1504000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -412,9 +412,9 @@
       <unified_weights bottom="0.33025002" left="0.2359375" right="0.16203125" />
     </layoutV2>
     <recentWindows>
+      <value>Project</value>
       <value>Terminal</value>
       <value>AIAssistant</value>
-      <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
@@ -431,8 +431,8 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="260">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
