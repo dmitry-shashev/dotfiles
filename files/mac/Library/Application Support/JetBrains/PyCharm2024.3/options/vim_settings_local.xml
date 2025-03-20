@@ -1,0 +1,295 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">JzwsJz4=</entry>
+        <entry encoding="base64" />
+      </history-cmd>
+      <history-search>
+        <entry encoding="base64">XDxURVhUX1RPXzNEXD4=</entry>
+        <entry encoding="base64">XDxHZW5lcmF0aW9uVHlwZVw+</entry>
+        <entry encoding="base64">YWRkaXRpb25hbA==</entry>
+        <entry encoding="base64">XDxhZGRpdGlvbmFsX29wdGlvbnNcPg==</entry>
+        <entry encoding="base64">XDxfX2F3YWl0X3ByZXZpZXdfcmVxdWVzdFw+</entry>
+        <entry encoding="base64">YWRkaXRpb25hbF9vcA==</entry>
+        <entry encoding="base64">c2VlZA==</entry>
+        <entry encoding="base64">cGFyc2Vf</entry>
+        <entry encoding="base64">cGFyc2U=</entry>
+        <entry encoding="base64">XDxfcnVuX3Bvc3RfZ2VuZXJhdGlvbl9waXBlbGluZVw+</entry>
+        <entry encoding="base64">XDxfZ2V0X2Fzc2V0X3VybHNfZnJvbV9yZXNwb25zZVw+</entry>
+        <entry encoding="base64">YXNzZXRfdXJscw==</entry>
+        <entry encoding="base64">XDxhc3NldF91cmxzXD4=</entry>
+        <entry encoding="base64">XDxoYW5kbGVfcGVuZGluZ19yZXF1ZXN0XD4=</entry>
+        <entry encoding="base64">XDxnZXRfcGVuZGluZ19yZXF1ZXN0X3N0YXR1c1w+</entry>
+        <entry encoding="base64">c2Ft</entry>
+        <entry encoding="base64">YXNzZXRfdXJs</entry>
+        <entry encoding="base64">d2k=</entry>
+        <entry encoding="base64">cmFpc2Vz</entry>
+        <entry encoding="base64">XDxqc29uXD4=</entry>
+        <entry encoding="base64">XDxQaWNhc3NvQ2xpZW50XD4=</entry>
+        <entry encoding="base64">cmVzcG9u</entry>
+        <entry encoding="base64">bW9kZQ==</entry>
+        <entry encoding="base64">cHJldmlldw==</entry>
+        <entry encoding="base64">bWVzaHk=</entry>
+        <entry encoding="base64">Y2xpZW50</entry>
+        <entry encoding="base64">Y29uZg==</entry>
+        <entry encoding="base64">cGljYXNzbw==</entry>
+        <entry encoding="base64">d2l0aA==</entry>
+        <entry encoding="base64">XDxweXRlc3RcPg==</entry>
+        <entry encoding="base64">dGltZW91dA==</entry>
+        <entry encoding="base64">XDxUaW1lb3V0XD4=</entry>
+        <entry encoding="base64">XDxTZXJ2aWNlVGltZW91dEV4Y2VwdGlvblw+</entry>
+        <entry encoding="base64">X18=</entry>
+        <entry encoding="base64">XDxfX21lc2hfc3RhdHVzX21hcHBpbmdcPg==</entry>
+        <entry encoding="base64">MDE5</entry>
+        <entry encoding="base64">VGltZW91dEVycm9y</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">VGltZW91dA==</entry>
+        <entry encoding="base64">UmVxdWVzdEV4ZQ==</entry>
+        <entry encoding="base64">cmVxdWVzdF9leGNl</entry>
+        <entry encoding="base64">XDxSZXF1ZXN0RXhjZXB0aW9uXD4=</entry>
+        <entry encoding="base64">RmFpbGVkIHRvIHBvc3QgdGhlIHdvcmtmbG93</entry>
+        <entry encoding="base64">cGljYQ==</entry>
+        <entry encoding="base64">XDxfX3RpbWVvdXRfc2VjXD4=</entry>
+        <entry encoding="base64">XDxfX2FzeW5jX3RpbWVvdXRfc2VjXD4=</entry>
+        <entry encoding="base64">XDxfX3RvdGFsX2FzeW5jX3JlcXVlc3RfdGltZW91dF9zZWNcPg==</entry>
+        <entry encoding="base64">Z2V0X3N0YXR1cw==</entry>
+        <entry encoding="base64">dXBsb2FkX2ltYWdlcw==</entry>
+        <entry encoding="base64">XDx1cGxvYWRfaW1hZ2VzXD4=</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="asset-generation-service-98e24c06">
+      <jump line="861" column="27" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py" protocol="file" />
+      <jump line="1064" column="27" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py" protocol="file" />
+      <jump line="267" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="270" column="17" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="266" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="315" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="273" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="274" column="31" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="42" column="15" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/conftest.py" protocol="file" />
+      <jump line="183" column="15" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="280" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="0" column="0" filename="diff.txt" protocol="mock" />
+      <jump line="208" column="34" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="20" column="39" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="128" column="15" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="268" column="42" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="112" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="318" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="293" column="15" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="285" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="170" column="54" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="200" column="53" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="244" column="28" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="1078" column="13" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py" protocol="file" />
+      <jump line="1071" column="18" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py" protocol="file" />
+      <jump line="12" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="197" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="189" column="18" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="115" column="12" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="199" column="21" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="189" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="8" column="26" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_workflow_factory.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_workflow_factory.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="18" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="19" column="17" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="16" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/temp.py" protocol="file" />
+      <jump line="3" column="71" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/temp.py" protocol="file" />
+      <jump line="156" column="41" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="6" column="94" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="161" column="12" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="243" column="76" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="245" column="70" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="17" column="20" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/conftest.py" protocol="file" />
+      <jump line="253" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py" protocol="file" />
+      <jump line="162" column="109" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="40" column="13" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="41" column="29" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="42" column="44" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="121" column="29" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="177" column="29" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="13" column="11" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_post_processing_service.py" protocol="file" />
+      <jump line="193" column="60" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="194" column="63" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="182" column="26" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="134" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="508" column="40" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="509" column="36" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="476" column="30" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" protocol="file" />
+      <jump line="377" column="1" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="273" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="299" column="43" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="312" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="314" column="60" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="26" column="4" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="322" column="10" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="184" column="27" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="182" column="12" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="172" column="38" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" protocol="file" />
+      <jump line="69" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="80" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="72" column="12" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="71" column="33" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="77" column="40" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="245" column="12" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="247" column="36" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="155" column="8" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="37" column="6" filename="$USER_HOME$/work/current/asset-generation-service/lib/common/src/ags/model/image_service.py" protocol="file" />
+      <jump line="157" column="22" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="218" column="46" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="237" column="50" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="235" column="27" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="236" column="40" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="243" column="53" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="8" column="16" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="9" column="27" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="7" column="38" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="0" column="20" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="3" column="4" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" protocol="file" />
+      <jump line="242" column="18" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="231" column="16" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="233" column="50" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="246" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+      <jump line="270" column="0" filename="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/workflows/picasso_workflow_factory.py" timestamp="1742490385307">
+        <mark key="&quot;" line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/translations/de/translations.json" timestamp="1742489567134">
+        <mark key="&quot;" line="6" column="16" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/src/ags/util/datetime.py" timestamp="1742489572803">
+        <mark key="&quot;" line="0" column="21" />
+      </file>
+      <file name="/AIAssistantInput-897a01f2-0936-4219-83f6-c71d77f6acd2.chatInput" timestamp="1742487369310">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" timestamp="1742490346251">
+        <mark key="&quot;" line="10" column="0" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/mypy.ini" timestamp="1742489567494">
+        <mark key="&quot;" line="3" column="19" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/tests/integration/conftest.py" timestamp="1742489568834">
+        <mark key="&quot;" line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/src/ags/model/image_service.py" timestamp="1742486056485">
+        <mark key="&quot;" line="31" column="6" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" timestamp="1742485996756">
+        <mark key="&quot;" line="172" column="38" />
+        <mark key="'" line="182" column="8" />
+      </file>
+      <file name="/AIAssistantInput-fdf605cb-7e33-4a6e-b970-5338b1548ed3.chatInput" timestamp="1742487386347">
+        <mark key="&quot;" line="0" column="23" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/tests/conftest.py" timestamp="1742489567338">
+        <mark key="&quot;" line="0" column="3" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/tests/utils.py" timestamp="1742489574654">
+        <mark key="&quot;" line="0" column="5" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/src/ags/model/subscription.py" timestamp="1742489586047">
+        <mark key="&quot;" line="6" column="6" />
+      </file>
+      <file name="/AIAssistantInput-d4115e57-a167-49ce-a475-d69ac6e96b0d.chatInput" timestamp="1742487371946">
+        <mark key="&quot;" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/lib/common/src/ags/util/hadron_util.py" timestamp="1742489574549">
+        <mark key="&quot;" line="3" column="2" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/constraints.txt" timestamp="1742489567749">
+        <mark key="&quot;" line="68" column="5" />
+      </file>
+      <file name="$USER_HOME$/work/current/asset-generation-service/Makefile" timestamp="1742489574207">
+        <mark key="&quot;" line="7" column="2" />
+      </file>
+      <file name="/AIAssistantInput-356e439c-c9b0-4cf5-b64e-4fd88cb697c9.chatInput" timestamp="1742487369427">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSBjbGllbnQudGhyZWVfZF9nZW5lcmF0aW9uLnBpY2Fzc28ubW9kZWxfcGFyYW1ldGVycy50ZXh0X3RvXzNkX3BpY2Fzc29fbW9kZWxfcGFyYW1ldGVycyBpbXBvcnQgKAogICAgVGV4dFRvM2RQaWNhc3NvTW9kZWxQYXJhbWV0ZXJzLAopCg==</text>
+      </register>
+      <register name="*" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSBjbGllbnQudGhyZWVfZF9nZW5lcmF0aW9uLnBpY2Fzc28ubW9kZWxfcGFyYW1ldGVycy50ZXh0X3RvXzNkX3BpY2Fzc29fbW9kZWxfcGFyYW1ldGVycyBpbXBvcnQgKAogICAgVGV4dFRvM2RQaWNhc3NvTW9kZWxQYXJhbWV0ZXJzLAopCg==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">dGV4dF90b19wYW5vcmFtYQ==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">XDx1cGxvYWRfaW1hZ2VzXD4=</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ZGVmIHRlc3RfbWVzaHlfZ2V0X3N0YXR1c193cm9uZ193b3JrZmxvdyhtb2NrX21lc2h5X2NsaWVudCk6CiAgICByZXF1ZXN0X2lkID0gIjAxOGEyMTBkLThiYTQtNzA1Yy1iMTEyLTFmMTc3NmY3ZjU3OSIKCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoTWVzaHlFeGNlcHRpb24pIGFzIGV4OgogICAgICAgIG1vY2tfbWVzaHlfY2xpZW50LmdldF9zdGF0dXMocmVxdWVzdF9pZCwgR2VuZXJhdGlvblJlcXVlc3RUeXBlLlRFWFRfVE9fUEFOT1JBTUEpCgogICAgYXNzZXJ0IGV4LnZhbHVlLm1zZyA9PSAiVW5zdXBwb3J0ZWQgcmVxdWVzdCB0eXBlOiB0ZXh0X3RvX3Bhbm9yYW1hIgo=</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSBjbGllbnQudGhyZWVfZF9nZW5lcmF0aW9uLnBpY2Fzc28ubW9kZWxfcGFyYW1ldGVycy50ZXh0X3RvXzNkX3BpY2Fzc29fbW9kZWxfcGFyYW1ldGVycyBpbXBvcnQgKAogICAgVGV4dFRvM2RQaWNhc3NvTW9kZWxQYXJhbWV0ZXJzLAopCg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSAudGV4dF90b18zZF9waWNhc3NvX21vZGVsX3BhcmFtZXRlcnMgaW1wb3J0IFRleHRUbzNkUGljYXNzb01vZGVsUGFyYW1ldGVycwo=</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSBjbGllbnQudGhyZWVfZF9nZW5lcmF0aW9uLnBpY2Fzc28ubW9kZWxfcGFyYW1ldGVycy50ZXh0X3RvXzNkX3BpY2Fzc29fbW9kZWxfcGFyYW1ldGVycyBpbXBvcnQgKAogICAgVGV4dFRvM2RQaWNhc3NvTW9kZWxQYXJhbWV0ZXJzLAopCg==</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">ZnJvbSBjbGllbnQudGhyZWVfZF9nZW5lcmF0aW9uLnBpY2Fzc28ubW9kZWxfcGFyYW1ldGVycy50ZXh0X3RvXzNkX3BpY2Fzc29fbW9kZWxfcGFyYW1ldGVycyBpbXBvcnQgKAogICAgVGV4dFRvM2RQaWNhc3NvTW9kZWxQYXJhbWV0ZXJzLAopCgo=</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">CiMgQHJlc3BvbnNlcy5hY3RpdmF0ZQojIGRlZiB0ZXN0X21lc2h5X2dldF9zdGF0dXNfc3VjY2Vzcyhtb2NrX21lc2h5X2NsaWVudCk6CiMgICAgIHJlcXVlc3RfaWQgPSAiMDE4YTIxMGQtOGJhNC03MDVjLWIxMTItMWYxNzc2ZjdmNTc5IgojCiMgICAgIHJlc3BvbnNlcy5hZGQoCiMgICAgICAgICByZXNwb25zZXMuR0VULAojICAgICAgICAgZiJodHRwczovL2FwaS5tZXNoeS5haS9vcGVuYXBpL3YyL3RleHQtdG8tM2Qve3JlcXVlc3RfaWR9IiwKIyAgICAgICAgIGpzb249ewojICAgICAgICAgICAgICJpZCI6IHJlcXVlc3RfaWQsCiMgICAgICAgICAgICAgInN0YXR1cyI6ICJTVUNDRUVERUQiLAojICAgICAgICAgICAgICJtb2RlbF91cmxzIjogewojICAgICAgICAgICAgICAgICAiZ2xiIjogImh0dHBzOi8vdGVzdC50dC9tb2RlbC5nbGIiLAojICAgICAgICAgICAgIH0sCiMgICAgICAgICAgICAgInRhc2tfZXJyb3IiOiB7Im1lc3NhZ2UiOiAiIn0sCiMgICAgICAgICB9LAojICAgICAgICAgc3RhdHVzPTIwMCwKIyAgICAgICAgIGhlYWRlcnM9e30sCiMgICAgICkKIwojICAgICB3aXRoIHB5dGVzdC5yYWlzZXMoTWVzaHlFeGNlcHRpb24pIGFzIGV4OgojICAgICAgICAgbW9ja19tZXNoeV9jbGllbnQuZ2V0X3N0YXR1cyhyZXF1ZXN0X2lkLCBHZW5lcmF0aW9uUmVxdWVzdFR5cGUuVEVYVF9UT19QQU5PUkFNQSkKIwojICAgICBhc3NlcnQgbGVuKHJlc3BvbnNlcy5jYWxscykgPT0gMQojICAgICBhc3NlcnQgZXgudmFsdWUubXNnID09ICJVbnN1cHBvcnRlZCByZXF1ZXN0IHR5cGU6IHRleHRfdG9fcGFub3JhbWEiCgo=</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">ICAgICgnJwogJycpCgo=</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICBqc29uPXsKICAgICAgICAgICAgImlkIjogcmVxdWVzdF9pZCwKICAgICAgICAgICAgInN0YXR1cyI6ICJTVUNDRUVERUQiLAogICAgICAgICAgICAibW9kZWxfdXJscyI6IHsKICAgICAgICAgICAgICAgICJnbGIiOiAiaHR0cHM6Ly90ZXN0LnR0L21vZGVsLmdsYiIsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJ0YXNrX2Vycm9yIjogeyJtZXNzYWdlIjogIiJ9LAogICAgICAgIH0sCg==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDx1cGxvYWRfaW1hZ2VzXD4=</last-search>
+      <last-offset encoding="base64" />
+      <last-replace encoding="base64">fg==</last-replace>
+      <last-pattern encoding="base64">XDx1cGxvYWRfaW1hZ2VzXD4=</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

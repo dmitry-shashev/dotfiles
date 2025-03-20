@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/domains/dotfiles" value="true" />
+        <entry key="$USER_HOME$/work/current/next-web" value="true" />
+        <entry key="$USER_HOME$/work/current/shutterstock-apitwo" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

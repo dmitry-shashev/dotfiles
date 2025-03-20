@@ -1,0 +1,57 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/domains/dotfiles">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dotfiles – package.json" projectWorkspaceId="2uJlxhWVMmmJroBxVa4fG2cH1zY">
+              <option name="activationTimestamp" value="1742040461788" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.26053.12" />
+              <option name="buildTimestamp" value="1741764660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="4" y="2" width="1017" height="766" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1741978672843" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/current/shutterstock-apitwo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="shutterstock-apitwo – README.md" projectWorkspaceId="2uLv9ylx0XeUDphnq462KEDtcU4">
+              <option name="activationTimestamp" value="1742042655549" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.26053.12" />
+              <option name="buildTimestamp" value="1741764660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="0" width="1502" height="946" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1742040521522" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/current/next-web">
+          <value>
+            <RecentProjectMetaInfo frameTitle="next-web – DownloadEdits.tsx" opened="true" projectWorkspaceId="2uLzWT1OPIby3uRUvfUivin0sts">
+              <option name="activationTimestamp" value="1742485953506" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.26053.12" />
+              <option name="buildTimestamp" value="1741764660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="204" y="65" width="1512" height="950" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1742042673474" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/work/current/next-web" />
+  </component>
+</application>

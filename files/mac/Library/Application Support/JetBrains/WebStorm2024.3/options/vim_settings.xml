@@ -1,0 +1,19 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts />
+  </component>
+  <component name="VimSettings">
+    <state version="7" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="true" />
+      <was-automatically-subscribed-to-eap enabled="false" />
+      <first-ideavim-version value="2.19.0" />
+    </notifications>
+  </component>
+</application>

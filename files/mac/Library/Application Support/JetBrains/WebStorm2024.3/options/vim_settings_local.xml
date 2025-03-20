@@ -1,0 +1,271 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd />
+      <history-search>
+        <entry encoding="base64">dXNlQVBw</entry>
+        <entry encoding="base64">XDxpc01lZGlhRmlsZUltYWdlXD4=</entry>
+        <entry encoding="base64">TWVzaWE=</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="dotfiles-2a8dad99">
+      <jump line="11" column="20" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="21" column="22" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="16" column="14" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="10" column="20" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="19" column="21" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/domains/dotfiles/files/all/.zshrc" protocol="file" />
+      <jump line="14" column="3" filename="$USER_HOME$/domains/dotfiles/package.json" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/dotfiles/files/all/.zshrc" protocol="file" />
+    </project>
+    <project id="next-web-ff92de83">
+      <jump line="13" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="10" column="20" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/api/licensees/[licenseeIdentifier]/redownload.ts" protocol="file" />
+      <jump line="40" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="116" column="39" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="101" column="18" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="53" column="16" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="49" column="20" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="42" column="31" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="50" column="10" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="39" column="20" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="40" column="7" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/image-photo/[title].jsx" protocol="file" />
+      <jump line="47" column="20" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title].jsx" protocol="file" />
+      <jump line="231" column="8" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title].jsx" protocol="file" />
+      <jump line="220" column="16" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title].jsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title]/edit.tsx" protocol="file" />
+      <jump line="36" column="24" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title]/edit.tsx" protocol="file" />
+      <jump line="17" column="13" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/EcommDownload.tsx" protocol="file" />
+      <jump line="23" column="23" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/EcommDownload.tsx" protocol="file" />
+      <jump line="39" column="39" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="32" column="27" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="61" column="4" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="21" column="29" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="391" column="36" filename="$USER_HOME$/work/current/next-web/packages/shared/types/media.ts" protocol="file" />
+      <jump line="24" column="17" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="57" column="19" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="55" column="33" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="54" column="12" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="11" column="24" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="78" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="49" column="36" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/catalog/uploads/[id]/edit.tsx" protocol="file" />
+      <jump line="47" column="43" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/catalog/uploads/[id]/edit.tsx" protocol="file" />
+      <jump line="20" column="11" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/EcommDownload.tsx" protocol="file" />
+      <jump line="83" column="21" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="51" column="34" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="46" column="18" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/catalog/uploads/[id]/edit.tsx" protocol="file" />
+      <jump line="39" column="0" filename="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/catalog/uploads/[id]/edit.tsx" protocol="file" />
+      <jump line="380" column="12" filename="$USER_HOME$/work/current/next-web/packages/shared/types/media.ts" protocol="file" />
+      <jump line="33" column="30" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="75" column="9" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="74" column="13" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="27" column="17" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="23" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="64" column="4" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="79" column="6" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="65" column="1" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="66" column="13" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="71" column="24" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="74" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="76" column="6" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="82" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="31" column="54" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="38" column="12" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="36" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="73" column="29" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="66" column="4" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="64" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="62" column="12" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="70" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="70" column="21" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="5" column="57" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="20" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="18" column="11" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/work/current/next-web/packages/shared/types/typeCheckFunctions.ts" protocol="file" />
+      <jump line="80" column="11" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="77" column="33" filename="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" protocol="file" />
+      <jump line="0" column="152" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/.eslintcache" protocol="file" />
+      <jump line="22" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="44" column="8" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="28" column="22" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="35" column="33" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="168" column="12" filename="$USER_HOME$/work/current/next-web/packages/shared/types/media.ts" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="26" column="8" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="4" column="42" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/contexts/AppFramework/useAppFrameworkContext.ts" protocol="file" />
+      <jump line="27" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="29" column="22" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="34" column="30" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="59" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="46" column="35" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="52" column="25" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="42" column="37" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="51" column="32" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="58" column="4" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="47" column="37" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="3" column="13" filename="$USER_HOME$/work/current/next-web/packages/shared/types/typeCheckFunctions.ts" protocol="file" />
+      <jump line="48" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="43" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="37" column="0" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="45" column="55" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="53" column="21" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+      <jump line="50" column="10" filename="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.spec.tsx" timestamp="1742409159344">
+        <mark key="&quot;" line="70" column="21" />
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="73" column="7" />
+        <mark key="." line="70" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/EnterpriseDownloadButton/EnterpriseDownloadButton.tsx" timestamp="1742390399812">
+        <mark key="&quot;" line="89" column="27" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title]/edit.tsx" timestamp="1742409159340">
+        <mark key="&quot;" line="36" column="24" />
+        <mark key="'" line="36" column="24" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/EcommDownload.tsx" timestamp="1742409159342">
+        <mark key="&quot;" line="20" column="11" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/discover/image-packs-0224.jsx" timestamp="1742390418408">
+        <mark key="&quot;" line="29" column="24" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/i18next.d.ts" timestamp="1742390415856">
+        <mark key="&quot;" line="3" column="24" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/components/Image/ImageContainer/PeacockEntry.tsx" timestamp="1742409129724">
+        <mark key="&quot;" line="44" column="45" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/catalog/uploads/[id]/edit.tsx" timestamp="1742394969268">
+        <mark key="&quot;" line="46" column="0" />
+        <mark key="[" line="46" column="30" />
+        <mark key="]" line="46" column="30" />
+        <mark key="." line="46" column="30" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/proptypes/image.js" timestamp="1742390416335">
+        <mark key="&quot;" line="2" column="31" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/domain-peacock/components/Download/DownloadEdits.tsx" timestamp="1742410540452">
+        <mark key="&quot;" line="6" column="0" />
+        <mark key="'" line="45" column="21" />
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="62" column="0" />
+        <mark key="." line="62" column="0" />
+        <mark key="^" line="45" column="53" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/tests/monolith-midlevel/mlt/graceful-degradation/image-3d-object-details.spec.ts" timestamp="1742390416637">
+        <mark key="&quot;" line="4" column="16" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1742394962108">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/components/License/CompLicensingViews/useCompLicensingViews.js" timestamp="1742409098136">
+        <mark key="&quot;" line="58" column="57" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/pages/image-photo/[title].jsx" timestamp="1742390448020">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/apps/monolith/pages/_shutterstock/image-photo/[title].jsx" timestamp="1742409159338">
+        <mark key="&quot;" line="220" column="16" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/types/media.ts" timestamp="1742392439527">
+        <mark key="&quot;" line="380" column="12" />
+        <mark key="'" line="391" column="36" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/components/DownloadNow/useDownloadNowViews.jsx" timestamp="1742390397308">
+        <mark key="&quot;" line="44" column="54" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/domain-peacock/.eslintcache" timestamp="1742409181929">
+        <mark key="&quot;" line="0" column="213" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/components/Generate/DownloadButton/DownloadButton.tsx" timestamp="1742409159326">
+        <mark key="&quot;" line="77" column="33" />
+        <mark key="'" line="80" column="11" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="^" line="31" column="3" />
+        <mark key="." line="32" column="0" />
+      </file>
+      <file name="$USER_HOME$/work/current/next-web/packages/shared/types/typeCheckFunctions.ts" timestamp="1742409183939">
+        <mark key="&quot;" line="3" column="29" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="*" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">ZWRpdGVkTGFiZWw=</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">TWVzaWE=</text>
+      </register>
+      <register name="0" type="CHARACTER_WISE">
+        <text encoding="base64">b3JpZ2luYWxJbWFnZQ==</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgcmV0dXJuOwo=</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgY29uc3QgZG93bmxvYWRVcmwgPSBhd2FpdCBnZXRIb2xkaW5nRG93bmxvYWRVcmwob3JpZ2luYWxJbWFnZS5pZCk7CgogICAgICBkb3dubG9hZGVyLnJlc29sdmVVcmwoCiAgICAgICAgewogICAgICAgICAgaWQ6IG9yaWdpbmFsSW1hZ2UuaWQsCiAgICAgICAgfSBhcyBNZWRpYUltYWdlLAogICAgICAgIGRvd25sb2FkVXJsLAogICAgICAgIGVkaXRlZExhYmVsLAogICAgICAgIFtdLAogICAgICApOwoK</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">ICAgIGlmIChvcmlnaW5hbEltYWdlKSB7Cg==</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">ICBjb25zdCBjdXJyZW50SW1hZ2UgPSBpbWFnZSBhcyBNZWRpYUltYWdlOwo=</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">ICBjb25zdCBtZWRpYUltYWdlID0gaW1hZ2UgYXMgCg==</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">CiAgICAoaW1hZ2UgYXMgTWVkaWFJbWFnZSkuCg==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">TWVzaWE=</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">TWVzaWE=</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

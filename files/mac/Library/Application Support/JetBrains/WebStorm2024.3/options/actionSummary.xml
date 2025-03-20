@@ -1,0 +1,154 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1742042881526" />
+    </e>
+    <e n="ActivateCommitToolWindow">
+      <i c="6" l="1742410292641" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1742042850309" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="51" l="1742485956327" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="10" l="1742410318527" />
+    </e>
+    <e n="CloseAllEditorsButActive">
+      <i c="1" l="1742409159322" />
+    </e>
+    <e n="CloseProject">
+      <i c="2" l="1742042656512" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="2" l="1742392591221" />
+    </e>
+    <e n="CopyContentRootPath">
+      <i c="1" l="1741984080454" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="28" l="1742410264910" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="3" l="1742390841018" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="6" l="1742409448214" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1742410230990" />
+    </e>
+    <e n="EditorDown">
+      <i c="1" l="1742390840718" />
+    </e>
+    <e n="EditorEnter">
+      <i c="28" l="1742410251198" />
+    </e>
+    <e n="EditorEscape">
+      <i c="764" l="1742478503043" />
+    </e>
+    <e n="EditorPaste">
+      <i c="7" l="1742410236652" />
+    </e>
+    <e n="ExpandLiveTemplateByTab">
+      <i c="5" l="1742409664982" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="3" l="1742392632283" />
+    </e>
+    <e n="FindInPath">
+      <i c="6" l="1742409181391" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="14" l="1742410372330" />
+    </e>
+    <e n="GotoFile">
+      <i c="7" l="1742409156333" />
+    </e>
+    <e n="GotoNextError">
+      <i c="5" l="1742392630637" />
+    </e>
+    <e n="ImportSettings">
+      <i c="1" l="1741975330638" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="6" l="1742410249837" />
+    </e>
+    <e n="QuickImplementations">
+      <i c="1" l="1742409511297" />
+    </e>
+    <e n="SaveAll">
+      <i c="50" l="1742410320033" />
+    </e>
+    <e n="SelectInProjectView">
+      <i c="2" l="1742390377331" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="3" l="1742409575593" />
+    </e>
+    <e n="SplitVertically">
+      <i c="1" l="1742390308887" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="5" l="1742042847424" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="3" l="1742042847187" />
+    </e>
+    <e n="VcsShowNextChangeMarker">
+      <i c="6" l="1742394951292" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="4" l="1742042658800" />
+    </e>
+    <e n="com.intellij.diff.actions.impl.OpenInEditorAction">
+      <i c="2" l="1742410341002" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="3" l="1742392690266" />
+    </e>
+    <e n="com.intellij.find.impl.FindPopupPanel$MyEnterAction">
+      <i c="3" l="1742409183939" />
+    </e>
+    <e n="com.intellij.javascript.nodejs.packageJson.notification.PackageJsonUpdateNotifier$PackageJsonDismissAction">
+      <i c="1" l="1742042829414" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1742042691752" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="16" l="1742410264909" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1742392439523" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="9" l="1742409157130" />
+    </e>
+    <e n="com.intellij.openapi.vcs.changes.EditorTabDiffPreview$DiffEditorPreviewEscapeAction">
+      <i c="2" l="1742409740234" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1742392525269" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="11" l="1742390446223" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="1" l="1742042842920" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveDownAction">
+      <i c="6" l="1742390397833" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveUpAction">
+      <i c="2" l="1742390398216" />
+    </e>
+    <e n="com.maddyhome.idea.vim.extension.nerdtree.NerdTree$NerdDispatcher">
+      <i c="8" l="1742042847424" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="2" l="1742409287098" />
+    </e>
+  </component>
+</application>

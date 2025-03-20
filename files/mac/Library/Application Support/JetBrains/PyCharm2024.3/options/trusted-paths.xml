@@ -1,0 +1,39 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/ml-asset-generation-service-pr-1277-graphql-main-function-a97400a7-3dde-4f9d-9349-5f9f16a5be37" value="true" />
+        <entry key="$USER_HOME$/Downloads/ml-asset-generation-service-pr-1277-graphql-main-function-a5d60cdf-b7c4-4173-868d-81111c48edd5" value="true" />
+        <entry key="$USER_HOME$/domains/leo-words" value="true" />
+        <entry key="$USER_HOME$/work/current/asset-generation-service" value="true" />
+        <entry key="$USER_HOME$/work/current/experimentation" value="true" />
+        <entry key="$USER_HOME$/work/current/feature-enablement-server" value="true" />
+        <entry key="$USER_HOME$/work/current/feature-extraction-app" value="true" />
+        <entry key="$USER_HOME$/work/current/next-web" value="true" />
+        <entry key="$USER_HOME$/work/current/opensearch-infra" value="true" />
+        <entry key="$USER_HOME$/work/current/payment-web" value="true" />
+        <entry key="$USER_HOME$/work/current/test-user" value="true" />
+        <entry key="$USER_HOME$/work/gen3d/asset-generation-service" value="true" />
+        <entry key="$USER_HOME$/work/gen3d/discord-squid-bot" value="true" />
+        <entry key="$USER_HOME$/work/gen3d/gen3d-boilerplate" value="true" />
+        <entry key="$USER_HOME$/work/gen3d/squid-generative-lambda" value="true" />
+        <entry key="$USER_HOME$/work/next-web" value="true" />
+        <entry key="$USER_HOME$/work/origin/studio-api" value="true" />
+        <entry key="$USER_HOME$/work/other/XPND-34-payment-web" value="true" />
+        <entry key="$USER_HOME$/work/other/experimentation" value="true" />
+        <entry key="$USER_HOME$/work/payment-web" value="true" />
+        <entry key="$USER_HOME$/work/pool-party" value="true" />
+        <entry key="$USER_HOME$/work/review/next-web" value="true" />
+        <entry key="$USER_HOME$/work/test-user" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/domains" />
+        <option value="$USER_HOME$/work" />
+      </list>
+    </option>
+  </component>
+</application>

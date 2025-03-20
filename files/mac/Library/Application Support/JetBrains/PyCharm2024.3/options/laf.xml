@@ -1,0 +1,15 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="ExperimentalLight" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="Atom One Dark" scheme="_@user_Atom One Dark" />
+      <laf-to-scheme laf="Atom One Light" scheme="_@user_Atom One Light" />
+      <laf-to-scheme laf="GitHub Dark Dimmed" scheme="_@user_GitHub Dark Dimmed" />
+      <laf-to-scheme laf="GitHub Dark Experimental" scheme="_@user_GitHub Dark Experimental" />
+      <laf-to-scheme laf="High contrast" scheme="_@user_High contrast" />
+      <laf-to-scheme laf="JetBrainsLightTheme" scheme="_@user_Light" />
+      <laf-to-scheme laf="One Dark Italic" scheme="_@user_One Dark Italic" />
+      <laf-to-scheme laf="One Dark Vivid Italic" scheme="_@user_One Dark Vivid Italic" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>

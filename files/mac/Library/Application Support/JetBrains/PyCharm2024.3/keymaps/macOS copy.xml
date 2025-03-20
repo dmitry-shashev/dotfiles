@@ -1,0 +1,126 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="AIAssistant.Editor.CompleteCodeWithAI">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
+  <action id="AIAssistant.ToolWindow.ShowOrFocus">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
+  </action>
+  <action id="AutoIndentLines" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="Console.TableResult.Reload" />
+  <action id="Debug" />
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="EditorIncreaseFontSizeGlobal" />
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="FileChooser.TogglePathBar" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="GitLab.Merge.Request.List.Refresh" />
+  <action id="GitLab.Merge.Request.Refresh" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="GotoClass" />
+  <action id="JumpToLastWindow" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="OptimizeImports" />
+  <action id="ParameterInfo" />
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction" />
+  <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Rerun" />
+  <action id="ResetIdeScaleAction" />
+  <action id="Run" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="clear" />
+  </action>
+  <action id="ServiceView.GroupByContributor" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="Svn.RefreshWorkingCopies" />
+  <action id="Terminal.CloseTab">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+  </action>
+  <action id="Terminal.NewTab">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="Tree-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageGrouping.UsageType" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.RefreshFileHistory" />
+</keymap>

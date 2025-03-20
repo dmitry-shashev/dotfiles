@@ -1,0 +1,14 @@
+<scheme name="_@user_Light" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2023-09-03T22:59:10</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2024-04-10T16:57:00</property>
+    <property name="originalScheme">Light</property>
+    <property name="partialSave">true</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+</scheme>
