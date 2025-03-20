@@ -78,24 +78,25 @@ cmd - 8 : osascript ~/os-scripts/f8.scpt
 cmd - 9 : osascript ~/os-scripts/f9.scpt
 cmd - 0 : osascript ~/os-scripts/f10.scpt
 
-shift + alt - 1 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 1
-shift + alt - 2 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 2
-shift + alt - 3 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 3
-shift + alt - 4 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 4
-shift + alt - 5 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 5
-shift + alt - 6 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 6
-shift + alt - 7 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 7
-shift + alt - 8 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 8
-shift + alt - 9 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 9
-shift + alt - 0 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/load-clipboard.ts 0
 
-ctrl + shift + alt - 1 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 1
-ctrl + shift + alt - 2 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 2
-ctrl + shift + alt - 3 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 3
-ctrl + shift + alt - 4 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 4
-ctrl + shift + alt - 5 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 5
-ctrl + shift + alt - 6 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 6
-ctrl + shift + alt - 7 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 7
-ctrl + shift + alt - 8 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 8
-ctrl + shift + alt - 9 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 9
-ctrl + shift + alt - 0 : PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' tsx ~/scripts/custom-clipboard/save-clipboard.ts 0
+shift + alt - 1 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 1
+shift + alt - 2 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 2
+shift + alt - 3 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 3
+shift + alt - 4 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 4
+shift + alt - 5 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 5
+shift + alt - 6 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 6
+shift + alt - 7 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 7
+shift + alt - 8 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 8
+shift + alt - 9 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 9
+shift + alt - 0 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 0
+
+ctrl + shift + alt - 1 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 1
+ctrl + shift + alt - 2 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 2
+ctrl + shift + alt - 3 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 3
+ctrl + shift + alt - 4 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 4
+ctrl + shift + alt - 5 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 5
+ctrl + shift + alt - 6 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 6
+ctrl + shift + alt - 7 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 7
+ctrl + shift + alt - 8 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 8
+ctrl + shift + alt - 9 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 9
+ctrl + shift + alt - 0 : tsx ~/scripts/custom-clipboard/save-clipboard.ts 0
