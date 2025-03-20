@@ -1,0 +1,9 @@
+com.jetbrains.space
+IdeaVIM
+com.bashorov.mainMenuToggler
+com.markskelton.one-dark-theme
+ru.adelf.idea.dotenv
+com.intellij.ml.llm
+com.intellij.lang.jsgraphql
+com.mallowigi
+zielu.gittoolbox

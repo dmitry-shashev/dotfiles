@@ -1,0 +1,35 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.3840.2160@192dpi" x="380" y="222" />
+    <size key="find.popup.0.0.3840.2160@192dpi" width="3192" height="1968" />
+    <size key="GridCell.Tab.0.left.0.0.3840.2160@192dpi" width="3840" height="1080" />
+    <size key="GridCell.Tab.0.center.0.0.3840.2160@192dpi" width="3840" height="1080" />
+    <size key="GridCell.Tab.0.right.0.0.3840.2160@192dpi" width="3840" height="1080" />
+    <size key="GridCell.Tab.0.bottom.0.0.3840.2160@192dpi" width="3840" height="1080" />
+    <size key="GridCell.Tab.1.left.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.1.center.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.1.right.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.1.bottom.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.2.left.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.2.center.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.2.right.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.2.bottom.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.3.left.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.3.center.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.3.right.0.0.3840.2160@192dpi" width="3840" height="964" />
+    <size key="GridCell.Tab.3.bottom.0.0.3840.2160@192dpi" width="3840" height="964" />
+  </component>
+  <component name="WindowManager">
+    <frame x="-2" y="-15" width="1924" height="1097" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state width="737" height="125" key="ShowUsagesActions.dimensionServiceKey" timestamp="1723114129031">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="737" height="125" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1080" timestamp="1723114129031" />
+    <state x="960" y="533" width="1924" height="1097" key="WELCOME_SCREEN" timestamp="1723803435774">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="960" y="533" width="1924" height="1097" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1723803435774" />
+  </component>
+</application>

@@ -1,0 +1,25 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/backups/nx-global-e5214e" value="true" />
+        <entry key="$USER_HOME$/backups/rain-cde6eb" value="true" />
+        <entry key="$USER_HOME$/domains/foundations/nx-global" value="true" />
+        <entry key="$USER_HOME$/domains/foundations/purejs" value="true" />
+        <entry key="$USER_HOME$/domains/leo-words" value="true" />
+        <entry key="$USER_HOME$/domains/rain" value="true" />
+        <entry key="$USER_HOME$/domains/temp" value="true" />
+        <entry key="$USER_HOME$/domains/temp/lambda-test/some-test-lambda" value="true" />
+        <entry key="$USER_HOME$/lib/patterns/gof-2024" value="true" />
+        <entry key="$USER_HOME$/sources/node" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/domains" />
+      </list>
+    </option>
+  </component>
+</application>

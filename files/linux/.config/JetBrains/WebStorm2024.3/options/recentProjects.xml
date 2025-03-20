@@ -1,0 +1,36 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo frameTitle="--import-settings - /home/picnic" hidden="true" projectWorkspaceId="2uZxwqSB1XLzhyJ31t6cL8y7T2t">
+              <option name="activationTimestamp" value="1742470850348" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="1068" y="0" width="518" height="987" extendedState="4" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/domains/leo-words">
+          <value>
+            <RecentProjectMetaInfo frameTitle="leo-words – package.json" opened="true" projectWorkspaceId="2p9tGIfehlxpT74sINaw8KkI73j">
+              <option name="activationTimestamp" value="1742473004273" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.26053.12" />
+              <option name="buildTimestamp" value="1741764660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="-2" y="-15" width="1604" height="1017" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1742470838424" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/domains/leo-words" />
+  </component>
+</application>

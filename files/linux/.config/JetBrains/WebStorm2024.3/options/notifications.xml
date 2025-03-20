@@ -1,0 +1,12 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="gittoolbox.actions.info" shouldLog="false" />
+    <notification groupId="gittoolbox.behind.tracker" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="gittoolbox.blame" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="gittoolbox.branch.cleanup" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="gittoolbox.external.link" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="gittoolbox.fetch.info" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="gittoolbox.general" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Vcs Notifications" shouldLog="false" />
+  </component>
+</application>

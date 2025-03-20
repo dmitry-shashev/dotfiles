@@ -1,0 +1,25 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1732190122721" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="6" l="1732190162429" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1742469368199" />
+    </e>
+    <e n="ImportSettings">
+      <i c="2" l="1742472975765" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1732190010356" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="5" l="1742472946810" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1732190136358" />
+    </e>
+  </component>
+</application>

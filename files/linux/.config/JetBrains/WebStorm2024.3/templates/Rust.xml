@@ -1,0 +1,34 @@
+<templateSet group="Rust">
+  <template name="ff" value="$IDENT$: $TYPE$," description="field" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="IDENT" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;u32&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_STRUCT" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="// @#$&#10;println!($END$);&#10;" description="println" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="f" value="fn $1$($2$) {&#10;    $3$&#10;}" description="fn" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="cb" value="|$START$| {&#10;    $END$&#10;}" description="callback" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="|$START$| $END$" description="cn" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>

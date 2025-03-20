@@ -1,0 +1,28 @@
+<scheme name="_@user_Material Theme: Ocean" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2022-05-18T16:52:49</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2021.3.0.0</property>
+    <property name="modified">2022-05-23T13:10:18</property>
+    <property name="originalScheme">Material Theme: Ocean</property>
+  </metaInfo>
+  <colors>
+    <option name="CARET_ROW_COLOR" value="f111a" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="f111a" />
+    <option name="GUTTER_BACKGROUND" value="f111a" />
+    <option name="TAB_UNDERLINE" value="2947cf" />
+  </colors>
+  <attributes>
+    <option name="TAB_SELECTED">
+      <value>
+        <option name="BACKGROUND" value="2947cf" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="8f93a2" />
+        <option name="BACKGROUND" value="f111a" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

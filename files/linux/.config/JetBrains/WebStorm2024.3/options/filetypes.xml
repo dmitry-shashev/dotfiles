@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="19">
+    <extensionMap>
+      <removed_mapping ext="ddl" approved="true" type="SQL" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="sql" approved="true" type="SQL" />
+      <mapping ext="odpsql" type="OdpsQL" />
+      <mapping ext="q" type="OdpsQL" />
+    </extensionMap>
+  </component>
+</application>
