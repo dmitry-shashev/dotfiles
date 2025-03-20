@@ -9,7 +9,6 @@ export const FILES_LIST_LINUX: ReadonlyArray<string> = [
 ]
 
 export const FILES_LIST_MAC: ReadonlyArray<string> = [
-  '.config/JetBrains',
   'Library/Application Support/JetBrains',
   '.warp',
   'os-scripts',
