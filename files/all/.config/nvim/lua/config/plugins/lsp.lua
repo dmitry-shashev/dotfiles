@@ -142,7 +142,7 @@ return {
     -- pip install pyright
     local util = require 'lspconfig.util'
     require'lspconfig'.pyright.setup {
-      cmd = { "venv/bin/pyright-langserver", "--stdio" },
+      cmd = { vim.fn.getcwd() .. "/venv/bin/pyright-langserver", "--stdio" },
       root_dir = function(fname)
           local root_files = {
               "pyproject.toml",
@@ -152,22 +152,22 @@ return {
               "Pipfile",
               "pyrightconfig.json"
           }
-          return util.find_git_ancestor(fname)
-              or util.root_pattern(unpack(root_files))(fname)
+          return util.root_pattern(unpack(root_files))(fname)
+              or util.find_git_ancestor(fname)
               or vim.fn.getcwd()
       end,
       settings = {
         python = {
           analysis = {
-            pythonPath = { "venv/bin/python3.9" },
+            pythonPath = vim.fn.getcwd() .. "/venv/bin/python3.9",
             typeCheckingMode = "basic", -- can be "strict"
             autoSearchPaths = true,
             diagnosticMode = "workspace",
             useLibraryCodeForTypes = true,
             extraPaths = { 
-              "./",
-              "./app/image_generation/src",
-              "./lib/common/src",
+              vim.fn.getcwd() .. "/app/image_generation/src",
+              vim.fn.getcwd() .. "/lib/common/src",
+              vim.fn.getcwd() .. "/app",
               vim.fn.getcwd()
             },
           }

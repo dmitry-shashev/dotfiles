@@ -36,7 +36,7 @@ vim.api.nvim_create_autocmd(
         group = "AutoFormatPrettier",
         callback = function()
             local buffer_path = vim.api.nvim_buf_get_name(0)
-            local command = 'silent !./venv/bin/black ' .. vim.fn.shellescape(buffer_path) .. ' --target-version=py39 --line-length=120 --required-version=24.10.0'
+            local command = 'silent !./venv/bin/black ' .. vim.fn.shellescape(buffer_path) .. ' --target-version=py39 --line-length=120'
             vim.cmd(command)
         end,
     }

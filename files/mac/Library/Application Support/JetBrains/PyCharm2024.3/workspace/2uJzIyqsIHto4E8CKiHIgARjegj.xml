@@ -5,10 +5,28 @@
         <option name="bookmarks">
           <BookmarkState>
             <attributes>
-              <entry key="url" value="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py" />
-              <entry key="line" value="270" />
+              <entry key="url" value="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/abstract_three_d_ingestion_service.py" />
+              <entry key="line" value="156" />
             </attributes>
-            <option name="description" value="preview_task_id = preview_result.async_response.request_id" />
+            <option name="description" value="self.status_service.insert_asset(generated_3d_asset)" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+            <option name="type" value="LETTER_D" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" />
+              <entry key="line" value="332" />
+            </attributes>
+            <option name="description" value="return executor.submit(" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+            <option name="type" value="LETTER_S" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py" />
+              <entry key="line" value="202" />
+            </attributes>
+            <option name="description" value="ingested_outputs = self._ingest_processed_output(" />
             <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
             <option name="type" value="LETTER_A" />
           </BookmarkState>
@@ -1196,6 +1214,7 @@
           <option name="statisticInformation">
             <ChatStatisticInformation>
               <option name="sourceActionType" value="CUSTOM_CHAT" />
+              <option name="timestamp" value="1742487391324" />
             </ChatStatisticInformation>
           </option>
           <option name="title">
@@ -1223,64 +1242,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf ideFingerprint="1o3npnojph10l" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file current-in-tab="true">
+      <file>
         <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="281">
-              <caret line="241" column="63" lean-forward="true" selection-start-line="241" selection-start-column="63" selection-end-line="241" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
         <tab><![CDATA[{"tabTitle":"meshy_client.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/lib/common/src/ags/model/image_service.py">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="338">
-              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"image_service.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"abstract_3d_generation_service.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/abstract_three_d_ingestion_service.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="533">
+              <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"abstract_three_d_ingestion_service.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Markdown": {
-      "usageCount": 7,
-      "lastUsed": 1742330843195
+      "usageCount": 8,
+      "lastUsed": 1742559868817
     },
     "PLAIN_TEXT": {
-      "usageCount": 4,
-      "lastUsed": 1742323894275
+      "usageCount": 6,
+      "lastUsed": 1742557086916
     },
     "YAML": {
-      "usageCount": 13,
-      "lastUsed": 1742384031642
+      "usageCount": 14,
+      "lastUsed": 1742561131047
     },
     "Python": {
-      "usageCount": 254,
-      "lastUsed": 1742487256037
+      "usageCount": 274,
+      "lastUsed": 1742568920546
     },
     "Requirements.txt": {
-      "usageCount": 3,
-      "lastUsed": 1742303198957
+      "usageCount": 6,
+      "lastUsed": 1742558569404
     },
     "textmate": {
-      "usageCount": 1,
-      "lastUsed": 1742022875041
+      "usageCount": 2,
+      "lastUsed": 1742559300560
     },
     "DIFF": {
-      "usageCount": 15,
-      "lastUsed": 1742490347603
+      "usageCount": 17,
+      "lastUsed": 1742564097798
     },
     "GraphQL": {
       "usageCount": 1,
       "lastUsed": 1742323933152
+    },
+    "JSON": {
+      "usageCount": 2,
+      "lastUsed": 1742560406898
     }
   }
 }]]></component>
@@ -1323,7 +1356,6 @@
       <find>BaseThreeDGenerationRequest</find>
       <find>.do_generation</find>
       <find>Abstract3dGenerationService</find>
-      <find>ImageTo3dGenerationService</find>
       <find>TextTo3dGenerationService.</find>
       <find>.parse_event</find>
       <find>test_post_workflow_image_to_3d_with_model</find>
@@ -1354,6 +1386,21 @@
       <find>&quot;Preview failed with status</find>
       <find>three_d_post_processing_service.py</find>
       <find>from .</find>
+      <find>pydantic</find>
+      <find>local-lambda</find>
+      <find>make local</find>
+      <find>pending_request_handler</find>
+      <find>@#$</find>
+      <find>ImageTo3dGenerationService</find>
+      <find>PostProcessOutputType</find>
+      <find>generation_status</find>
+      <find>AssetGenerationStatusDataLoader</find>
+      <find>&quot;archive.zip&quot;</find>
+      <find>Abstract3DGenerationClient</find>
+      <find>ImageTo3DMeshyModelParameters</find>
+      <find>ImageTo3DMeshyWorkflow</find>
+      <find>TextTo3DMeshyWorkflow</find>
+      <find>TextTo3DPicassoWorkflow</find>
     </findStrings>
     <replaceStrings>
       <replace>._PicassoClient__upload_image.</replace>
@@ -1363,22 +1410,26 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/app/image_generation/src/error</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/workflows/base</dir>
-      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows</dir>
-      <dir>$PROJECT_DIR$/app/image_generation/src</dir>
       <dir>$PROJECT_DIR$/.github/workflows</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/client/image_generation</dir>
-      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/common</dir>
       <dir>$PROJECT_DIR$/app/image_generation/tests/unit/service/three_d_generation</dir>
       <dir>$PROJECT_DIR$/app/image_generation/tests/unit/service/image_generation</dir>
-      <dir>$PROJECT_DIR$/lib/common/src/ags/model</dir>
-      <dir>$PROJECT_DIR$/app/image_generation/src/service/three_d_generation</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/event_processor</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso</dir>
       <dir>$PROJECT_DIR$/app/image_generation/tests/unit/clients/three_d_generation/picasso</dir>
       <dir>$PROJECT_DIR$/app/image_generation/tests/unit/clients/three_d_generation/meshy</dir>
-      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy</dir>
       <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/sam</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy</dir>
+      <dir>$PROJECT_DIR$/lib/common/src/ags/model</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/resolver</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/service/three_d_generation</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/common</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/model_parameters</dir>
+      <dir>$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows</dir>
     </dirStrings>
   </component>
   <component name="FindInProjectScope">
@@ -1393,28 +1444,31 @@
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/text_to_panorama_model_parameters.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/text_to_3d_model_parameters.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/panorama_to_hdr_model_parameters.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/model_parameters/image_to_3d_meshy_model_parameters.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/model_parameters/text_to_preview_meshy_model_parameters.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/text_to_3d_meshy_workflow.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/text_to_preview_meshy_workflow.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/base/abstract_meshy_workflow.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/image_generation/generation_client.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/workflows/picasso_workflow_factory.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/common/abstract_3d_generation_client.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/service/image_generation/test_image_generation_service.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/model_parameters/text_to_3d_meshy_model_parameters.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/image_to_3d_meshy_workflow.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/meshy_workflow_factory.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_post_processing_service.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_factory.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_workflow_factory.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/conftest.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/temp.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/tests/unit/clients/three_d_generation/meshy/test_meshy_client.py",
     "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py",
-    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py"
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py",
+    "/Users/dshashev/work/current/asset-generation-service/event.json",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_post_processing_service.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/common/abstract_3d_generation_client.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/model_parameters/image_to_3d_meshy_model_parameters.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/image_to_3d_meshy_workflow.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy/workflows/text_to_3d_meshy_workflow.py",
+    "/Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/workflows/text_to_3d_picasso_workflow.py"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -1429,23 +1483,26 @@
     <language id="GraphQL">
       <summary usageCount="1" lastUsage="1742323933152" />
     </language>
+    <language id="JSON">
+      <summary usageCount="2" lastUsage="1742560406898" />
+    </language>
     <language id="Markdown">
-      <summary usageCount="7" lastUsage="1742330843195" />
+      <summary usageCount="8" lastUsage="1742559868818" />
     </language>
     <language id="Python">
-      <summary usageCount="254" lastUsage="1742487256037" />
+      <summary usageCount="274" lastUsage="1742568920546" />
     </language>
     <language id="Requirements">
-      <summary usageCount="3" lastUsage="1742303198957" />
+      <summary usageCount="6" lastUsage="1742558569404" />
     </language>
     <language id="TEXT">
-      <summary usageCount="4" lastUsage="1742323894275" />
+      <summary usageCount="6" lastUsage="1742557086916" />
     </language>
     <language id="textmate">
-      <summary usageCount="1" lastUsage="1742022875041" />
+      <summary usageCount="2" lastUsage="1742559300560" />
     </language>
     <language id="yaml">
-      <summary usageCount="13" lastUsage="1742384031642" />
+      <summary usageCount="14" lastUsage="1742561131047" />
     </language>
   </component>
   <component name="ProjectView">
@@ -1462,62 +1519,6 @@
               <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asset-generation-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/cf}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1594,528 +1595,6 @@
                   </attributes>
                   <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="image_generation" />
                   <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/development" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="development" />
-                    <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/development}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/sam" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="sam" />
-                    <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/sam}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/scripts" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="scripts" />
-                    <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/scripts}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
-                    <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src}" type="462c0819:PsiDirectoryNode" />
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="client" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client}" type="462c0819:PsiDirectoryNode" />
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/db" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="db" />
-                        <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/db}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/image_generation" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="image_generation" />
-                        <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/image_generation}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/kafka" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="kafka" />
-                        <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/kafka}" type="462c0819:PsiDirectoryNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="three_d_generation" />
-                        <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation}" type="462c0819:PsiDirectoryNode" />
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/common" />
-                            </map>
-                          </attributes>
-                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="common" />
-                          <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/common}" type="462c0819:PsiDirectoryNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy" />
-                            </map>
-                          </attributes>
-                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="meshy" />
-                          <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/meshy}" type="462c0819:PsiDirectoryNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso" />
-                            </map>
-                          </attributes>
-                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="picasso" />
-                          <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso}" type="462c0819:PsiDirectoryNode" />
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/doc" />
-                              </map>
-                            </attributes>
-                            <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="doc" />
-                            <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/doc}" type="462c0819:PsiDirectoryNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters" />
-                              </map>
-                            </attributes>
-                            <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="model_parameters" />
-                            <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/model_parameters}" type="462c0819:PsiDirectoryNode" />
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_3d_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="image_to_3d_picasso_model_parameters.py" />
-                              <item name="image_to_3d_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_preview_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="image_to_preview_picasso_model_parameters.py" />
-                              <item name="image_to_preview_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/panorama_to_hdr_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="panorama_to_hdr_picasso_model_parameters.py" />
-                              <item name="panorama_to_hdr_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/text_to_3d_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="text_to_3d_picasso_model_parameters.py" />
-                              <item name="text_to_3d_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/text_to_panorama_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="text_to_panorama_picasso_model_parameters.py" />
-                              <item name="text_to_panorama_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/text_to_preview_picasso_model_parameters.py" />
-                                </map>
-                              </attributes>
-                              <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="text_to_preview_picasso_model_parameters.py" />
-                              <item name="text_to_preview_picasso_model_parameters.py" type="ab9368bb:PsiFileNode" />
-                            </presentation>
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/types" />
-                              </map>
-                            </attributes>
-                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="types" />
-                            <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/types}" type="462c0819:PsiDirectoryNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/workflows" />
-                              </map>
-                            </attributes>
-                            <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="workflows" />
-                            <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/client/three_d_generation/picasso/workflows}" type="462c0819:PsiDirectoryNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/__init__.py" />
-                              </map>
-                            </attributes>
-                            <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
-                            <item name="__init__.py" type="ab9368bb:PsiFileNode" />
-                          </presentation>
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py" />
-                              </map>
-                            </attributes>
-                            <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="picasso_client.py" />
-                            <item name="picasso_client.py" type="ab9368bb:PsiFileNode" />
-                          </presentation>
-                        </presentation>
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/__init__.py" />
-                            </map>
-                          </attributes>
-                          <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
-                          <item name="__init__.py" type="ab9368bb:PsiFileNode" />
-                        </presentation>
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/__init__.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
-                        <item name="__init__.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/commerce_api_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="commerce_api_client.py" />
-                        <item name="commerce_api_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/content_generation_client_factory.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="content_generation_client_factory.py" />
-                        <item name="content_generation_client_factory.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/experimentation_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="experimentation_client.py" />
-                        <item name="experimentation_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/feature_enablement_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="feature_enablement_client.py" />
-                        <item name="feature_enablement_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/language_id_service_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="language_id_service_client.py" />
-                        <item name="language_id_service_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/machine_translation_service_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="machine_translation_service_client.py" />
-                        <item name="machine_translation_service_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/premier_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="premier_client.py" />
-                        <item name="premier_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/subscriptions_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="subscriptions_client.py" />
-                        <item name="subscriptions_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/client/terms_client.py" />
-                          </map>
-                        </attributes>
-                        <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="terms_client.py" />
-                        <item name="terms_client.py" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/error" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="error" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/error}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/event_processor" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="event_processor" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/event_processor}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/model" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="model" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/model}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/model_config" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="model_config" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/model_config}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/prompt" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="prompt" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/prompt}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/resolver" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="resolver" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/resolver}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/scalar" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="scalar" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/scalar}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/schema" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="schema" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/schema}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/service" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="service" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/service}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/system_prompts" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="system_prompts" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/system_prompts}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/translations" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="translations" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/translations}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/util" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="util" />
-                      <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/src/util}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/.coverage" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/expui/dbms.svg" iconPlugin="com.intellij.database" isLeaf="true" text=".coverage" />
-                      <item name=".coverage" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/__init__.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
-                      <item name="__init__.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/dev.env" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="dev.env" />
-                      <item name="dev.env" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/graphql_main.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="graphql_main.py" />
-                      <item name="graphql_main.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/pending_request_handler.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="pending_request_handler.py" />
-                      <item name="pending_request_handler.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/qa.env" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="qa.env" />
-                      <item name="qa.env" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/queue_depth_main.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="queue_depth_main.py" />
-                      <item name="queue_depth_main.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/request_cleanup.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="request_cleanup.py" />
-                      <item name="request_cleanup.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/requirements.txt" />
-                        </map>
-                      </attributes>
-                      <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="requirements.txt" />
-                      <item name="requirements.txt" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/src/sqs_main.py" />
-                        </map>
-                      </attributes>
-                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="sqs_main.py" />
-                      <item name="sqs_main.py" type="ab9368bb:PsiFileNode" />
-                    </presentation>
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/app/image_generation/tests" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/testRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
-                    <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/app/image_generation/tests}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -2180,15 +1659,6 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="cf" />
                 <item name="dir{file:///Users/dshashev/work/current/asset-generation-service/cf}" type="462c0819:PsiDirectoryNode" />
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/cf/buildpolicy.yaml" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/fileTypes/yaml.svg" iconPlugin="com.intellij" isLeaf="true" text="buildpolicy.yaml" />
-                  <item name="buildpolicy.yaml" type="ab9368bb:PsiFileNode" />
-                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -2268,7 +1738,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/.coverage" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text=".coverage" />
+                <data iconPath="icons/expui/dbms.svg" iconPlugin="com.intellij.database" isLeaf="true" text=".coverage" />
                 <item name=".coverage" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2277,7 +1747,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/.flake8" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text=".flake8" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".flake8" />
                 <item name=".flake8" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2340,7 +1810,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gpa.env" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gpa.env" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gpa.env" />
                 <item name="gpa.env" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2349,7 +1819,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/Makefile" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile" />
                 <item name="Makefile" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2483,12 +1953,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93015000" />
+    <option name="totallyTimeSpent" value="107951000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3059896" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.3059896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2408854" />
+      <window_info id="Commit" order="1" weight="0.2408854" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.54768515" />
       <window_info anchor="bottom" id="Problems" order="1" />
@@ -2498,7 +1968,7 @@
       <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
       <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.41527778" />
-      <window_info anchor="bottom" id="Find" order="8" visible="true" weight="0.41527778" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.41527778" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Debug" order="10" show_stripe_button="false" weight="0.41527778" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -2508,14 +1978,14 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Plots" order="5" weight="0.1" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.20130208" />
-      <unified_weights bottom="0.41527778" left="0.3059896" right="0.2502604" />
+      <unified_weights bottom="0.41527778" left="0.2408854" right="0.2502604" />
     </layoutV2>
     <recentWindows>
+      <value>Project</value>
       <value>Terminal</value>
       <value>Commit</value>
-      <value>AIAssistant</value>
-      <value>Project</value>
       <value>Find</value>
+      <value>AIAssistant</value>
       <value>Version Control</value>
       <value>Run</value>
       <value>Database</value>
@@ -2608,21 +2078,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="495" y="254" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1742236412724" />
-    <state x="244" y="54" width="1265" height="901" key="find.popup" timestamp="1742489586057">
+    <state x="244" y="54" width="1265" height="901" key="find.popup" timestamp="1742564082977">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="244" y="54" width="1265" height="901" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742489586057" />
-    <state x="192" y="80" width="997" height="793" key="find.popup/0.32.1512.950@0.32.1512.950" timestamp="1742384498743" />
-    <state width="762" height="400" key="javadoc.popup" timestamp="1742486049056">
+    <state x="244" y="54" width="1265" height="901" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742564082977" />
+    <state x="192" y="80" width="997" height="793" key="find.popup/0.32.1512.950@0.32.1512.950" timestamp="1742561270794" />
+    <state width="762" height="400" key="javadoc.popup" timestamp="1742562753316">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="762" height="400" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742486049056" />
+    <state width="762" height="400" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742562753316" />
     <state width="787" height="352" key="javadoc.popup/0.32.1512.950@0.32.1512.950" timestamp="1742383930174" />
-    <state x="625" y="234" width="786" height="683" key="search.everywhere.popup" timestamp="1742487285999">
+    <state x="625" y="234" width="786" height="683" key="search.everywhere.popup" timestamp="1742562691769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="234" width="786" height="683" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742487285999" />
-    <state x="492" y="238" width="699" height="601" key="search.everywhere.popup/0.32.1512.950@0.32.1512.950" timestamp="1742384031600" />
+    <state x="625" y="234" width="786" height="683" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742562691769" />
+    <state x="492" y="238" width="699" height="601" key="search.everywhere.popup/0.32.1512.950@0.32.1512.950" timestamp="1742561130995" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -2689,128 +2159,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/panorama_to_hdr_picasso_model_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/model_parameters/image_to_preview_picasso_model_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/tests/unit/event_processor/test_pending_request_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/cicd-image-retrieval.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/tests/unit/clients/image_generation/test_dall_e_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/image_generation/dall_e_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/image_generation/http_generation_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/image_generation/image_generation_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/image_generation/generation_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common/src/ags/model/usage_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/tests/unit/service/three_d_generation/test_three_d_generation_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="311" lean-forward="true" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/common/abstract_3d_generation_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/model_parameters/text_to_3d_meshy_model_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows/image_to_3d_meshy_workflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.9/site-packages/mypyc/test-data/run-loops.test">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/doc/run_locally.md" />
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/model_config/generative_model_selection.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/image_generation/src/schema/schema.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -2822,16 +2170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="314" column="32" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/image_to_3d_generation_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2887,7 +2225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/development.md" />
     <entry file="file://$PROJECT_DIR$/app/image_generation/tests/unit/service/image_generation/test_image_generation_service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -2963,16 +2300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows/meshy_workflow_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/image_generation/tests/unit/clients/three_d_generation/picasso/test_picasso_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -3013,13 +2340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_post_processing_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/picasso_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3612">
@@ -3027,23 +2347,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9996">
-          <caret line="476" column="30" selection-start-line="476" selection-start-column="30" selection-end-line="476" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common/src/ags/model/image_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -3057,13 +2360,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="241" column="63" lean-forward="true" selection-start-line="241" selection-start-column="63" selection-end-line="241" selection-end-column="63" />
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/development.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_EDITOR" is_vertical_split="false">
+          <first_editor relative-caret-position="350">
+            <caret line="449" column="2" selection-start-line="449" selection-start-column="2" selection-end-line="449" selection-end-column="2" />
+            <folding>
+              <element signature="e#1450#1549#0#Markdown" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/development/env-vars.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="291" column="13" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/sam/template.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="526" column="47" selection-start-line="526" selection-start-column="47" selection-end-line="526" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="294" column="28" selection-start-line="294" selection-start-column="28" selection-end-line="294" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constraints.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_model_ingestion_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/image_to_3d_generation_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/ags/model/image_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/resolver/generation_status_resolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="38" column="81" lean-forward="true" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/internal_client_api/src/graphql_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/ags/dataloader/asset_generation_status_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/three_d_post_processing_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/picasso/workflows/text_to_3d_picasso_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows/text_to_3d_meshy_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows/image_to_3d_meshy_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/model_parameters/image_to_3d_meshy_model_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/workflows/meshy_workflow_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/common/abstract_3d_generation_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/client/three_d_generation/meshy/meshy_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/ingestion/three_d_ingestion/abstract_three_d_ingestion_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/image_generation/src/service/three_d_generation/abstract_3d_generation_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
