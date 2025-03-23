@@ -1,0 +1,259 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">d3E=</entry>
+      </history-cmd>
+      <history-search>
+        <entry encoding="base64">XDxWQUxVRV9NQVJLRVJcPg==</entry>
+        <entry encoding="base64">XDxidWlsZFZhbHVlXD4=</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="node-cf83b629">
+      <jump line="12" column="4" filename="$USER_HOME$/sources/node/.nycrc" protocol="file" />
+      <jump line="17" column="24" filename="$USER_HOME$/sources/node/.nycrc" protocol="file" />
+    </project>
+    <project id="leo-words-4bdda022">
+      <jump line="5" column="22" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="16" column="35" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="1" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="4" column="26" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="5" column="5" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="6" column="8" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="7" column="5" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="8" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="9" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="14" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="15" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="16" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="17" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="21" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="22" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="23" column="5" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="24" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="27" column="7" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="30" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="41" column="5" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="43" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="47" column="5" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="53" column="4" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="60" column="4" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="63" column="4" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="64" column="6" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="117" column="4" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="178" column="4" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="154" column="34" filename="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/leo-words/README.md" protocol="file" />
+      <jump line="19" column="22" filename="$USER_HOME$/domains/leo-words/README.md" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/domains/leo-words/README.md" protocol="file" />
+      <jump line="0" column="32" filename="$USER_HOME$/domains/leo-words/.env" protocol="file" />
+      <jump line="13" column="26" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+    </project>
+    <project id="struct-enum-d42c15e0">
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/.npmrc" protocol="file" />
+      <jump line="5" column="16" filename="$USER_HOME$/domains/my-modules/struct-enum/.npmrc" protocol="file" />
+      <jump line="17" column="25" filename="$USER_HOME$/domains/my-modules/struct-enum/.github/workflows/main.yml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" protocol="file" />
+      <jump line="13" column="24" filename="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/pnpm-lock.yaml" protocol="file" />
+      <jump line="60" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="17" column="23" filename="$USER_HOME$/domains/my-modules/struct-enum/pnpm-lock.yaml" protocol="file" />
+      <jump line="22" column="28" filename="$USER_HOME$/domains/my-modules/struct-enum/pnpm-lock.yaml" protocol="file" />
+      <jump line="19" column="12" filename="$USER_HOME$/domains/my-modules/struct-enum/.github/workflows/publish.yml" protocol="file" />
+      <jump line="26" column="14" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="25" column="3" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="20" column="9" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="38" column="11" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="43" column="45" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="22" column="13" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="32" column="25" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/dist/cjs/index.js" protocol="file" />
+      <jump line="30" column="17" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="31" column="23" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="36" column="10" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="37" column="14" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="28" column="26" filename="$USER_HOME$/domains/my-modules/struct-enum/package.json" protocol="file" />
+      <jump line="11" column="33" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="8" column="8" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="6" column="3" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="80" column="35" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="0" column="11" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="18" column="26" filename="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" protocol="file" />
+      <jump line="11" column="3" filename="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" protocol="file" />
+      <jump line="20" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="9" column="28" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="37" column="19" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="35" column="14" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="29" column="2" filename="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" protocol="file" />
+      <jump line="7" column="32" filename="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="14" column="35" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="7" column="34" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="112" column="55" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="12" column="6" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="88" column="7" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+      <jump line="86" column="12" filename="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" protocol="file" />
+    </project>
+    <project id="value-obj-6e43ae42">
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/.prettierignore" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/.prettierignore" protocol="file" />
+      <jump line="5" column="16" filename="$USER_HOME$/domains/my-modules/value-obj/.npmrc" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/pnpm-lock.yaml" protocol="file" />
+      <jump line="23" column="16" filename="$USER_HOME$/domains/my-modules/value-obj/package.json" protocol="file" />
+      <jump line="17" column="25" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/main.yml" protocol="file" />
+      <jump line="10" column="23" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/main.yml" protocol="file" />
+      <jump line="8" column="32" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/main.yml" protocol="file" />
+      <jump line="6" column="25" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/main.yml" protocol="file" />
+      <jump line="19" column="12" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" protocol="file" />
+      <jump line="15" column="33" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" protocol="file" />
+      <jump line="10" column="9" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" protocol="file" />
+      <jump line="14" column="32" filename="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/src/core/IValue.ts" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/src/core/value-utils.ts" protocol="file" />
+      <jump line="10" column="24" filename="$USER_HOME$/domains/my-modules/value-obj/src/core/IValue.ts" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/src/core/value-obj.ts" protocol="file" />
+      <jump line="25" column="3" filename="$USER_HOME$/domains/my-modules/value-obj/package.json" protocol="file" />
+      <jump line="12" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/package.json" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/dist/cjs/index.js" timestamp="1742542047307">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1742554691840">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/pnpm-lock.yaml" timestamp="1742554769223">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/test/main.test.ts" timestamp="1742554691767">
+        <mark key="&quot;" line="29" column="2" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/main.yml" timestamp="1742554736987">
+        <mark key="&quot;" line="17" column="29" />
+        <mark key="[" line="17" column="25" />
+        <mark key="]" line="17" column="25" />
+        <mark key="." line="17" column="26" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/.github/workflows/main.yml" timestamp="1742554691755">
+        <mark key="&quot;" line="17" column="25" />
+        <mark key="[" line="17" column="25" />
+        <mark key="]" line="17" column="25" />
+        <mark key="." line="17" column="26" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/.npmrc" timestamp="1742554731375">
+        <mark key="&quot;" line="4" column="24" />
+        <mark key="[" line="5" column="16" />
+        <mark key="]" line="5" column="16" />
+        <mark key="." line="5" column="17" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/src/constants/struct-enum.ts" timestamp="1742554691761">
+        <mark key="&quot;" line="91" column="54" />
+        <mark key="'" line="86" column="12" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/.npmrc" timestamp="1742554691751">
+        <mark key="&quot;" line="5" column="16" />
+        <mark key="[" line="5" column="16" />
+        <mark key="]" line="5" column="16" />
+        <mark key="." line="5" column="17" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/README.md" timestamp="1742554691742">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/pnpm-lock.yaml" timestamp="1742542012784">
+        <mark key="&quot;" line="190" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" timestamp="1742477124174">
+        <mark key="&quot;" line="181" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/leo-words/package.json" timestamp="1742541623239">
+        <mark key="&quot;" line="30" column="26" />
+        <mark key="[" line="30" column="27" />
+        <mark key="]" line="30" column="26" />
+        <mark key="." line="30" column="27" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" timestamp="1742554739344">
+        <mark key="&quot;" line="20" column="29" />
+        <mark key="[" line="20" column="25" />
+        <mark key="]" line="20" column="25" />
+        <mark key="." line="20" column="26" />
+      </file>
+      <file name="$USER_HOME$/domains/leo-words/scripts/extra/idioms-dictionary.json" timestamp="1742477123099">
+        <mark key="&quot;" line="1" column="10" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/.github/workflows/publish.yml" timestamp="1742554691771">
+        <mark key="&quot;" line="19" column="12" />
+        <mark key="[" line="20" column="25" />
+        <mark key="]" line="20" column="25" />
+        <mark key="." line="20" column="26" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/package.json" timestamp="1742554941185">
+        <mark key="&quot;" line="1" column="8" />
+        <mark key="'" line="25" column="3" />
+        <mark key="[" line="23" column="16" />
+        <mark key="]" line="23" column="16" />
+        <mark key="." line="23" column="17" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/package.json" timestamp="1742554691758">
+        <mark key="&quot;" line="28" column="26" />
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="23" column="16" />
+        <mark key="]" line="23" column="16" />
+        <mark key="." line="23" column="17" />
+      </file>
+      <file name="$USER_HOME$/domains/leo-words/.env" timestamp="1742477839556">
+        <mark key="&quot;" line="1" column="22" />
+        <mark key="[" line="1" column="17" />
+        <mark key="]" line="1" column="22" />
+        <mark key="." line="1" column="17" />
+        <mark key="^" line="1" column="17" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" timestamp="1742554691824">
+        <mark key="&quot;" line="8" column="25" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
+      </register>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">d3E=</text>
+      </register>
+      <register name="+" type="LINE_WISE">
+        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">XDxidWlsZFZhbHVlXD4=</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDxidWlsZFZhbHVlXD4=</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">XDxidWlsZFZhbHVlXD4=</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

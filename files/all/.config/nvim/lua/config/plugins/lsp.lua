@@ -138,41 +138,8 @@ return {
       }
     }
 
-    -- Configure Pyright (Pylance LSP)
-    -- pip install pyright
-    local util = require 'lspconfig.util'
-    require'lspconfig'.pyright.setup {
-      cmd = { vim.fn.getcwd() .. "/venv/bin/pyright-langserver", "--stdio" },
-      root_dir = function(fname)
-          local root_files = {
-              "pyproject.toml",
-              "setup.py",
-              "setup.cfg",
-              "requirements.txt",
-              "Pipfile",
-              "pyrightconfig.json"
-          }
-          return util.root_pattern(unpack(root_files))(fname)
-              or util.find_git_ancestor(fname)
-              or vim.fn.getcwd()
-      end,
-      settings = {
-        python = {
-          analysis = {
-            pythonPath = vim.fn.getcwd() .. "/venv/bin/python3.9",
-            typeCheckingMode = "basic", -- can be "strict"
-            autoSearchPaths = true,
-            diagnosticMode = "workspace",
-            useLibraryCodeForTypes = true,
-            extraPaths = { 
-              vim.fn.getcwd() .. "/app/image_generation/src",
-              vim.fn.getcwd() .. "/lib/common/src",
-              vim.fn.getcwd() .. "/app",
-              vim.fn.getcwd()
-            },
-          }
-        }
-      },
-    }
+    -- pip install ruff
+    require('lspconfig').ruff.setup{}
+
   end
 }
