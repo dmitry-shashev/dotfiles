@@ -1,25 +1,106 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="ActivateProjectToolWindow">
-      <i c="1" l="1732190122721" />
+      <i c="3" l="1742749947853" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="6" l="1732190162429" />
+      <i c="16" l="1742749937464" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="5" l="1742749874286" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1742749746808" />
+    </e>
+    <e n="CloseAllEditorsButActive">
+      <i c="1" l="1742749494816" />
+    </e>
+    <e n="CloseProject">
+      <i c="2" l="1742749819855" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="2" l="1742749945311" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="9" l="1742749829356" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1742749674030" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="2" l="1742749841133" />
+    </e>
+    <e n="EditorEnter">
+      <i c="15" l="1742749772278" />
     </e>
     <e n="EditorEscape">
-      <i c="1" l="1742469368199" />
+      <i c="182" l="1742749948865" />
+    </e>
+    <e n="ExpandLiveTemplateByTab">
+      <i c="1" l="1742749574341" />
+    </e>
+    <e n="FindUsages">
+      <i c="1" l="1742749561063" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1742749621419" />
+    </e>
+    <e n="GotoFile">
+      <i c="4" l="1742749686108" />
+    </e>
+    <e n="GotoNextError">
+      <i c="2" l="1742749845098" />
     </e>
     <e n="ImportSettings">
       <i c="2" l="1742472975765" />
     </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="2" l="1742749774879" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="1" l="1742749555349" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1742749549122" />
+    </e>
+    <e n="SaveAll">
+      <i c="26" l="1742749948870" />
+    </e>
+    <e n="ShowPopupMenu">
+      <i c="3" l="1742749801448" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1742749803848" />
+    </e>
+    <e n="SplitVertically">
+      <i c="1" l="1742749733088" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="9" l="1742749663086" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="2" l="1742749662324" />
+    </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
-      <i c="1" l="1732190010356" />
+      <i c="2" l="1742749510798" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="10" l="1742749829356" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="4" l="1742749687973" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="5" l="1742472946810" />
+      <i c="6" l="1742749506548" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
       <i c="1" l="1732190136358" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1742749687799" />
+    </e>
+    <e n="com.maddyhome.idea.vim.extension.nerdtree.NerdTree$NerdDispatcher">
+      <i c="8" l="1742749663085" />
     </e>
   </component>
 </application>

@@ -11,8 +11,8 @@
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="160">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="100">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -27,12 +27,12 @@
       "lastUsed": 1732190105954
     },
     "WebPreview": {
-      "usageCount": 3,
-      "lastUsed": 1742731931600
+      "usageCount": 4,
+      "lastUsed": 1742749472998
     },
     "JSON": {
-      "usageCount": 6,
-      "lastUsed": 1742731929305
+      "usageCount": 7,
+      "lastUsed": 1742749471625
     }
   }
 }]]></component>
@@ -46,7 +46,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JSON">
-      <summary usageCount="6" lastUsage="1742731929307" />
+      <summary usageCount="7" lastUsage="1742749471627" />
     </language>
     <language id="Markdown">
       <summary usageCount="2" lastUsage="1732190105956" />
@@ -428,7 +428,7 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1515000" />
+    <option name="totallyTimeSpent" value="1550000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -467,8 +467,8 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="100">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>

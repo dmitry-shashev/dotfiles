@@ -7,12 +7,15 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "GeneralSettings.initiallyConfigured": "true",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "0",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.llm.installer.activate.toolwindow": "true",
     "RunOnceActivity.llm.show.ai.promotion.window.on.start": "true",
     "RunOnceActivity.webstorm.auto-popup.quick-doc.initialized": "true",
+    "RunOnceActivity.zielu.gittoolbox.worktree.promo.1": "true",
+    "SettingsSearchHistory": "hint\neslint\nprettier",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "enter_selection_count": "2",
     "evlsprt3.243": "5",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "243.26053.12",
@@ -20,10 +23,12 @@
     "fontSizeToResetConsole": "16.25",
     "fontSizeToResetEditor": "16.25",
     "got.it.tooltip.new.terminal.promotion.243": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
     "ide.updates.previous.build.number": "WS-243.26053.12",
+    "ideavim.statistics.timestamp": "1742749546018",
     "input.method.disabler.muted": "true",
-    "last_opened_file_path": "/home/picnic/lib/ide/webstorm-linux/webstorm-settings.zip",
-    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "last_opened_file_path": "/home/picnic/domains/dotfiles",
+    "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@user_Light",
     "registry.to.advanced.settings.migration.build": "WS-243.26053.12",
@@ -31,6 +36,7 @@
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/picnic/domains/dotfiles",
       "/home/picnic/lib/ide/webstorm-linux/webstorm-settings.zip",
       "/home/picnic/domains/leo-words"
     ],

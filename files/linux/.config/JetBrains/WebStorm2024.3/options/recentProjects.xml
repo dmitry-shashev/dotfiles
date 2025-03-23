@@ -15,7 +15,7 @@
         </entry>
         <entry key="$USER_HOME$/domains/leo-words">
           <value>
-            <RecentProjectMetaInfo frameTitle="leo-words – package.json" opened="true" projectWorkspaceId="2p9tGIfehlxpT74sINaw8KkI73j">
+            <RecentProjectMetaInfo frameTitle="leo-words – package.json" projectWorkspaceId="2p9tGIfehlxpT74sINaw8KkI73j">
               <option name="activationTimestamp" value="1742473004273" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-243.26053.12" />
@@ -29,8 +29,24 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/domains/dotfiles">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dotfiles – file.helper.ts" opened="true" projectWorkspaceId="2uj6EhAco9wKblYepahYS5GZE7Z">
+              <option name="activationTimestamp" value="1742749891996" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.26053.12" />
+              <option name="buildTimestamp" value="1741764660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="804" y="0" width="783" height="987" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1742749821936" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/domains/leo-words" />
+    <option name="lastOpenedProject" value="$USER_HOME$/domains/dotfiles" />
   </component>
 </application>

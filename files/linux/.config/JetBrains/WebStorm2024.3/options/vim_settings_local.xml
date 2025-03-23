@@ -51,6 +51,10 @@
       <jump line="10" column="0" filename="$USER_HOME$/domains/leo-words/README.md" protocol="file" />
       <jump line="0" column="32" filename="$USER_HOME$/domains/leo-words/.env" protocol="file" />
       <jump line="13" column="26" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="8" column="20" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="9" column="35" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="10" column="26" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
+      <jump line="1" column="21" filename="$USER_HOME$/domains/leo-words/package.json" protocol="file" />
     </project>
     <project id="struct-enum-d42c15e0">
       <jump line="0" column="0" filename="$USER_HOME$/domains/my-modules/struct-enum/README.md" protocol="file" />
@@ -122,12 +126,53 @@
       <jump line="25" column="3" filename="$USER_HOME$/domains/my-modules/value-obj/package.json" protocol="file" />
       <jump line="12" column="0" filename="$USER_HOME$/domains/my-modules/value-obj/package.json" protocol="file" />
     </project>
+    <project id="dotfiles-b6c224de">
+      <jump line="0" column="0" filename="$USER_HOME$/domains/dotfiles/src/constants/files-list.ts" protocol="file" />
+      <jump line="27" column="0" filename="$USER_HOME$/domains/dotfiles/src/helpers/data.helper.ts" protocol="file" />
+      <jump line="18" column="1" filename="$USER_HOME$/domains/dotfiles/src/constants/files-list.ts" protocol="file" />
+      <jump line="17" column="13" filename="$USER_HOME$/domains/dotfiles/src/constants/files-list.ts" protocol="file" />
+      <jump line="25" column="15" filename="$USER_HOME$/domains/dotfiles/src/helpers/data.helper.ts" protocol="file" />
+      <jump line="26" column="8" filename="$USER_HOME$/domains/dotfiles/src/helpers/data.helper.ts" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+      <jump line="77" column="11" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+      <jump line="48" column="8" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+      <jump line="88" column="0" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+      <jump line="61" column="7" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+      <jump line="90" column="4" filename="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" protocol="file" />
+    </project>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <localmarks>
-      <file name="$USER_HOME$/domains/my-modules/struct-enum/dist/cjs/index.js" timestamp="1742542047307">
+      <file name="$USER_HOME$/domains/dotfiles/package.json" timestamp="1742749707607">
+        <mark key="&quot;" line="15" column="40" />
+        <mark key="[" line="15" column="38" />
+        <mark key="]" line="15" column="45" />
+        <mark key="." line="15" column="44" />
+        <mark key="^" line="15" column="45" />
+      </file>
+      <file name="$USER_HOME$/domains/dotfiles/src/constants/files-list.ts" timestamp="1742749819900">
+        <mark key="&quot;" line="17" column="13" />
+        <mark key="[" line="17" column="58" />
+        <mark key="]" line="18" column="2" />
+        <mark key="^" line="18" column="2" />
+        <mark key="." line="18" column="1" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/struct-enum/README.md" timestamp="1742554691742">
         <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" timestamp="1742554739344">
+        <mark key="&quot;" line="20" column="29" />
+        <mark key="[" line="20" column="25" />
+        <mark key="]" line="20" column="25" />
+        <mark key="." line="20" column="26" />
+      </file>
+      <file name="$USER_HOME$/domains/dotfiles/src/helpers/file.helper.ts" timestamp="1742749946272">
+        <mark key="&quot;" line="78" column="15" />
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="^" line="73" column="46" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1742554691840">
         <mark key="&quot;" line="0" column="0" />
@@ -160,35 +205,28 @@
         <mark key="&quot;" line="91" column="54" />
         <mark key="'" line="86" column="12" />
       </file>
+      <file name="$USER_HOME$/domains/dotfiles/files/all/scripts/custom-clipboard/package-lock.json" timestamp="1742749687821">
+        <mark key="&quot;" line="1" column="8" />
+      </file>
       <file name="$USER_HOME$/domains/my-modules/struct-enum/.npmrc" timestamp="1742554691751">
         <mark key="&quot;" line="5" column="16" />
         <mark key="[" line="5" column="16" />
         <mark key="]" line="5" column="16" />
         <mark key="." line="5" column="17" />
       </file>
-      <file name="$USER_HOME$/domains/my-modules/struct-enum/README.md" timestamp="1742554691742">
-        <mark key="&quot;" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/domains/my-modules/struct-enum/pnpm-lock.yaml" timestamp="1742542012784">
-        <mark key="&quot;" line="190" column="0" />
-      </file>
-      <file name="$USER_HOME$/domains/leo-words/scripts/extra/irregular-verbs.json" timestamp="1742477124174">
-        <mark key="&quot;" line="181" column="0" />
-      </file>
-      <file name="$USER_HOME$/domains/leo-words/package.json" timestamp="1742541623239">
-        <mark key="&quot;" line="30" column="26" />
+      <file name="$USER_HOME$/domains/leo-words/package.json" timestamp="1742749507805">
+        <mark key="&quot;" line="5" column="21" />
         <mark key="[" line="30" column="27" />
         <mark key="]" line="30" column="26" />
         <mark key="." line="30" column="27" />
       </file>
-      <file name="$USER_HOME$/domains/my-modules/value-obj/.github/workflows/publish.yml" timestamp="1742554739344">
-        <mark key="&quot;" line="20" column="29" />
-        <mark key="[" line="20" column="25" />
-        <mark key="]" line="20" column="25" />
-        <mark key="." line="20" column="26" />
-      </file>
-      <file name="$USER_HOME$/domains/leo-words/scripts/extra/idioms-dictionary.json" timestamp="1742477123099">
-        <mark key="&quot;" line="1" column="10" />
+      <file name="$USER_HOME$/domains/dotfiles/src/helpers/data.helper.ts" timestamp="1742749819929">
+        <mark key="&quot;" line="4" column="20" />
+        <mark key="'" line="25" column="15" />
+        <mark key="[" line="26" column="10" />
+        <mark key="]" line="27" column="8" />
+        <mark key="." line="26" column="10" />
+        <mark key="^" line="26" column="10" />
       </file>
       <file name="$USER_HOME$/domains/my-modules/struct-enum/.github/workflows/publish.yml" timestamp="1742554691771">
         <mark key="&quot;" line="19" column="12" />
@@ -210,13 +248,6 @@
         <mark key="]" line="23" column="16" />
         <mark key="." line="23" column="17" />
       </file>
-      <file name="$USER_HOME$/domains/leo-words/.env" timestamp="1742477839556">
-        <mark key="&quot;" line="1" column="22" />
-        <mark key="[" line="1" column="17" />
-        <mark key="]" line="1" column="22" />
-        <mark key="." line="1" column="17" />
-        <mark key="^" line="1" column="17" />
-      </file>
       <file name="$USER_HOME$/domains/my-modules/struct-enum/src/examples/color.ts" timestamp="1742554691824">
         <mark key="&quot;" line="8" column="25" />
       </file>
@@ -224,23 +255,53 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="0" type="LINE_WISE">
-        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
-      </register>
       <register name="&quot;" type="LINE_WISE">
-        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
-      </register>
-      <register name=":" type="CHARACTER_WISE">
-        <text encoding="base64">d3E=</text>
+        <text encoding="base64">ICAgICAgLy8gQCMkCiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlCiAgICAgIGNvbnNvbGUubG9nKHsKICAgICAgICBiYXNlUGF0aCwKICAgICAgICBmaW5hbFBhdGgsCiAgICAgICAgb3B0aW9ucywKICAgICAgfSkK</text>
       </register>
       <register name="+" type="LINE_WISE">
-        <text encoding="base64">QUNDT1VOVF9FTUFJTD08bGVvIGVtYWlsPgpBQ0NPVU5UX1BBU1NXT1JEPTxsZW8gcGFzc3dvcmQ+Cg==</text>
+        <text encoding="base64">ICAgICAgLy8gQCMkCiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlCiAgICAgIGNvbnNvbGUubG9nKHsKICAgICAgICBiYXNlUGF0aCwKICAgICAgICBmaW5hbFBhdGgsCiAgICAgICAgb3B0aW9ucywKICAgICAgfSkK</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">YCR7dXNlckhvbWVEaXJ9LyR7ZmlsZX1g</text>
       </register>
       <register name="." type="CHARACTER_WISE">
-        <text encoding="base64" />
+        <text encoding="base64">LCBmaWxl</text>
       </register>
       <register name="/" type="CHARACTER_WISE">
         <text encoding="base64">XDxidWlsZFZhbHVlXD4=</text>
+      </register>
+      <register name="0" type="CHARACTER_WISE">
+        <text encoding="base64">dXNlckhvbWVEaXI=</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgLy8gQCMkCiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlCiAgICAgIGNvbnNvbGUubG9nKHsKICAgICAgICBiYXNlUGF0aCwKICAgICAgICBmaW5hbFBhdGgsCiAgICAgICAgb3B0aW9ucywKICAgICAgfSkK</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ICAgIGNvbnN0IHVzZXJIb21lRGlyID0gRmlsZUhlbHBlci5idWlsZFVzZXJIb21lRGlyKGZpbGUpCg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgIGNvbnN0IHVzZXJIb21lRGlyID0gaG9tZWRpcigpCg==</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgaWYgKCEvXlwvbW50XC8vLnRlc3QoZmlsZSkpIHsKICAgICAgICB1c2VySG9tZURpciA9IGhvbWVkaXIoKQogICAgICB9Cg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="CHARACTER_WISE">
+        <text encoding="base64">ewogICAgICAgICAgZmlsZXM6IEZJTEVTX0xJU1RfV0lORE9XUywKICAgICAgICAgIGZvbGRlcjogJ3dpbmRvd3MnLAogICAgICAgIH0=</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICBmaWxlcyA9IEZJTEVTX0xJU1RfV0lORE9XUwogICAgICAgIGZvbGRlciA9ICd3aW5kb3dzJwo=</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">d3E=</text>
       </register>
     </registers>
   </component>
