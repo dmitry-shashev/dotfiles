@@ -45,10 +45,7 @@ export abstract class FileHelper {
     subFolderName: string
   ): void {
     files.forEach((file) => {
-      let userHomeDir = ''
-      if (!/^\/mnt\//.test(file)) {
-        userHomeDir = homedir()
-      }
+      const userHomeDir = FileHelper.buildUserHomeDir(file)
       const finalFilePath = join(userHomeDir, file)
 
       const files = FileHelper.findAllFiles(finalFilePath)
@@ -71,11 +68,19 @@ export abstract class FileHelper {
     files: ReadonlyArray<string>,
     subFolderName: string
   ): void {
-    const userHomeDir = homedir()
     files.forEach((file) => {
+      const userHomeDir = FileHelper.buildUserHomeDir(file)
       const basePath = `./files/${subFolderName}/${file}`
-      const finalPath = `${userHomeDir}/${file}`
+      const finalPath = join(userHomeDir, file)
       cpSync(basePath, finalPath, options)
     })
+  }
+
+  private static buildUserHomeDir(file: string): string {
+    let userHomeDir = ''
+    if (!/^\/mnt\//.test(file)) {
+      userHomeDir = homedir()
+    }
+    return userHomeDir
   }
 }

@@ -19,7 +19,7 @@ export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [
   '/mnt/c/Users/user/AppData/Roaming/JetBrains',
 ]
 
-export const FILES_LIST_ALL: ReadonlyArray<string> = [
+export const FILES_LIST_UNIX: ReadonlyArray<string> = [
   '.config/nvim',
   '.config/prettier',
   '.config/vifm',

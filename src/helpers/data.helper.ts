@@ -1,5 +1,5 @@
 import {
-  FILES_LIST_ALL,
+  FILES_LIST_UNIX,
   FILES_LIST_LINUX,
   FILES_LIST_MAC,
   FILES_LIST_WINDOWS,
@@ -23,9 +23,12 @@ export abstract class DataHelper {
         break
 
       case 'WINDOWS':
-        files = FILES_LIST_WINDOWS
-        folder = 'windows'
-        break
+        return [
+          {
+            files: FILES_LIST_WINDOWS,
+            folder: 'windows',
+          },
+        ]
     }
 
     if (!folder) {
@@ -38,7 +41,7 @@ export abstract class DataHelper {
         folder,
       },
       {
-        files: FILES_LIST_ALL,
+        files: FILES_LIST_UNIX,
         folder: 'all',
       },
     ]
