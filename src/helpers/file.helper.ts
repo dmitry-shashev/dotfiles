@@ -46,7 +46,7 @@ export abstract class FileHelper {
   ): void {
     files.forEach((file) => {
       let userHomeDir = ''
-      if (!/$\/mnt/.test(file)) {
+      if (!/^\/mnt\//.test(file)) {
         userHomeDir = homedir()
       }
       const finalFilePath = join(userHomeDir, file)
