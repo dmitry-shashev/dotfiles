@@ -44,9 +44,14 @@ export abstract class FileHelper {
     files: ReadonlyArray<string>,
     subFolderName: string
   ): void {
-    const userHomeDir = homedir()
     files.forEach((file) => {
-      const files = FileHelper.findAllFiles(`${userHomeDir}/${file}`)
+      let userHomeDir = ''
+      if (!/$\/mnt/.test(file)) {
+        userHomeDir = homedir()
+      }
+      const finalFilePath = join(userHomeDir, file)
+
+      const files = FileHelper.findAllFiles(finalFilePath)
       files.forEach((filePath) => {
         const relativePath = filePath.replace(`${userHomeDir}/`, '')
         const finalPath = `./files/${subFolderName}/${relativePath}`

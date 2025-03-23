@@ -15,6 +15,10 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   '.skhdrc',
 ]
 
+export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [
+  '/mnt/c/Users/user/AppData/Roaming/JetBrains',
+]
+
 export const FILES_LIST_ALL: ReadonlyArray<string> = [
   '.config/nvim',
   '.config/prettier',

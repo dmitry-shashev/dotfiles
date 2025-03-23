@@ -2,6 +2,7 @@ import {
   FILES_LIST_ALL,
   FILES_LIST_LINUX,
   FILES_LIST_MAC,
+  FILES_LIST_WINDOWS,
 } from '../constants/files-list'
 import { TargetData } from '../interfaces/target-data'
 
@@ -19,6 +20,11 @@ export abstract class DataHelper {
       case 'MAC':
         files = FILES_LIST_MAC
         folder = 'mac'
+        break
+
+      case 'WINDOWS':
+        files = FILES_LIST_WINDOWS
+        folder = 'windows'
         break
     }
 
