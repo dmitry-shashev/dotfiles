@@ -1,0 +1,6 @@
+<application>
+  <component name="PySdkSettings">
+    <option name="PREFERRED_VIRTUALENV_BASE_PATH" value="$PROJECT_DIR$/.venv" />
+    <option name="PREFERRED_VIRTUALENV_BASE_SDK" value="$USER_HOME$/AppData/Local/Microsoft/WindowsApps/python3.11.exe" />
+  </component>
+</application>

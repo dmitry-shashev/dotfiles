@@ -1,0 +1,11 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="editor.normalize.splits" value="true" />
+        <entry key="floating.codeToolbar.hide" value="true" />
+        <entry key="ide.ui.native.file.chooser" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

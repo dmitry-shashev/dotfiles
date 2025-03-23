@@ -1,0 +1,99 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd />
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="untitled-7d08a900">
+      <jump line="11" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="4" column="33" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="18" column="4" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="23" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="6" column="19" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="10" column="11" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="3" column="19" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="13" column="19" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+      <jump line="5" column="16" filename="$USER_HOME$/CLionProjects/untitled/main.cpp" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/CLionProjects/untitled/main.cpp" timestamp="1737629231284">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="14" column="1" />
+        <mark key="." line="8" column="0" />
+        <mark key="^" line="7" column="0" />
+      </file>
+      <file name="/" timestamp="1737462789826">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">Ly8gdGVtcGxhdGU8dHlwZW5hbWUgVD4KLy8gVCBEaXZpZGUoVCBhLCBUIGIpIHsKLy8gICAgIGlmICghc3RkOjppc19mbG9hdGluZ19wb2ludDxUPjo6dmFsdWUpIHsKLy8gICAgICAgICB0aHJvdyBzdGQ6OmludmFsaWRfYXJndW1lbnQoIlR5cGUgc2hvdWxkIGJlIGEgZmxvYXQvZG91YmxlIik7Ci8vICAgICB9Ci8vICAgICByZXR1cm4gYSAvIGI7Ci8vIH0K</text>
+      </register>
+      <register name="*" type="LINE_WISE">
+        <text encoding="base64">Ly8gdGVtcGxhdGU8dHlwZW5hbWUgVD4KLy8gVCBEaXZpZGUoVCBhLCBUIGIpIHsKLy8gICAgIGlmICghc3RkOjppc19mbG9hdGluZ19wb2ludDxUPjo6dmFsdWUpIHsKLy8gICAgICAgICB0aHJvdyBzdGQ6OmludmFsaWRfYXJndW1lbnQoIlR5cGUgc2hvdWxkIGJlIGEgZmxvYXQvZG91YmxlIik7Ci8vICAgICB9Ci8vICAgICByZXR1cm4gYSAvIGI7Ci8vIH0K</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">ZG91Ymxl</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">Ly8gdGVtcGxhdGU8dHlwZW5hbWUgVD4KLy8gVCBEaXZpZGUoVCBhLCBUIGIpIHsKLy8gICAgIGlmICghc3RkOjppc19mbG9hdGluZ19wb2ludDxUPjo6dmFsdWUpIHsKLy8gICAgICAgICB0aHJvdyBzdGQ6OmludmFsaWRfYXJndW1lbnQoIlR5cGUgc2hvdWxkIGJlIGEgZmxvYXQvZG91YmxlIik7Ci8vICAgICB9Ci8vICAgICByZXR1cm4gYSAvIGI7Ci8vIH0K</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">ICAgIGlmICghc3RkOjppc19mbG9hdGluZ19wb2ludDxUPjo6dmFsdWUpIHsKICAgICAgICB0aHJvdyBzdGQ6OmludmFsaWRfYXJndW1lbnQoIlR5cGUgc2hvdWxkIGJlIGEgZmxvYXQvZG91YmxlIik7CiAgICB9Cg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">I2luY2x1ZGUgPHZlY3Rvcj4K</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgIE5hbWVzIG5hbWVzIHsiU2FtIiwgIlRvbSJ9OwoKICAgIGZvciAoY29uc3QgYXV0byYgbmFtZSA6IG5hbWVzKSB7CiAgICAgICAgc3RkOjpjb3V0IDw8IG5hbWUgPDwgc3RkOjplbmRsOwogICAgfQo=</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">dXNpbmcgTmFtZXMgPSBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz47CgovLyB0ZW1wbGF0ZTx0eXBlbmFtZSBUPgovLyB1c2luZyBOYW1lcyA9IHN0ZDo6dmVjdG9yPFQ+OwoKLy8gbGVzcyBmbGV4aWJsZSB3YXkKLy8gdHlwZWRlZiBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gTmFtZXM7Cgo=</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">ICAgcEZsb2F0LlByaW50KDkuMyk7Cg==</text>
+      </register>
+      <register name="6" type="CHARACTER_WISE">
+        <text encoding="base64">ICAgIFByaW50ZXI8aW50PiBwSW50OwogICAgcEludC5QcmludCgxMCk7CgogICAgUHJpbnRlcjxmbG9hdD4gcEZsb2F0Owog</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">CnVzaW5nIG5hbWVzcGFjZSBzdGQ7Cgp0ZW1wbGF0ZTx0eXBlbmFtZSBUPgpjbGFzcyBQcmludGVyIHsKcHVibGljOgogICB2b2lkIFByaW50KFQgdmFsdWUpIHsKICAgICAgIGNvdXQgPDwgdmFsdWUgPDwgZW5kbDsKICAgfQp9OwoKdGVtcGxhdGU8Pgp2b2lkIFByaW50ZXI8aW50Pjo6UHJpbnQoaW50IHZhbHVlKSB7CiAgICBjb3V0IDw8ICJTb21lIGludDogIiA8PCB2YWx1ZSA8PCBlbmRsOwp9Cg==</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">Ly8gICdIZWxwIHwgTGVhcm4gSURFIEZlYXR1cmVzJyBmcm9tIHRoZSBtYWluIG1lbnUuCg==</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">Ly8gIEFsc28sIHlvdSBjYW4gdHJ5IGludGVyYWN0aXZlIGxlc3NvbnMgZm9yIENMaW9uIGJ5IHNlbGVjdGluZwo=</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

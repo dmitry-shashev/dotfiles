@@ -1,0 +1,40 @@
+<keymap version="1" name="IntelliJ copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ChangeSignature" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="Console.TableResult.Reload" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+  </action>
+  <action id="ExportToTextFile" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="GitLab.Merge.Request.List.Refresh" />
+  <action id="GitLab.Merge.Request.Refresh" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="JumpToLastWindow" />
+  <action id="ModifyObject" />
+  <action id="OptimizeImports" />
+  <action id="Refresh" />
+  <action id="Rerun" />
+  <action id="RiderOpenSolution" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="num_lock" />
+  </action>
+  <action id="Svn.RefreshWorkingCopies" />
+  <action id="SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="UsageGrouping.FlattenModules" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.RefreshFileHistory" />
+</keymap>

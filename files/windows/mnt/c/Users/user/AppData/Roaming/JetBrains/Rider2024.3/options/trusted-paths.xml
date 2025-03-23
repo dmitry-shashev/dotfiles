@@ -1,0 +1,12 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="C:\Users\user\Documents\Unreal Projects\MyProject23" value="true" />
+        <entry key="C:\Users\user\Documents\Unreal Projects\MyProject23\.idea\.idea.MyProject23.dir" value="true" />
+        <entry key="C:\Users\user\Documents\Unreal Projects\test-ue5" value="true" />
+        <entry key="C:\Users\user\Documents\Unreal Projects\test-ue5\.idea\.idea.Blank.dir" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

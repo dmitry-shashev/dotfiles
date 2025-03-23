@@ -1,0 +1,55 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd />
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="Hunyuan3D-2-17f8a13b">
+      <jump line="0" column="0" filename="$USER_HOME$/Hunyuan3D-2/README.md" protocol="file" />
+      <jump line="11" column="12" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+      <jump line="22" column="19" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+      <jump line="36" column="4" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+      <jump line="168" column="0" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/Hunyuan3D-2/.gitignore" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/Hunyuan3D-2/.gitignore" timestamp="1739787481539">
+        <mark key="&quot;" line="22" column="19" />
+        <mark key="'" line="168" column="0" />
+      </file>
+      <file name="$USER_HOME$/TRELLIS/README.md" timestamp="1739709562603">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Hunyuan3D-2/blender_addon.py" timestamp="1739718036620">
+        <mark key="&quot;" line="0" column="7" />
+      </file>
+      <file name="$USER_HOME$/Hunyuan3D-2/hy3dgen/shapegen/models/conditioner.py" timestamp="1739718038965">
+        <mark key="&quot;" line="35" column="18" />
+      </file>
+      <file name="$USER_HOME$/Hunyuan3D-2/hy3dgen/texgen/utils/dehighlight_utils.py" timestamp="1739718036503">
+        <mark key="&quot;" line="31" column="26" />
+      </file>
+      <file name="$USER_HOME$/Hunyuan3D-2/README.md" timestamp="1739787481538">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers />
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

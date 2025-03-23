@@ -1,0 +1,41 @@
+<application>
+  <component name="RiderRecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/Unreal Projects/MyProject23/MyProject23.uproject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MyProject23" projectWorkspaceId="2rq43yKQb9JBROtxeRtdSdEOV8b">
+              <option name="activationTimestamp" value="1737273790034" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-243.22562.250" />
+              <option name="buildTimestamp" value="1734959700000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="469" y="256" width="2622" height="1764" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1737273532297" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Unreal Projects/test-ue5/Blank.uproject">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2rq64DxD8ioqw6ge9j8lmWkOZly">
+              <option name="activationTimestamp" value="1742412181942" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-243.23654.126" />
+              <option name="buildTimestamp" value="1737343980000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="-11" y="-11" width="3863" height="2183" extendedState="6" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1742412184622" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/Unreal Projects/test-ue5/Blank.uproject" />
+  </component>
+</application>

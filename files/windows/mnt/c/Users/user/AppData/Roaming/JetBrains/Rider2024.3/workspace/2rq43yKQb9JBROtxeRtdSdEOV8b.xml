@@ -1,0 +1,219 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="MyProject23" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">{}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea/.idea.MyProject23.dir/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="0.9" version="1" />
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyProject23" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyProject23" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </select>
+        </subPane>
+        <option name="show-all-files" value="false" />
+        <option name="show-project-imports" value="true" />
+        <option name="autoscroll-all" value="false" />
+        <option name="show-scratches" value="true" />
+        <option name="search-dependencies" value="false" />
+        <option name="show-unreal-project-files" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="RiderPerAppToolWindowOpenedTWKeeper">
+    <option name="map">
+      <map>
+        <entry key="AIAssistant">
+          <value>
+            <window_info anchor="right" id="AIAssistant" order="1" weight="0.3300866" />
+          </value>
+        </entry>
+        <entry key="Build">
+          <value>
+            <window_info anchor="bottom" id="Build" order="4" weight="0.28039384" />
+          </value>
+        </entry>
+        <entry key="Commit">
+          <value>
+            <window_info id="Commit" order="1" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Database">
+          <value>
+            <window_info anchor="right" id="Database" order="2" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Gradle">
+          <value>
+            <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Maven">
+          <value>
+            <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Monitoring">
+          <value>
+            <window_info anchor="right" id="Monitoring" order="4" visible="true" weight="0.33016145" />
+          </value>
+        </entry>
+        <entry key="Notifications">
+          <value>
+            <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Problems">
+          <value>
+            <window_info anchor="bottom" id="Problems" order="1" />
+          </value>
+        </entry>
+        <entry key="Problems View">
+          <value>
+            <window_info anchor="bottom" id="Problems View" order="2" />
+          </value>
+        </entry>
+        <entry key="Project">
+          <value>
+            <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19982699" />
+          </value>
+        </entry>
+        <entry key="Run">
+          <value>
+            <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.6043627" />
+          </value>
+        </entry>
+        <entry key="Services">
+          <value>
+            <window_info anchor="bottom" id="Services" order="4" />
+          </value>
+        </entry>
+        <entry key="Structure">
+          <value>
+            <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+          </value>
+        </entry>
+        <entry key="Terminal">
+          <value>
+            <window_info anchor="bottom" id="Terminal" order="3" weight="0.6043627" />
+          </value>
+        </entry>
+        <entry key="UnrealBuildTool">
+          <value>
+            <window_info anchor="bottom" id="UnrealBuildTool" order="4" />
+          </value>
+        </entry>
+        <entry key="UnrealLink">
+          <value>
+            <window_info anchor="bottom" id="UnrealLink" order="4" weight="0.6043627" />
+          </value>
+        </entry>
+        <entry key="Version Control">
+          <value>
+            <window_info anchor="bottom" id="Version Control" order="0" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Uproject.MyProject23" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="C:\Users\user\Documents\Unreal Projects\MyProject23\">
+        <shellCommand>
+          <arg value="wsl.exe" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="636000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19982699" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.6043627" />
+      <window_info anchor="bottom" id="UnrealBuildTool" order="4" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.6043627" />
+      <window_info anchor="bottom" id="UnrealLink" order="4" weight="0.6043627" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.28039384" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.3300866" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Monitoring" order="4" visible="true" weight="0.33016145" />
+      <unified_weights bottom="0.6043627" left="0.19982699" right="0.33016145" />
+    </layoutV2>
+    <recentWindows>
+      <value>UnrealLink</value>
+      <value>Run</value>
+      <value>Terminal</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1734" height="664" key="GridCell.Tab.0.bottom" timestamp="1737273796776">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1734" height="664" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1737273796776" />
+    <state width="1734" height="664" key="GridCell.Tab.0.center" timestamp="1737273796776">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1734" height="664" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1737273796776" />
+    <state width="1734" height="664" key="GridCell.Tab.0.left" timestamp="1737273796776">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1734" height="664" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1737273796776" />
+    <state width="1734" height="664" key="GridCell.Tab.0.right" timestamp="1737273796776">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1734" height="664" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1737273796776" />
+    <state x="630" y="340" key="SettingsEditor" timestamp="1737273748711">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="630" y="340" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1737273748711" />
+  </component>
+</project>

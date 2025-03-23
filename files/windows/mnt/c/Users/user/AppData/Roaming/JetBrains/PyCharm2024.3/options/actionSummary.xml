@@ -1,0 +1,76 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="4" l="1739787451846" />
+    </e>
+    <e n="$Paste">
+      <i c="1" l="1739092600629" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="21" l="1739787436449" />
+    </e>
+    <e n="CloseProject">
+      <i c="2" l="1739787481415" />
+    </e>
+    <e n="CompareTwoFiles">
+      <i c="2" l="1739709583411" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="2" l="1739092656762" />
+    </e>
+    <e n="EditorEscape">
+      <i c="6" l="1739787036233" />
+    </e>
+    <e n="GotoFile">
+      <i c="1" l="1739718035372" />
+    </e>
+    <e n="JumpToLastWindow">
+      <i c="1" l="1739092607902" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1739093233892" />
+    </e>
+    <e n="ShowSettings">
+      <i c="4" l="1739092652624" />
+    </e>
+    <e n="Terminal.NewTab">
+      <i c="6" l="1739711979920" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="2" l="1739709564676" />
+    </e>
+    <e n="com.intellij.codeInsight.template.impl.TemplateListPanel$12">
+      <i c="1" l="1739092571519" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.SkipImportAction">
+      <i c="1" l="1739092394241" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1739092448422" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="1" l="1739092618545" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1739718038955" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="1" l="1739092598235" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="3" l="1739787479756" />
+    </e>
+    <e n="com.intellij.terminal.actions.TerminalActionWrapper">
+      <i c="2" l="1739194111993" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1739787478522" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1739092570173" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="1" l="1739092569240" />
+    </e>
+  </component>
+</application>

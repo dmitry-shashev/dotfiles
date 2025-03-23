@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/TRELLIS">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TRELLIS – README.md" projectWorkspaceId="2snXhmez1jqU6KbPl48dNAgwAOA">
+              <option name="activationTimestamp" value="1739221329954" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.23654.177" />
+              <option name="buildTimestamp" value="1737980640000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="634" y="261" width="2100" height="1500" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1739092434098" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Hunyuan3D-2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Hunyuan3D-2 – .gitignore" projectWorkspaceId="2t7iZwGcAUMwjhuvOyzaXWZFPR4">
+              <option name="activationTimestamp" value="1739787434311" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.23654.177" />
+              <option name="buildTimestamp" value="1737980640000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="-11" y="-11" width="3863" height="2183" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1739709572480" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Hunyuan3D-2" />
+  </component>
+</application>

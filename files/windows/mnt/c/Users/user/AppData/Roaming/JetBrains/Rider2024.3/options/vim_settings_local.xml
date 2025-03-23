@@ -1,0 +1,279 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd />
+      <history-search>
+        <entry encoding="base64">XDxFcXVpcFdlYXBvblw+</entry>
+        <entry encoding="base64">TW92ZQ==</entry>
+        <entry encoding="base64">XDxBdHRhY2tcPg==</entry>
+        <entry encoding="base64">XDxTZXRPdmVybGFwcGluZ0l0ZW1cPg==</entry>
+        <entry encoding="base64">ZXE=</entry>
+        <entry encoding="base64">ZXF1</entry>
+        <entry encoding="base64">d2VhcG9u</entry>
+        <entry encoding="base64">XDxBdHRhY2tNb250YWdlXD4=</entry>
+        <entry encoding="base64">bW9udGE=</entry>
+        <entry encoding="base64">R2V0TWVzaA==</entry>
+        <entry encoding="base64">XDxHZXRTa2VsTWVzaENvbXBvbmVudFw+</entry>
+        <entry encoding="base64">c29ja2V0</entry>
+        <entry encoding="base64">XDxndW5fc29ja2V0XD4=</entry>
+        <entry encoding="base64">dG9nZ2xl</entry>
+        <entry encoding="base64">Q2FuTW92ZQ==</entry>
+        <entry encoding="base64">RXF1aXA=</entry>
+        <entry encoding="base64">YWN0aW9u</entry>
+        <entry encoding="base64">ZXF1aXA=</entry>
+        <entry encoding="base64">YXR0YWNr</entry>
+        <entry encoding="base64">VUU=</entry>
+        <entry encoding="base64">XDxCZWdpblBsYXlcPg==</entry>
+        <entry encoding="base64">c3BoZXJl</entry>
+        <entry encoding="base64">RW1wdHk=</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">aGl0</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="Blank-86b34343">
+      <jump line="53" column="64" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="68" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="75" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="1196" column="28" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/HAL/Platform.h" protocol="file" />
+      <jump line="1194" column="16" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/HAL/Platform.h" protocol="file" />
+      <jump line="8" column="6" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Developer/AITestSuite/Private/BehaviorTree/TestBTDecorator_CantExecute.cpp" protocol="file" />
+      <jump line="72" column="73" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="74" column="51" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="73" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="71" column="11" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="64" column="24" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="62" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="67" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="15" column="19" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="74" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Characters/MyCharacter.h" protocol="file" />
+      <jump line="36" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="86" column="39" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="1289" column="44" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" protocol="file" />
+      <jump line="83" column="15" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="85" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="79" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Enemy/Enemy.cpp" protocol="file" />
+      <jump line="34" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="44" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="49" column="9" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="46" column="32" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="45" column="29" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="41" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="47" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="48" column="41" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="5" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="82" column="12" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="47" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="21" column="12" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="16" column="25" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="12" column="17" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="17" column="39" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="18" column="69" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="19" column="65" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="20" column="60" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="32" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="59" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="61" column="13" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="64" column="34" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="73" column="33" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="65" column="12" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="1861" column="230" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" protocol="file" />
+      <jump line="55" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="60" column="54" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="67" column="11" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="69" column="45" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="72" column="32" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="77" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="78" column="44" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="84" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="89" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="85" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="80" column="29" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="1885" column="135" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" protocol="file" />
+      <jump line="1893" column="30" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" protocol="file" />
+      <jump line="76" column="5" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="74" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="94" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="11" column="21" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" protocol="file" />
+      <jump line="41" column="8" filename="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h" protocol="file" />
+      <jump line="14" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Item.cpp" protocol="file" />
+      <jump line="24" column="47" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Item.cpp" protocol="file" />
+      <jump line="11" column="16" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Item.cpp" protocol="file" />
+      <jump line="66" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="31" column="4" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="21" column="37" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Characters/MyCharacter.h" protocol="file" />
+      <jump line="18" column="38" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" protocol="file" />
+      <jump line="40" column="13" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="17" column="19" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.h" protocol="file" />
+      <jump line="4" column="13" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="17" column="52" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="10" column="61" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="15" column="45" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="18" column="62" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.h" protocol="file" />
+      <jump line="38" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="18" column="53" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="13" column="34" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" protocol="file" />
+      <jump line="16" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Item.cpp" protocol="file" />
+      <jump line="19" column="6" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="15" column="36" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+      <jump line="54" column="0" filename="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h" timestamp="1742378828753">
+        <mark key="&quot;" line="41" column="8" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.h" timestamp="1742380073968">
+        <mark key="&quot;" line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Enemy/Enemy.h" timestamp="1739624005424">
+        <mark key="&quot;" line="3" column="0" />
+        <mark key="'" line="41" column="0" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="27" />
+        <mark key="." line="35" column="0" />
+        <mark key="^" line="35" column="32" />
+      </file>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Experimental/Voronoi/Private/voro++/src/wall.cc" timestamp="1739624002838">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h" timestamp="1739623126447">
+        <mark key="&quot;" line="1496" column="8" />
+      </file>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/BasedPosition.cpp" timestamp="1739623132562">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="/Debugger Output (LLDB)" timestamp="1739638456169">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Item.h" timestamp="1742412193495">
+        <mark key="&quot;" line="40" column="13" />
+        <mark key="'" line="54" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Weapon.h" timestamp="1742380074149">
+        <mark key="&quot;" line="13" column="34" />
+        <mark key="[" line="49" column="37" />
+        <mark key="]" line="49" column="50" />
+        <mark key="^" line="49" column="50" />
+        <mark key="." line="49" column="49" />
+      </file>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/VirtualProduction/LevelSnapshots/Resources/Icons/icon.svg" timestamp="1739624611591">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="0" timestamp="1739637695826">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="2" timestamp="1739638456168">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Weapon.cpp" timestamp="1742378828566">
+        <mark key="&quot;" line="11" column="21" />
+        <mark key="'" line="94" column="0" />
+        <mark key="[" line="86" column="12" />
+        <mark key="]" line="86" column="8" />
+        <mark key="." line="86" column="4" />
+        <mark key="^" line="86" column="8" />
+      </file>
+      <file name="/Dummy.cpp" timestamp="1739635507990">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Interfaces/Hit.h" timestamp="1739623117126">
+        <mark key="&quot;" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Item.cpp" timestamp="1742380075813">
+        <mark key="&quot;" line="11" column="16" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Blank.Build.cs" timestamp="1742380054829">
+        <mark key="&quot;" line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Public/Characters/MyCharacter.h" timestamp="1742380074319">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Unreal Projects/test-ue5/Source/Blank/Private/Characters/MyCharacter.cpp" timestamp="1742380075047">
+        <mark key="&quot;" line="26" column="0" />
+      </file>
+      <file name="C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" timestamp="1742378726861">
+        <mark key="&quot;" line="1881" column="20" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">CQkJQ3JlYXRlRmllbGRzKEJveEhpdC5JbXBhY3RQb2ludCk7Cg==</text>
+      </register>
+      <register name="*" type="LINE_WISE">
+        <text encoding="base64">CQkJQ3JlYXRlRmllbGRzKEJveEhpdC5JbXBhY3RQb2ludCk7Cg==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">Qm94SGl0LkdldEFjdG9yKCk=</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">aGl0</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">CS8vIAlHRW5naW5lLT5BZGRPblNjcmVlbkRlYnVnTWVzc2FnZSgxLCA1LmYsIEZDb2xvcjo6UmVkLCBGU3RyaW5nOjpQcmludGYoVEVYVCgiVGhldGE6ICVmIiksIFRoZXRhKSk7Cg==</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">CQkJQ3JlYXRlRmllbGRzKEJveEhpdC5JbXBhY3RQb2ludCk7Cg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">CQkK</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">CWlmIChjb25zdCBhdXRvJiBIaXRBY3RvciA9IENhc3Q8SUhpdD4oQWN0b3IpKQoJewoJCUhpdEFjdG9yLT5HZXRIaXQoQm94SGl0LkltcGFjdFBvaW50KTsKCQlDb2xsaXNpb25Qcm9jZXNzZWRBY3RvcnMuQWRkVW5pcXVlKEJveEhpdC5HZXRBY3RvcigpKTsKCQlDcmVhdGVGaWVsZHMoQm94SGl0LkltcGFjdFBvaW50KTsKCX0K</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">CQlHRW5naW5lLT5BZGRPblNjcmVlbkRlYnVnTWVzc2FnZSgxLCA1LmYsIEZDb2xvcjo6UmVkLCBURVhUKCJISVQiKSk7Cg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">CQkK</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">CQkvLyAxMjMK</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">CgkK</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">CQlpZiAoSW1wYWN0UG9pbnQuWiA+IDE0MCkKCQl7CgkJCUFuaW1hdGlvbk1vbnRhZ2VOYW1lID0gRk5hbWUoVEVYVCgiSGVhZEhpdCIpKTsKCQl9Cg==</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">CQkJCg==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">aGl0</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">aGl0</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>
