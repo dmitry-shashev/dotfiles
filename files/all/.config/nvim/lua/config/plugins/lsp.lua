@@ -1,15 +1,15 @@
 -- due to problems with LSP - restart it on save
-vim.api.nvim_create_augroup("AutoRestart_LSP", {})
-vim.api.nvim_create_autocmd(
-    "BufWritePost",
-    {
-        pattern = "*.{js,jsx,ts,tsx}",
-        group = "AutoRestart_LSP",
-        callback = function()
-          vim.cmd('LspRestart')
-        end,
-    }
-)
+-- vim.api.nvim_create_augroup("AutoRestart_LSP", {})
+-- vim.api.nvim_create_autocmd(
+--     "BufWritePost",
+--     {
+--         pattern = "*.{js,jsx,ts,tsx}",
+--         group = "AutoRestart_LSP",
+--         callback = function()
+--           vim.cmd('LspRestart')
+--         end,
+--     }
+-- )
 
 
 
