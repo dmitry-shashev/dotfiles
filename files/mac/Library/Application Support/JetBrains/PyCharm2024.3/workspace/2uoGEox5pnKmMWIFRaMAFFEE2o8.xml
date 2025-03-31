@@ -1,0 +1,1800 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="pydantic" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="ChatSessionStateTemp">
+    <option name="chats">
+      <list>
+        <SerializedChat>
+          <option name="chatContext">
+            <SerializedChatContext />
+          </option>
+          <option name="messages">
+            <list>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="PydanticPlugin definition:" />
+                      <option name="text" value="```python&#10;class PydanticPlugin(Plugin):&#10;    &quot;&quot;&quot;The Pydantic mypy plugin.&quot;&quot;&quot;&#10;    def __init__(self, options: Options) -&gt; None:&#10;    def get_base_class_hook(self, fullname: str) -&gt; Callable[[ClassDefContext], None] | None:&#10;    def get_metaclass_hook(self, fullname: str) -&gt; Callable[[ClassDefContext], None] | None:&#10;    def get_method_hook(self, fullname: str) -&gt; Callable[[MethodContext], Type] | None:&#10;    def report_config_data(self, ctx: ReportConfigContext) -&gt; dict[str, Any]:&#10;    def _pydantic_model_class_maker_callback(self, ctx: ClassDefContext) -&gt; None:&#10;    def _pydantic_model_metaclass_marker_callback(self, ctx: ClassDefContext) -&gt; None:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="PydanticPluginConfig definition:" />
+                      <option name="text" value="```python&#10;class PydanticPluginConfig:&#10;    &quot;&quot;&quot;A Pydantic mypy plugin config holder.&#10;    Attributes:&#10;        init_forbid_extra: Whether to add a `**kwargs` at the end of the generated `__init__` signature.&#10;        init_typed: Whether to annotate fields in the generated `__init__`.&#10;        warn_required_dynamic_aliases: Whether to raise required dynamic aliases error.&#10;        debug_dataclass_transform: Whether to not reset `dataclass_transform_spec` attribute&#10;            of `ModelMetaclass` for testing purposes.&#10;    &quot;&quot;&quot;&#10;    __slots__ = (&#10;        'init_forbid_extra',&#10;        'init_typed',&#10;        'warn_required_dynamic_aliases',&#10;        'debug_dataclass_transform',&#10;    )&#10;    init_forbid_extra: bool&#10;    init_typed: bool&#10;    warn_required_dynamic_aliases: bool&#10;    debug_dataclass_transform: bool  # undocumented&#10;    def __init__(self, options: Options) -&gt; None:&#10;    def to_data(self) -&gt; dict[str, Any]:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="self.plugin_config.to_data definition:" />
+                      <option name="text" value="```python&#10;def to_data(self) -&gt; dict[str, Any]:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="self._pydantic_model_class_maker_callback definition:" />
+                      <option name="text" value="```python&#10;def _pydantic_model_class_maker_callback(self, ctx: ClassDefContext) -&gt; None:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="self._pydantic_model_metaclass_marker_callback definition:" />
+                      <option name="text" value="```python&#10;def _pydantic_model_metaclass_marker_callback(self, ctx: ClassDefContext) -&gt; None:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="from_attributes_callback definition:" />
+                      <option name="text" value="```python&#10;def from_attributes_callback(ctx: MethodContext) -&gt; Type:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="PydanticModelTransformer definition:" />
+                      <option name="text" value="```python&#10;class PydanticModelTransformer:&#10;    &quot;&quot;&quot;Transform the BaseModel subclass according to the plugin settings.&#10;    Attributes:&#10;        tracked_config_fields: A set of field configs that the plugin has to track their value.&#10;    &quot;&quot;&quot;&#10;    tracked_config_fields: set[str] = {&#10;        'extra',&#10;        'frozen',&#10;        'from_attributes',&#10;        'populate_by_name',&#10;        'validate_by_alias',&#10;        'validate_by_name',&#10;        'alias_generator',&#10;        'strict',&#10;    }&#10;    def __init__(&#10;        self,&#10;        cls: ClassDef,&#10;        reason: Expression | Statement,&#10;        api: SemanticAnalyzerPluginInterface,&#10;        plugin_config: PydanticPluginConfig,&#10;    ) -&gt; None:&#10;    def transform(self) -&gt; bool:&#10;    def adjust_decorator_signatures(self) -&gt; None:&#10;    def collect_config(self) -&gt; ModelConfigData:  # noqa: C901 (ignore complexity)&#10;        # Handle `class MyModel(BaseModel, &lt;name&gt;=&lt;expr&gt;, ...):`&#10;        # Handle `model_config`&#10;    def collect_fields_and_class_vars(&#10;        self, model_config: ModelConfigData, is_root_model: bool&#10;    ) -&gt; tuple[list[PydanticModelField] | None, list[PydanticModelClassVar] | None]:&#10;        # First, collect fields and ClassVars belonging to any class in the MRO, ignoring duplicates.&#10;        #&#10;        # We iterate through the MRO in reverse because attrs defined in the parent must appear&#10;        # earlier in the attributes list than attrs defined in the child. See:&#10;        # https://docs.python.org/3/library/dataclasses.html#inheritance&#10;        #&#10;        # However, we also want fields defined in the subtype to override ones defined&#10;        # in the parent. We can implement this via a dict without disrupting the attr order&#10;        # because dicts preserve insertion order in Python 3.7+.&#10;        # Second, collect fields and ClassVars belonging to the current class.&#10;    def _get_assignment_statements_from_if_statement(self, stmt: IfStmt) -&gt; Iterator[AssignmentStmt]:&#10;    def _get_assignment_statements_from_block(self, block: Block) -&gt; Iterator[AssignmentStmt]:&#10;    def collect_field_or_class_var_from_stmt(  # noqa C901&#10;        self, stmt: AssignmentStmt, model_config: ModelConfigData, class_vars: dict[str, PydanticModelClassVar]&#10;    ) -&gt; PydanticModelField | PydanticModelClassVar | None:&#10;        # x: ClassVar[int] is not a field&#10;        # x: InitVar[int] is not supported in BaseModel&#10;    def _infer_dataclass_attr_init_type(self, sym: SymbolTableNode, name: str, context: Context) -&gt; Type | None:&#10;        # Perform a simple-minded inference from the signature of __set__, if present.&#10;        # We can't use mypy.checkmember here, since this plugin runs before type checking.&#10;        # We only support some basic scanerios here, which is hopefully sufficient for&#10;        # the vast majority of use cases.&#10;    def add_initializer(&#10;        self, fields: list[PydanticModelField], config: ModelConfigData, is_settings: bool, is_root_model: bool&#10;    ) -&gt; None:&#10;    def add_model_construct_method(&#10;        self,&#10;        fields: list[PydanticModelField],&#10;        config: ModelConfigData,&#10;        is_settings: bool,&#10;        is_root_model: bool,&#10;    ) -&gt; None:&#10;    def set_frozen(self, fields: list[PydanticModelField], api: SemanticAnalyzerPluginInterface, frozen: bool) -&gt; None:&#10;    def get_config_update(self, name: str, arg: Expression, lax_extra: bool = False) -&gt; ModelConfigData | None:&#10;    @staticmethod&#10;    def get_has_default(stmt: AssignmentStmt) -&gt; bool:&#10;        # Has no default if the &quot;default value&quot; is Ellipsis (i.e., `field_name: Annotation = ...`)&#10;    @staticmethod&#10;    def get_strict(stmt: AssignmentStmt) -&gt; bool | None:&#10;    @staticmethod&#10;    def get_alias_info(stmt: AssignmentStmt) -&gt; tuple[str | None, bool]:&#10;    @staticmethod&#10;    def is_field_frozen(stmt: AssignmentStmt) -&gt; bool:&#10;    def get_field_arguments(&#10;        self,&#10;        fields: list[PydanticModelField],&#10;        typed: bool,&#10;        model_strict: bool,&#10;        use_alias: bool,&#10;        requires_dynamic_aliases: bool,&#10;        is_settings: bool,&#10;        is_root_model: bool,&#10;        force_typevars_invariant: bool = False,&#10;    ) -&gt; list[Argument]:&#10;    def should_init_forbid_extra(self, fields: list[PydanticModelField], config: ModelConfigData) -&gt; bool:&#10;    @staticmethod&#10;    def is_dynamic_alias_present(fields: list[PydanticModelField], has_alias_generator: bool) -&gt; bool:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="transformer.transform definition:" />
+                      <option name="text" value="```python&#10;def transform(self) -&gt; bool:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="parse_toml definition:" />
+                      <option name="text" value="```python&#10;def parse_toml(config_file: str) -&gt; dict[str, Any] | None:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="error_unexpected_behavior definition:" />
+                      <option name="text" value="```python&#10;def error_unexpected_behavior(&#10;    detail: str, api: CheckerPluginInterface | SemanticAnalyzerPluginInterface, context: Context&#10;) -&gt; None:  # pragma: no cover&#10;    # Can't think of a good way to test this, but I confirmed it renders as desired by adding to a non-error path&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="error_from_attributes definition:" />
+                      <option name="text" value="```python&#10;def error_from_attributes(model_name: str, api: CheckerPluginInterface, context: Context) -&gt; None:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="is_root_model definition:" />
+                      <option name="text" value="```python&#10;def is_root_model(info: TypeInfo) -&gt; bool:&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="self.collect_config definition:" />
+                      <option name="text" value="```python&#10;def collect_config(self) -&gt; ModelConfigData:  # noqa: C901 (ignore complexity)&#10;    # Handle `class MyModel(BaseModel, &lt;name&gt;=&lt;expr&gt;, ...):`&#10;    # Handle `model_config`&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="self.collect_fields_and_class_vars definition:" />
+                      <option name="text" value="```python&#10;def collect_fields_and_class_vars(&#10;    self, model_config: ModelConfigData, is_root_model: bool&#10;) -&gt; tuple[list[PydanticModelField] | None, list[PydanticModelClassVar] | None]:&#10;    # First, collect fields and ClassVars belonging to any class in the MRO, ignoring duplicates.&#10;    #&#10;    # We iterate through the MRO in reverse because attrs defined in the parent must appear&#10;    # earlier in the attributes list than attrs defined in the child. See:&#10;    # https://docs.python.org/3/library/dataclasses.html#inheritance&#10;    #&#10;    # However, we also want fields defined in the subtype to override ones defined&#10;    # in the parent. We can implement this via a dict without disrupting the attr order&#10;    # because dicts preserve insertion order in Python 3.7+.&#10;    # Second, collect fields and ClassVars belonging to the current class.&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="uid" value="UUID(uuid=5691676b-11be-403d-a70f-29546474dd53)" />
+                <option name="displayContent" value="Explain the following Python code:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;```&#10;" />
+                <option name="internalContent" value="Explain the following Python code:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;```&#10;" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=55b461b7-f564-4f60-aefc-c1a42c226256)" />
+                <option name="displayContent" value="Let's break down the following function signature:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;```&#10;&#10;### Explanation&#10;&#10;1. **Function name `plugin`**:&#10;   - This is the name of the function. It likely represents a hook or factory function used to return a plugin instance, possibly in the context of mypy (a static type checker for Python).&#10;&#10;2. **Parameter `version: str`**:&#10;   - The function takes a single parameter, `version`, which is expected to be of type `str`. This likely represents a version identifier, perhaps for compatibility checking with different versions of mypy or the plugin itself.&#10;&#10;3. **Return type `-&gt; type[Plugin]`:**&#10;   - The `type[Plugin]` annotation specifies that the function will return a type object of a class that is (or inherits from) `Plugin`. Here:&#10;     - `Plugin` is a base class, likely part of a plugin system (possibly for mypy based on context).&#10;     - `type[Plugin]` means that the **class type** of a subclass or `Plugin` itself will be returned, not an instance of the class.&#10;&#10;### Use Case&#10;- This function is likely part of a plugin registration process for mypy, where mypy calls this function to load or retrieve a plugin compatible with the specified `version`.&#10;- The returned `type[Plugin]` allows mypy's internal system to initialize or use specific implementations of `Plugin`.&#10;&#10;### Connection with Related Code&#10;From the provided context:&#10;- `Plugin` seems to be a base class that plugin implementations inherit from (such as `PydanticPlugin`).&#10;- `PydanticPlugin` appears to implement methods like `get_base_class_hook` or `get_metaclass_hook`, which align with typical mypy plugin behavior (e.g., hooks for customizing type-checking behavior).&#10;- This matches how plugins behave within mypy—returning a class that mypy can later instantiate or use for various type-checking customizations.&#10;&#10;### Example Usage&#10;Let's visualize how this function might be used:&#10;&#10;```python&#10;class MyPlugin(Plugin):&#10;    def __init__(self, options: Options) -&gt; None:&#10;        pass&#10;    # Implementation of hooks here...&#10;&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;    if version &gt;= &quot;1.0&quot;:&#10;        return MyPlugin&#10;    raise RuntimeError(&quot;Unsupported version!&quot;)&#10;```&#10;&#10;Here, if the `version` parameter satisfies the compatibility check, the function would return the `MyPlugin` class, which mypy can use for its type-checking tasks.&#10;&#10;### Final Thoughts&#10;- This function is likely part of a standardized interface for mypy extensions or plugins, with the `Plugin` type specifying a base class that concrete implementations (e.g., `PydanticPlugin`) must inherit from.&#10;- The returned value is not an instance but a class type (hence `type[Plugin]`).&#10;&#10;If you have additional questions or need clarification, feel free to ask!" />
+                <option name="internalContent" value="Let's break down the following function signature:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;```&#10;&#10;### Explanation&#10;&#10;1. **Function name `plugin`**:&#10;   - This is the name of the function. It likely represents a hook or factory function used to return a plugin instance, possibly in the context of mypy (a static type checker for Python).&#10;&#10;2. **Parameter `version: str`**:&#10;   - The function takes a single parameter, `version`, which is expected to be of type `str`. This likely represents a version identifier, perhaps for compatibility checking with different versions of mypy or the plugin itself.&#10;&#10;3. **Return type `-&gt; type[Plugin]`:**&#10;   - The `type[Plugin]` annotation specifies that the function will return a type object of a class that is (or inherits from) `Plugin`. Here:&#10;     - `Plugin` is a base class, likely part of a plugin system (possibly for mypy based on context).&#10;     - `type[Plugin]` means that the **class type** of a subclass or `Plugin` itself will be returned, not an instance of the class.&#10;&#10;### Use Case&#10;- This function is likely part of a plugin registration process for mypy, where mypy calls this function to load or retrieve a plugin compatible with the specified `version`.&#10;- The returned `type[Plugin]` allows mypy's internal system to initialize or use specific implementations of `Plugin`.&#10;&#10;### Connection with Related Code&#10;From the provided context:&#10;- `Plugin` seems to be a base class that plugin implementations inherit from (such as `PydanticPlugin`).&#10;- `PydanticPlugin` appears to implement methods like `get_base_class_hook` or `get_metaclass_hook`, which align with typical mypy plugin behavior (e.g., hooks for customizing type-checking behavior).&#10;- This matches how plugins behave within mypy—returning a class that mypy can later instantiate or use for various type-checking customizations.&#10;&#10;### Example Usage&#10;Let's visualize how this function might be used:&#10;&#10;```python&#10;class MyPlugin(Plugin):&#10;    def __init__(self, options: Options) -&gt; None:&#10;        pass&#10;    # Implementation of hooks here...&#10;&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;    if version &gt;= &quot;1.0&quot;:&#10;        return MyPlugin&#10;    raise RuntimeError(&quot;Unsupported version!&quot;)&#10;```&#10;&#10;Here, if the `version` parameter satisfies the compatibility check, the function would return the `MyPlugin` class, which mypy can use for its type-checking tasks.&#10;&#10;### Final Thoughts&#10;- This function is likely part of a standardized interface for mypy extensions or plugins, with the `Plugin` type specifying a base class that concrete implementations (e.g., `PydanticPlugin`) must inherit from.&#10;- The returned value is not an instance but a class type (hence `type[Plugin]`).&#10;&#10;If you have additional questions or need clarification, feel free to ask!" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/mypy.py" />
+                      <option name="name" value="Information about open file in the editor" />
+                      <option name="text" value="```python&#10;summarized and truncated contents:&#10;&#10;attribute mypy_version (charRange: [1661, 1672])&#10;attribute CONFIGFILE_KEY (charRange: [1763, 1776])&#10;attribute METADATA_KEY (charRange: [1796, 1807])&#10;attribute BASEMODEL_FULLNAME (charRange: [1836, 1853])&#10;attribute BASESETTINGS_FULLNAME (charRange: [1883, 1903])&#10;attribute ROOT_MODEL_FULLNAME (charRange: [1945, 1963])&#10;attribute MODEL_METACLASS_FULLNAME (charRange: [1999, 2022])&#10;attribute FIELD_FULLNAME (charRange: [2082, 2095])&#10;attribute DATACLASS_FULLNAME (charRange: [2123, 2140])&#10;attribute MODEL_VALIDATOR_FULLNAME (charRange: [2177, 2200])&#10;attribute DECORATOR_FULLNAMES (charRange: [2253, 2271])&#10;attribute IMPLICIT_CLASSMETHOD_DECORATOR_FULLNAMES (charRange: [2606, 2645])&#10;attribute MYPY_VERSION_TUPLE (charRange: [2726, 2743])&#10;attribute BUILTINS_NAME (charRange: [2780, 2792])&#10;attribute __version__ (charRange: [2884, 2894])&#10;attribute ERROR_ORM (charRange: [52211, 52219])&#10;attribute ERROR_CONFIG (charRange: [52293, 52304])&#10;attribute ERROR_ALIAS (charRange: [52373, 52383])&#10;attribute ERROR_UNEXPECTED (charRange: [52455, 52470])&#10;attribute ERROR_UNTYPED (charRange: [52542, 52554])&#10;attribute ERROR_FIELD_DEFAULTS (charRange: [52626, 52645])&#10;attribute ERROR_EXTRA_FIELD_ROOT_MODEL (charRange: [52715, 52742])&#10;&#10;function plugin (charRange: [2902, 3268])&#10;function from_attributes_callback (charRange: [7505, 8724])&#10;function is_root_model (charRange: [52021, 52207])&#10;function error_from_attributes (charRange: [52825, 53092])&#10;function error_invalid_config_value (charRange: [53096, 53339])&#10;function error_required_dynamic_aliases (charRange: [53343, 53641])&#10;function error_unexpected_behavior (charRange: [53645, 54267])&#10;function error_untyped_fields (charRange: [54271, 54500])&#10;function error_extra_fields_on_root_model (charRange: [54504, 54810])&#10;function add_method (charRange: [54814, 58324])&#10;function parse_toml (charRange: [58328, 58993])&#10;&#10;class PydanticPlugin (charRange:[3272, 5668]) :&#10;instance attribute _plugin_data (charRange: [3456, 3472])&#10;instance attribute plugin_config (charRange: [3397, 3414])&#10;method __init__ (charRange: [3343, 3537])&#10;method get_base_class_hook (charRange: [3544, 4014])&#10;method get_metaclass_hook (charRange: [4021, 4302])&#10;method get_method_hook (charRange: [4309, 4558])&#10;method report_config_data (charRange: [4565, 4791])&#10;method _pydantic_model_class_maker_callback (charRange: [4798, 5003])&#10;method _pydantic_model_metaclass_marker_callback (charRange: [5010, 5668])&#10;&#10;class PydanticPluginConfig (charRange:[5672, 7501]) :&#10;class attribute __slots__ (charRange: [6191, 6199])&#10;class attribute init_forbid_extra (charRange: [6344, 6360])&#10;class attribute init_typed (charRange: [6372, 6381])&#10;class attribute warn_required_dynamic_aliases (charRange: [6393, 6421])&#10;class attribute debug_dataclass_transform (charRange: [6433, 6457])&#10;method __init__ (charRange: [6486, 7330])&#10;method to_data (charRange: [7337, 7501])&#10;&#10;class PydanticModelField (charRange:[8728, 14711]) :&#10;instance attribute has_default (charRange: [9255, 9270])&#10;instance attribute is_frozen (charRange: [9169, 9182])&#10;instance attribute line (charRange: [9323, 9331])&#10;instance attribute name (charRange: [9117, 9125])&#10;instance attribute column (charRange: [9348, 9358])&#10;instance attribute alias (charRange: [9142, 9151])&#10;instance attribute has_dynamic_alias (charRange: [9204, 9225])&#10;instance attribute strict (charRange: [9294, 9304])&#10;instance attribute type (charRange: [9377, 9385])&#10;instance attribute info (charRange: [9402, 9410])&#10;method __init__ (charRange: [8823, 9417])&#10;method to_argument (charRange: [9424, 10420])&#10;method expand_type (charRange: [10427, 12919])&#10;method to_var (charRange: [12926, 13401])&#10;method serialize (charRange: [13408, 13920])&#10;method deserialize (charRange: [13927, 14275])&#10;method expand_typevar_from_subtype (charRange: [14282, 14711])&#10;&#10;class PydanticModelClassVar (charRange:[14715, 15351]) :&#10;instance attribute name (charRange: [14943, 14951])&#10;method __init__ (charRange: [14909, 14958])&#10;method deserialize (charRange: [14965, 15177])&#10;method serialize (charRange: [15184&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=b2ae89ce-9ffe-435d-8c16-4e82181f140e)" />
+                <option name="displayContent" value="how can class inherit from the function`class PydanticPlugin(Plugin):`" />
+                <option name="internalContent" value="how can class inherit from the function`class PydanticPlugin(Plugin):`" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=df6e7b94-04e2-4f56-809d-08b4290a9819)" />
+                <option name="displayContent" value="In Python, **classes do not inherit from functions**. Instead, they inherit from other classes. Let’s break this down in relation to your example to clarify confusion.&#10;&#10;The statement:&#10;&#10;```python&#10;class PydanticPlugin(Plugin):&#10;```&#10;&#10;indicates that the `PydanticPlugin` class is inheriting from another class called `Plugin`. **`Plugin` is not a function.** Rather, it is a class defined elsewhere in the codebase or imported from an external library.&#10;&#10;### Why the Confusion May Arise&#10;You might have seen a function with the same name (`plugin`), such as:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;    ...&#10;```&#10;&#10;This `plugin` is **a function**, but it is unrelated to the inheritance shown in `class PydanticPlugin(Plugin)`. It is merely a factory function or helper function that may return references to classes like `Plugin` or `PydanticPlugin`. This does not mean the class `PydanticPlugin` inherits from the function `plugin`.&#10;&#10;### Key Relationship:&#10;- `plugin(version)` is a function that might, for example, return the `PydanticPlugin` class.&#10;- `PydanticPlugin` inherits from the `Plugin` class, not the `plugin` function.&#10;&#10;### Visual Example of This Pattern:&#10;&#10;Here’s how all of this might work together:&#10;&#10;1. Define a base class (`Plugin`):&#10;   ```python&#10;   class Plugin:&#10;       pass&#10;   ```&#10;&#10;2. Define a subclass (`PydanticPlugin`):&#10;   ```python&#10;   class PydanticPlugin(Plugin):&#10;       pass&#10;   ```&#10;&#10;3. Implement a factory function (`plugin`):&#10;   ```python&#10;   def plugin(version: str) -&gt; type[Plugin]:&#10;       if version == &quot;latest&quot;:&#10;           return PydanticPlugin  # Return the class, not an instance&#10;       raise RuntimeError(&quot;Unsupported version&quot;)&#10;   ```&#10;&#10;4. Usage of the factory and inheritance:&#10;   ```python&#10;   selected_plugin_class = plugin(&quot;latest&quot;)  # Get the class&#10;   plugin_instance = selected_plugin_class()  # Create instance&#10;   print(isinstance(plugin_instance, Plugin))  # True&#10;   ```&#10;&#10;### Final Clarification:&#10;The class `PydanticPlugin` inherits behavior and properties from the `Plugin` class, not from the `plugin` function. In your codebase, the `plugin` function likely serves as a way to retrieve some plugin class and integrate it into a larger system." />
+                <option name="internalContent" value="In Python, **classes do not inherit from functions**. Instead, they inherit from other classes. Let’s break this down in relation to your example to clarify confusion.&#10;&#10;The statement:&#10;&#10;```python&#10;class PydanticPlugin(Plugin):&#10;```&#10;&#10;indicates that the `PydanticPlugin` class is inheriting from another class called `Plugin`. **`Plugin` is not a function.** Rather, it is a class defined elsewhere in the codebase or imported from an external library.&#10;&#10;### Why the Confusion May Arise&#10;You might have seen a function with the same name (`plugin`), such as:&#10;&#10;```python&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;    ...&#10;```&#10;&#10;This `plugin` is **a function**, but it is unrelated to the inheritance shown in `class PydanticPlugin(Plugin)`. It is merely a factory function or helper function that may return references to classes like `Plugin` or `PydanticPlugin`. This does not mean the class `PydanticPlugin` inherits from the function `plugin`.&#10;&#10;### Key Relationship:&#10;- `plugin(version)` is a function that might, for example, return the `PydanticPlugin` class.&#10;- `PydanticPlugin` inherits from the `Plugin` class, not the `plugin` function.&#10;&#10;### Visual Example of This Pattern:&#10;&#10;Here’s how all of this might work together:&#10;&#10;1. Define a base class (`Plugin`):&#10;   ```python&#10;   class Plugin:&#10;       pass&#10;   ```&#10;&#10;2. Define a subclass (`PydanticPlugin`):&#10;   ```python&#10;   class PydanticPlugin(Plugin):&#10;       pass&#10;   ```&#10;&#10;3. Implement a factory function (`plugin`):&#10;   ```python&#10;   def plugin(version: str) -&gt; type[Plugin]:&#10;       if version == &quot;latest&quot;:&#10;           return PydanticPlugin  # Return the class, not an instance&#10;       raise RuntimeError(&quot;Unsupported version&quot;)&#10;   ```&#10;&#10;4. Usage of the factory and inheritance:&#10;   ```python&#10;   selected_plugin_class = plugin(&quot;latest&quot;)  # Get the class&#10;   plugin_instance = selected_plugin_class()  # Create instance&#10;   print(isinstance(plugin_instance, Plugin))  # True&#10;   ```&#10;&#10;### Final Clarification:&#10;The class `PydanticPlugin` inherits behavior and properties from the `Plugin` class, not from the `plugin` function. In your codebase, the `plugin` function likely serves as a way to retrieve some plugin class and integrate it into a larger system." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="name" value="Selection" />
+                      <option name="text" value="```&#10;def plugin(version: str) -&gt; type[Plugin]:&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=829dd78b-c347-4c2c-aad3-f07bf1171fd6)" />
+                <option name="displayContent" value="is there a diff`def plugin(version: str) -&gt; type[Plugin]:` and `def plugin(version: str) -&gt; tPlugin:`" />
+                <option name="internalContent" value="is there a diff`def plugin(version: str) -&gt; type[Plugin]:` and `def plugin(version: str) -&gt; tPlugin:`" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=b7105f94-09be-41f8-a919-4d2a6b524eca)" />
+                <option name="displayContent" value="Yes, there is a difference between `def plugin(version: str) -&gt; type[Plugin]:` and `def plugin(version: str) -&gt; tPlugin:` in terms of typing and semantics in Python.&#10;&#10;### Explanation of Each&#10;&#10;#### 1. `def plugin(version: str) -&gt; type[Plugin]:`&#10;- **Return Type**: The return type is explicitly defined as `type[Plugin]`, which means the function is expected to return a class object (not an instance) that is either `Plugin` itself or a subclass of `Plugin`.&#10;- **Semantics**:&#10;  - `Plugin` must be a class.&#10;  - Returning a class explicitly allows further calls or operations to rely on the fact that the result is a class type.&#10;  - For example, the caller should expect to call this return value to instantiate it if necessary (e.g., `plugin(version)(&quot;arg&quot;)`).&#10;&#10;- **Practical Use Case**:&#10;  This return type is useful in plugin systems or metaprogramming where you return class objects dynamically.&#10;&#10;---&#10;&#10;#### 2. `def plugin(version: str) -&gt; tPlugin:`&#10;- **Return Type**: Here, `tPlugin` is assumed to be an alias or annotation. Its meaning depends on how it is defined within the code.&#10;&#10;  - If `tPlugin` is an alias for `Plugin` (or `type[Plugin]`), then it conveys the same intent but is shorthand:&#10;    ```python&#10;    tPlugin = type[Plugin]&#10;    def plugin(version: str) -&gt; tPlugin:&#10;    ```&#10;&#10;  - If `tPlugin` is defined differently, such as an instance type or union, the behavior changes.&#10;&#10;- **Semantics**:&#10;  - Depending on how `tPlugin` is defined, this could mean the function returns:&#10;    - A class (like `type[Plugin]`),&#10;    - An instance of `Plugin`,&#10;    - Another type entirely (e.g., `Union[type[Plugin], Plugin]`).&#10;&#10;- **Flexible Typing**:&#10;  Using aliases like `tPlugin` can decouple code and make typing abstractions reusable, but the interpretation depends on how `tPlugin` is defined.&#10;&#10;---&#10;&#10;### Key Differences&#10;| Aspect                | `type[Plugin]`                              | `tPlugin`                                         |&#10;|-----------------------|---------------------------------------------|--------------------------------------------------|&#10;| **Clarity**           | Explicitly states the function returns a class object of `Plugin`. | Relies on `tPlugin` definition—requires context to understand. |&#10;| **Strictness**        | Forces the return type to `type[Plugin]`.   | Depends on how `tPlugin` is defined; it might allow additional flexibility. |&#10;| **Expandability**     | Fixed and specific to `type[Plugin]`.       | Can represent more complex or alternative types if `tPlugin` is an alias. |&#10;| **Usage Context**     | Best for static typing where returning class types is clear. | Useful when the return type may vary or needs reuse through aliasing. |&#10;&#10;---&#10;&#10;### Example of When They Differ&#10;Suppose these definitions exist:&#10;&#10;```python&#10;from typing import Union&#10;&#10;tPlugin = Union[type[Plugin], Plugin]  # Alias for flexibility&#10;```&#10;&#10;Now:&#10;&#10;1. `def plugin(version: str) -&gt; type[Plugin]:`&#10;   - Must return a class object (e.g., `Plugin` or a subclass like `PydanticPlugin`).&#10;   - Example:&#10;     ```python&#10;     def plugin(version: str) -&gt; type[Plugin]:&#10;         return PydanticPlugin&#10;     ```&#10;&#10;2. `def plugin(version: str) -&gt; tPlugin:`&#10;   - May return either the class itself or an **instance** of `Plugin`.&#10;   - Example:&#10;     ```python&#10;     def plugin(version: str) -&gt; tPlugin:&#10;         if version == &quot;class&quot;:&#10;             return PydanticPlugin  # A class&#10;         return PydanticPlugin()  # An instance&#10;     ```&#10;&#10;---&#10;&#10;### Conclusion&#10;- Use **`type[Plugin]`** if the function must return a class or subclass of `Plugin`.&#10;- Use **`tPlugin`** if you need flexibility (e.g., allowing either a class or an instance, or creating a complex alias). However, this flexibility may reduce clarity for other developers unless `tPlugin` is well-documented." />
+                <option name="internalContent" value="Yes, there is a difference between `def plugin(version: str) -&gt; type[Plugin]:` and `def plugin(version: str) -&gt; tPlugin:` in terms of typing and semantics in Python.&#10;&#10;### Explanation of Each&#10;&#10;#### 1. `def plugin(version: str) -&gt; type[Plugin]:`&#10;- **Return Type**: The return type is explicitly defined as `type[Plugin]`, which means the function is expected to return a class object (not an instance) that is either `Plugin` itself or a subclass of `Plugin`.&#10;- **Semantics**:&#10;  - `Plugin` must be a class.&#10;  - Returning a class explicitly allows further calls or operations to rely on the fact that the result is a class type.&#10;  - For example, the caller should expect to call this return value to instantiate it if necessary (e.g., `plugin(version)(&quot;arg&quot;)`).&#10;&#10;- **Practical Use Case**:&#10;  This return type is useful in plugin systems or metaprogramming where you return class objects dynamically.&#10;&#10;---&#10;&#10;#### 2. `def plugin(version: str) -&gt; tPlugin:`&#10;- **Return Type**: Here, `tPlugin` is assumed to be an alias or annotation. Its meaning depends on how it is defined within the code.&#10;&#10;  - If `tPlugin` is an alias for `Plugin` (or `type[Plugin]`), then it conveys the same intent but is shorthand:&#10;    ```python&#10;    tPlugin = type[Plugin]&#10;    def plugin(version: str) -&gt; tPlugin:&#10;    ```&#10;&#10;  - If `tPlugin` is defined differently, such as an instance type or union, the behavior changes.&#10;&#10;- **Semantics**:&#10;  - Depending on how `tPlugin` is defined, this could mean the function returns:&#10;    - A class (like `type[Plugin]`),&#10;    - An instance of `Plugin`,&#10;    - Another type entirely (e.g., `Union[type[Plugin], Plugin]`).&#10;&#10;- **Flexible Typing**:&#10;  Using aliases like `tPlugin` can decouple code and make typing abstractions reusable, but the interpretation depends on how `tPlugin` is defined.&#10;&#10;---&#10;&#10;### Key Differences&#10;| Aspect                | `type[Plugin]`                              | `tPlugin`                                         |&#10;|-----------------------|---------------------------------------------|--------------------------------------------------|&#10;| **Clarity**           | Explicitly states the function returns a class object of `Plugin`. | Relies on `tPlugin` definition—requires context to understand. |&#10;| **Strictness**        | Forces the return type to `type[Plugin]`.   | Depends on how `tPlugin` is defined; it might allow additional flexibility. |&#10;| **Expandability**     | Fixed and specific to `type[Plugin]`.       | Can represent more complex or alternative types if `tPlugin` is an alias. |&#10;| **Usage Context**     | Best for static typing where returning class types is clear. | Useful when the return type may vary or needs reuse through aliasing. |&#10;&#10;---&#10;&#10;### Example of When They Differ&#10;Suppose these definitions exist:&#10;&#10;```python&#10;from typing import Union&#10;&#10;tPlugin = Union[type[Plugin], Plugin]  # Alias for flexibility&#10;```&#10;&#10;Now:&#10;&#10;1. `def plugin(version: str) -&gt; type[Plugin]:`&#10;   - Must return a class object (e.g., `Plugin` or a subclass like `PydanticPlugin`).&#10;   - Example:&#10;     ```python&#10;     def plugin(version: str) -&gt; type[Plugin]:&#10;         return PydanticPlugin&#10;     ```&#10;&#10;2. `def plugin(version: str) -&gt; tPlugin:`&#10;   - May return either the class itself or an **instance** of `Plugin`.&#10;   - Example:&#10;     ```python&#10;     def plugin(version: str) -&gt; tPlugin:&#10;         if version == &quot;class&quot;:&#10;             return PydanticPlugin  # A class&#10;         return PydanticPlugin()  # An instance&#10;     ```&#10;&#10;---&#10;&#10;### Conclusion&#10;- Use **`type[Plugin]`** if the function must return a class or subclass of `Plugin`.&#10;- Use **`tPlugin`** if you need flexibility (e.g., allowing either a class or an instance, or creating a complex alias). However, this flexibility may reduce clarity for other developers unless `tPlugin` is well-documented." />
+              </SerializedChatMessage>
+            </list>
+          </option>
+          <option name="modifiedAt" value="1742907649517" />
+          <option name="statisticInformation">
+            <ChatStatisticInformation>
+              <option name="sourceActionType" value="EXPLAIN_CODE_INTENTION" />
+              <option name="timestamp" value="1742907649517" />
+            </ChatStatisticInformation>
+          </option>
+          <option name="title">
+            <SerializedChatTitle>
+              <option name="custom" value="true" />
+              <option name="text" value="Understanding Python Plugin Function Signature" />
+            </SerializedChatTitle>
+          </option>
+          <option name="uid" value="5e4e5a76-2d0e-428d-82ff-6966a4377f69" />
+        </SerializedChat>
+        <SerializedChat>
+          <option name="chatContext">
+            <SerializedChatContext />
+          </option>
+          <option name="messages">
+            <list>
+              <SerializedChatMessage>
+                <option name="uid" value="UUID(uuid=c04def9b-9f24-4255-a1aa-c3c4979639f3)" />
+                <option name="displayContent" value="Explain the following Python code:&#10;&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;" />
+                <option name="internalContent" value="Explain the following Python code:&#10;&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=9999833c-8edc-4418-b067-cc16e396372e)" />
+                <option name="displayContent" value="Certainly! Let me break it down for you.&#10;&#10;---&#10;&#10;The line you shared is a part of a Python method definition, specifically defining the `__init__` constructor method in a Python class. Here's an explanation of each part:&#10;&#10;### Code Explanation:&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;&#10;#### 1. **`__init__` Method:**&#10;`__init__` is the *constructor* method in Python. It is called automatically during the creation of an instance of a class and is used to initialize the instance with any default or custom values. Example:&#10;```python&#10;class MyClass:&#10;    def __init__(self, name):&#10;        self.name = name&#10;```&#10;&#10;#### 2. **Positional-only Parameter: `/`:**&#10;The `/` symbol is relatively new in Python (introduced in **Python 3.8**) and is used to indicate **positional-only parameters**.&#10;&#10;- Any parameter specified before `/` in a function signature can **only** be passed by position (i.e., not by keyword).&#10;- In this case, the `self` argument is before the `/`, so it is a **positional-only** argument.&#10;&#10;This means the parameter `self` must always be passed positionally (as is typical in method definitions, where it represents the current instance of the class).&#10;&#10;Example:&#10;```python&#10;def func(param, /):&#10;    pass&#10;&#10;func(10)  # OK&#10;func(param=10)  # TypeError&#10;```&#10;&#10;In this case, since only `self` appears before `/`, it simply follows standard `__init__` behavior (you don't typically pass `self` explicitly).&#10;&#10;---&#10;&#10;#### 3. **`**data`:**&#10;`**data` is a **keyword arguments dictionary**. It allows you to capture an arbitrary number of named (keyword) arguments passed to the `__init__` method into a dictionary.&#10;&#10;Example:&#10;```python&#10;def func(**kwargs):&#10;    print(kwargs)&#10;&#10;func(name=&quot;Alice&quot;, age=30)&#10;# Output: {'name': 'Alice', 'age': 30}&#10;```&#10;&#10;Here, in your method, `**data` collects all arbitrary keyword arguments passed to the constructor and stores them as a dictionary called `data`.&#10;&#10;---&#10;&#10;#### 4. **Type Annotation: `data: Any`:**&#10;The `data: Any` is a **type hint** using Python's `typing` module. &#10;&#10;- `Any` is a **type hint** that means &quot;this can be of any type.&quot;&#10;- So, `**data: Any` means that the keyword arguments collected into `data` can have values of any type.&#10;&#10;You would need to `import Any` from the `typing` module, like this:&#10;```python&#10;from typing import Any&#10;```&#10;&#10;---&#10;&#10;#### 5. **Return Annotation: `-&gt; None`:**&#10;The `-&gt; None` is another **type hint** indicating the return type of the method.&#10;&#10;- Since `__init__` is a constructor and doesn't return any value, its return type is always `None`. This is standard practice for every `__init__` method.&#10;&#10;---&#10;&#10;### Putting it All Together:&#10;&#10;The full method definition:&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;&#10;**Means:**&#10;- `self` must be passed positionally (this is standard for methods).&#10;- The constructor accepts arbitrary keyword arguments, which are collected into a dictionary called `data`.&#10;- The values in `data` can be of any type.&#10;- The method does not return anything (as is typical for `__init__`).&#10;&#10;---&#10;&#10;### Practical Example:&#10;Assume you use the above constructor in a class like this:&#10;&#10;```python&#10;from typing import Any&#10;&#10;class Example:&#10;    def __init__(self, /, **data: Any) -&gt; None:&#10;        self.data = data&#10;&#10;# Instantiate the class by passing keyword arguments&#10;obj = Example(name=&quot;Alice&quot;, age=25, hobby=&quot;Reading&quot;)&#10;&#10;# Access the stored data&#10;print(obj.data)&#10;```&#10;&#10;**Output:**&#10;```python&#10;{'name': 'Alice', 'age': 25, 'hobby': 'Reading'}&#10;```&#10;&#10;Here, all the keyword arguments passed (`name`, `age`, `hobby`) are collected into the `data` dictionary and stored as an attribute in the instance.&#10;&#10;---&#10;&#10;### Summary:&#10;The `__init__` definition in your code allows the constructor to:&#10;1. Take `self` as a positional argument.&#10;2. Collect any additional keyword arguments into a dictionary `data`.&#10;3. Allow for flexibility in the types of keyword argument values (`Any`).&#10;4. Indicate the method does not return any value (`-&gt; None`)." />
+                <option name="internalContent" value="Certainly! Let me break it down for you.&#10;&#10;---&#10;&#10;The line you shared is a part of a Python method definition, specifically defining the `__init__` constructor method in a Python class. Here's an explanation of each part:&#10;&#10;### Code Explanation:&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;&#10;#### 1. **`__init__` Method:**&#10;`__init__` is the *constructor* method in Python. It is called automatically during the creation of an instance of a class and is used to initialize the instance with any default or custom values. Example:&#10;```python&#10;class MyClass:&#10;    def __init__(self, name):&#10;        self.name = name&#10;```&#10;&#10;#### 2. **Positional-only Parameter: `/`:**&#10;The `/` symbol is relatively new in Python (introduced in **Python 3.8**) and is used to indicate **positional-only parameters**.&#10;&#10;- Any parameter specified before `/` in a function signature can **only** be passed by position (i.e., not by keyword).&#10;- In this case, the `self` argument is before the `/`, so it is a **positional-only** argument.&#10;&#10;This means the parameter `self` must always be passed positionally (as is typical in method definitions, where it represents the current instance of the class).&#10;&#10;Example:&#10;```python&#10;def func(param, /):&#10;    pass&#10;&#10;func(10)  # OK&#10;func(param=10)  # TypeError&#10;```&#10;&#10;In this case, since only `self` appears before `/`, it simply follows standard `__init__` behavior (you don't typically pass `self` explicitly).&#10;&#10;---&#10;&#10;#### 3. **`**data`:**&#10;`**data` is a **keyword arguments dictionary**. It allows you to capture an arbitrary number of named (keyword) arguments passed to the `__init__` method into a dictionary.&#10;&#10;Example:&#10;```python&#10;def func(**kwargs):&#10;    print(kwargs)&#10;&#10;func(name=&quot;Alice&quot;, age=30)&#10;# Output: {'name': 'Alice', 'age': 30}&#10;```&#10;&#10;Here, in your method, `**data` collects all arbitrary keyword arguments passed to the constructor and stores them as a dictionary called `data`.&#10;&#10;---&#10;&#10;#### 4. **Type Annotation: `data: Any`:**&#10;The `data: Any` is a **type hint** using Python's `typing` module. &#10;&#10;- `Any` is a **type hint** that means &quot;this can be of any type.&quot;&#10;- So, `**data: Any` means that the keyword arguments collected into `data` can have values of any type.&#10;&#10;You would need to `import Any` from the `typing` module, like this:&#10;```python&#10;from typing import Any&#10;```&#10;&#10;---&#10;&#10;#### 5. **Return Annotation: `-&gt; None`:**&#10;The `-&gt; None` is another **type hint** indicating the return type of the method.&#10;&#10;- Since `__init__` is a constructor and doesn't return any value, its return type is always `None`. This is standard practice for every `__init__` method.&#10;&#10;---&#10;&#10;### Putting it All Together:&#10;&#10;The full method definition:&#10;```python&#10;def __init__(self, /, **data: Any) -&gt; None:&#10;```&#10;&#10;**Means:**&#10;- `self` must be passed positionally (this is standard for methods).&#10;- The constructor accepts arbitrary keyword arguments, which are collected into a dictionary called `data`.&#10;- The values in `data` can be of any type.&#10;- The method does not return anything (as is typical for `__init__`).&#10;&#10;---&#10;&#10;### Practical Example:&#10;Assume you use the above constructor in a class like this:&#10;&#10;```python&#10;from typing import Any&#10;&#10;class Example:&#10;    def __init__(self, /, **data: Any) -&gt; None:&#10;        self.data = data&#10;&#10;# Instantiate the class by passing keyword arguments&#10;obj = Example(name=&quot;Alice&quot;, age=25, hobby=&quot;Reading&quot;)&#10;&#10;# Access the stored data&#10;print(obj.data)&#10;```&#10;&#10;**Output:**&#10;```python&#10;{'name': 'Alice', 'age': 25, 'hobby': 'Reading'}&#10;```&#10;&#10;Here, all the keyword arguments passed (`name`, `age`, `hobby`) are collected into the `data` dictionary and stored as an attribute in the instance.&#10;&#10;---&#10;&#10;### Summary:&#10;The `__init__` definition in your code allows the constructor to:&#10;1. Take `self` as a positional argument.&#10;2. Collect any additional keyword arguments into a dictionary `data`.&#10;3. Allow for flexibility in the types of keyword argument values (`Any`).&#10;4. Indicate the method does not return any value (`-&gt; None`)." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/pydantic/main.py" />
+                      <option name="name" value="Information about open file in the editor" />
+                      <option name="text" value="```python&#10;summarized and truncated contents:&#10;&#10;attribute DeprecationWarning (charRange: [2073, 2090])&#10;attribute __all__ (charRange: [2121, 2127])&#10;attribute TupleGenerator (charRange: [2208, 2221])&#10;attribute IncEx (charRange: [2527, 2531])&#10;attribute _object_setattr (charRange: [2645, 2659])&#10;attribute _SIMPLE_SETATTR_HANDLERS (charRange: [3296, 3319])&#10;attribute ModelT (charRange: [75834, 75839])&#10;attribute __getattr__ (charRange: [80787, 80797])&#10;&#10;function _check_frozen (charRange: [2700, 3134])&#10;function _model_field_setattr_handler (charRange: [3138, 3292])&#10;function create_model (charRange: [75880, 76263])&#10;function create_model (charRange: [76267, 76675])&#10;function create_model (charRange: [76679, 80783])&#10;&#10;class BaseModel (charRange:[3896, 75830]) :&#10;class attribute model_config (charRange: [6321, 6332])&#10;class attribute __class_vars__ (charRange: [6506, 6519])&#10;class attribute __private_attributes__ (charRange: [6611, 6632])&#10;class attribute __signature__ (charRange: [6755, 6767])&#10;class attribute __pydantic_complete__ (charRange: [6879, 6899])&#10;class attribute __pydantic_core_schema__ (charRange: [7017, 7040])&#10;class attribute __pydantic_custom_init__ (charRange: [7109, 7132])&#10;class attribute __pydantic_decorators__ (charRange: [7311, 7333])&#10;class attribute __pydantic_generic_metadata__ (charRange: [7567, 7595])&#10;class attribute __pydantic_parent_namespace__ (charRange: [7835, 7863])&#10;class attribute __pydantic_post_init__ (charRange: [8007, 8028])&#10;class attribute __pydantic_root_model__ (charRange: [8150, 8172])&#10;class attribute __pydantic_serializer__ (charRange: [8282, 8304])&#10;class attribute __pydantic_validator__ (charRange: [8425, 8446])&#10;class attribute __pydantic_fields__ (charRange: [8596, 8614])&#10;class attribute __pydantic_setattr_handlers__ (charRange: [8840, 8868])&#10;class attribute __pydantic_computed_fields__ (charRange: [9068, 9095])&#10;class attribute __pydantic_extra__ (charRange: [9294, 9311])&#10;class attribute __pydantic_fields_set__ (charRange: [9503, 9525])&#10;class attribute __pydantic_private__ (charRange: [9655, 9674])&#10;class attribute __pydantic_core_schema__ (charRange: [10011, 10034])&#10;class attribute __pydantic_validator__ (charRange: [10234, 10255])&#10;class attribute __pydantic_serializer__ (charRange: [10487, 10509])&#10;class attribute __slots__ (charRange: [10739, 10747])&#10;class attribute __pydantic_base_init__ (charRange: [12011, 12041])&#10;class attribute __repr_name__ (charRange: [59532, 59544])&#10;class attribute __repr_recursion__ (charRange: [59587, 59604])&#10;class attribute __repr_str__ (charRange: [59652, 59663])&#10;class attribute __pretty__ (charRange: [59705, 59714])&#10;class attribute __rich_repr__ (charRange: [59754, 59766])&#10;instance attribute __pydantic_complete__ (charRange: [29041, 29065])&#10;instance attribute __pydantic_fields__ (charRange: [29740, 29762])&#10;method __init__ (charRange: [10840, 11898])&#10;method model_fields (charRange: [12102, 12585])&#10;method model_computed_fields (charRange: [12592, 13126])&#10;method model_extra (charRange: [13133, 13408])&#10;method model_fields_set (charRange: [13415, 13762])&#10;method model_construct (charRange: [13769, 17914])&#10;method model_copy (charRange: [17921, 19413])&#10;method model_dump (charRange: [19420, 22257])&#10;method model_dump_json (charRange: [22264, 24895])&#10;method model_json_schema (charRange: [24902, 25828])&#10;method model_parametrized_name (charRange: [25835, 27189])&#10;method model_post_init (charRange: [27196, 27487])&#10;method model_rebuild (charRange: [27494, 30635])&#10;method model_validate (charRange: [30642, 32154])&#10;method model_validate_json (charRange: [32161, 33721])&#10;method model_validate_strings (charRange: [33728, 35065])&#10;method __get_pydantic_core_schema__ (charRange: [35072, 36246])&#10;method __get_pydantic_json_schema__ (charRange: [36253, 37338])&#10;method __pydantic_init_subclass__ (charRange: [37345, 38352])&#10;method __class_getitem__ (charRange: [38359, 42309])&#10;method __copy__ (charRange: [42316, 43064])&#10;method __deepcopy__ (charRange: [43071, 44067])&#10;method __getattr__ (charRange: [44334, 46054])&#10;method __setattr__ (charRange: [46065, 466&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=fbbcb1e8-9912-4307-b079-5bd1e88bcf71)" />
+                <option name="displayContent" value="is it supported in Python 3.9 - str | None = None" />
+                <option name="internalContent" value="is it supported in Python 3.9 - str | None = None" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=e662432e-b7c7-4750-8395-9744f64c655c)" />
+                <option name="displayContent" value="To address your question, **`str | None = None`** is supported in **Python 3.10 and later**, thanks to the introduction of **PEP 604**, which enhanced type hinting to allow the use of `|` as a union operator (e.g., `str | None`) instead of requiring `Union[str, None]` from the `typing` module.&#10;&#10;### For Python 3.9:&#10;In Python 3.9 and earlier, **`str | None = None` is not supported.** You must use the older `Union` syntax available through the `typing` module.&#10;&#10;Here’s how you would write this type hint in Python 3.9:&#10;```python&#10;from typing import Union&#10;&#10;x: Union[str, None] = None&#10;```&#10;&#10;### Explanation:&#10;- `str | None` is shorthand for creating a union of types. It indicates that the variable can either be a string (`str`) or `None`.&#10;- This new shorthand (`|` for unions) was introduced in Python 3.10 to simplify type hints.&#10;- Before Python 3.10, you had to explicitly use `Union` for the same purpose.&#10;&#10;### Summary:&#10;- Python 3.9: Use `Union[str, None]` for type hinting.&#10;- Python 3.10+: You can use the simpler `str | None`." />
+                <option name="internalContent" value="To address your question, **`str | None = None`** is supported in **Python 3.10 and later**, thanks to the introduction of **PEP 604**, which enhanced type hinting to allow the use of `|` as a union operator (e.g., `str | None`) instead of requiring `Union[str, None]` from the `typing` module.&#10;&#10;### For Python 3.9:&#10;In Python 3.9 and earlier, **`str | None = None` is not supported.** You must use the older `Union` syntax available through the `typing` module.&#10;&#10;Here’s how you would write this type hint in Python 3.9:&#10;```python&#10;from typing import Union&#10;&#10;x: Union[str, None] = None&#10;```&#10;&#10;### Explanation:&#10;- `str | None` is shorthand for creating a union of types. It indicates that the variable can either be a string (`str`) or `None`.&#10;- This new shorthand (`|` for unions) was introduced in Python 3.10 to simplify type hints.&#10;- Before Python 3.10, you had to explicitly use `Union` for the same purpose.&#10;&#10;### Summary:&#10;- Python 3.9: Use `Union[str, None]` for type hinting.&#10;- Python 3.10+: You can use the simpler `str | None`." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=1c4b3eae-d93e-4a18-b636-da33e8058e04)" />
+                <option name="displayContent" value="is it the same- `Union[str, None]`&#10;and - `Optional[str]`&#10;" />
+                <option name="internalContent" value="is it the same- `Union[str, None]`&#10;and - `Optional[str]`&#10;" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=ebd6526b-bd22-4a9c-8cd9-0a4ee8aa5b7a)" />
+                <option name="displayContent" value="Yes, `Union[str, None]` **is equivalent** to `Optional[str]`! In Python type hinting, both are shorthand for specifying that a value can either be of type `str` or `None`.&#10;&#10;---&#10;&#10;### Details:&#10;&#10;1. **`Union[str, None]`**:&#10;   - The `Union` type comes from the `typing` module and specifies that a value can be one of several types, in this case, either `str` or `None`.&#10;   - Example:&#10;     ```python&#10;     from typing import Union&#10;     &#10;     value: Union[str, None] = &quot;Hello&quot;&#10;     value = None  # Also valid&#10;     ```&#10;&#10;2. **`Optional[str]`**:&#10;   - The `Optional` type, also from the `typing` module, is a shorthand for `Union[T, None]`. So `Optional[str]` is equivalent to `Union[str, None]`.&#10;   - Example:&#10;     ```python&#10;     from typing import Optional&#10;     &#10;     value: Optional[str] = &quot;Hello&quot;&#10;     value = None  # Also valid&#10;     ```&#10;&#10;3. **Simplified Explanation**:&#10;   - `Optional[T]` is exactly the same as `Union[T, None]`.&#10;   - This equivalence is explicitly defined in the Python standard library:&#10;     ```python&#10;     Optional[T] == Union[T, None]&#10;     ```&#10;&#10;---&#10;&#10;### Which Should You Use?&#10;&#10;- **Use `Optional[T]`** when you want to be explicit that the value is of type `T` or `None`. This is more readable and intuitive for most developers.&#10;- **Use `Union[T, None]`** if you are mixing multiple types (e.g., `Union[T, None, int]`), as `Optional` is not applicable to cases beyond `T or None`.&#10;&#10;### Example Comparison:&#10;&#10;```python&#10;from typing import Union, Optional&#10;&#10;# Both are equivalent&#10;def example1(value: Union[str, None]):&#10;    print(value)&#10;&#10;def example2(value: Optional[str]):&#10;    print(value)&#10;```&#10;Both functions accept either a string (`str`) or `None`.&#10;&#10;---&#10;&#10;### Notes for Python 3.10+&#10;In Python 3.10 or later, instead of `Union[str, None]` or `Optional[str]`, you can simply write:&#10;```python&#10;value: str | None = None&#10;```&#10;This is functionally equivalent and more concise." />
+                <option name="internalContent" value="Yes, `Union[str, None]` **is equivalent** to `Optional[str]`! In Python type hinting, both are shorthand for specifying that a value can either be of type `str` or `None`.&#10;&#10;---&#10;&#10;### Details:&#10;&#10;1. **`Union[str, None]`**:&#10;   - The `Union` type comes from the `typing` module and specifies that a value can be one of several types, in this case, either `str` or `None`.&#10;   - Example:&#10;     ```python&#10;     from typing import Union&#10;     &#10;     value: Union[str, None] = &quot;Hello&quot;&#10;     value = None  # Also valid&#10;     ```&#10;&#10;2. **`Optional[str]`**:&#10;   - The `Optional` type, also from the `typing` module, is a shorthand for `Union[T, None]`. So `Optional[str]` is equivalent to `Union[str, None]`.&#10;   - Example:&#10;     ```python&#10;     from typing import Optional&#10;     &#10;     value: Optional[str] = &quot;Hello&quot;&#10;     value = None  # Also valid&#10;     ```&#10;&#10;3. **Simplified Explanation**:&#10;   - `Optional[T]` is exactly the same as `Union[T, None]`.&#10;   - This equivalence is explicitly defined in the Python standard library:&#10;     ```python&#10;     Optional[T] == Union[T, None]&#10;     ```&#10;&#10;---&#10;&#10;### Which Should You Use?&#10;&#10;- **Use `Optional[T]`** when you want to be explicit that the value is of type `T` or `None`. This is more readable and intuitive for most developers.&#10;- **Use `Union[T, None]`** if you are mixing multiple types (e.g., `Union[T, None, int]`), as `Optional` is not applicable to cases beyond `T or None`.&#10;&#10;### Example Comparison:&#10;&#10;```python&#10;from typing import Union, Optional&#10;&#10;# Both are equivalent&#10;def example1(value: Union[str, None]):&#10;    print(value)&#10;&#10;def example2(value: Optional[str]):&#10;    print(value)&#10;```&#10;Both functions accept either a string (`str`) or `None`.&#10;&#10;---&#10;&#10;### Notes for Python 3.10+&#10;In Python 3.10 or later, instead of `Union[str, None]` or `Optional[str]`, you can simply write:&#10;```python&#10;value: str | None = None&#10;```&#10;This is functionally equivalent and more concise." />
+              </SerializedChatMessage>
+            </list>
+          </option>
+          <option name="modifiedAt" value="1742908008139" />
+          <option name="statisticInformation">
+            <ChatStatisticInformation>
+              <option name="sourceActionType" value="EXPLAIN_CODE_INTENTION" />
+              <option name="timestamp" value="1742908008139" />
+            </ChatStatisticInformation>
+          </option>
+          <option name="title">
+            <SerializedChatTitle>
+              <option name="custom" value="true" />
+              <option name="text" value="Understanding Python's __init__ Method Syntax" />
+            </SerializedChatTitle>
+          </option>
+          <option name="uid" value="dfbf9423-d1b9-49d4-b68b-fb7c7b1cd0be" />
+        </SerializedChat>
+      </list>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2kfvn82qcfo90" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pydantic/main.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="281">
+              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"main.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/pydantic/mypy.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="840">
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"mypy.py","foregroundColor":-16777216,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1742907405085
+    },
+    "Python": {
+      "usageCount": 8,
+      "lastUsed": 1742908396698
+    }
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1742907405086" />
+    </language>
+    <language id="Python">
+      <summary usageCount="8" lastUsage="1742908396698" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic/release}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic/tests}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic/tests/typechecking}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="pydantic" />
+            <item name="pydantic" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="pydantic" />
+              <item name="dir{file:///Users/dshashev/sources/pydantic}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.hyperlint" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".hyperlint" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/.hyperlint}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/docs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="docs" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/docs}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/pydantic" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="pydantic" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/_internal" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="_internal" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic/_internal}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/deprecated" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="deprecated" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic/deprecated}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/experimental" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="experimental" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic/experimental}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/plugin" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="plugin" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic/plugin}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/v1" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="v1" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/pydantic/v1}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/__init__.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                  <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/_migration.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="_migration.py" />
+                  <item name="_migration.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/alias_generators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="alias_generators.py" />
+                  <item name="alias_generators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/aliases.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="aliases.py" />
+                  <item name="aliases.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/annotated_handlers.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="annotated_handlers.py" />
+                  <item name="annotated_handlers.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/class_validators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="class_validators.py" />
+                  <item name="class_validators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/color.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="color.py" />
+                  <item name="color.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/config.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="config.py" />
+                  <item name="config.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/dataclasses.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="dataclasses.py" />
+                  <item name="dataclasses.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/datetime_parse.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="datetime_parse.py" />
+                  <item name="datetime_parse.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/decorator.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="decorator.py" />
+                  <item name="decorator.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/env_settings.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="env_settings.py" />
+                  <item name="env_settings.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/error_wrappers.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="error_wrappers.py" />
+                  <item name="error_wrappers.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/errors.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="errors.py" />
+                  <item name="errors.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/fields.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="fields.py" />
+                  <item name="fields.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/functional_serializers.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="functional_serializers.py" />
+                  <item name="functional_serializers.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/functional_validators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="functional_validators.py" />
+                  <item name="functional_validators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/generics.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="generics.py" />
+                  <item name="generics.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/json.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="json.py" />
+                  <item name="json.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/json_schema.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="json_schema.py" />
+                  <item name="json_schema.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/main.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="main.py" />
+                  <item name="main.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/mypy.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="mypy.py" />
+                  <item name="mypy.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/networks.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="networks.py" />
+                  <item name="networks.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/parse.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="parse.py" />
+                  <item name="parse.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/py.typed" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="py.typed" />
+                  <item name="py.typed" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/root_model.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="root_model.py" />
+                  <item name="root_model.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/schema.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="schema.py" />
+                  <item name="schema.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/tools.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="tools.py" />
+                  <item name="tools.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/type_adapter.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="type_adapter.py" />
+                  <item name="type_adapter.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/types.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="types.py" />
+                  <item name="types.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/typing.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="typing.py" />
+                  <item name="typing.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/utils.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="utils.py" />
+                  <item name="utils.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/validate_call_decorator.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="validate_call_decorator.py" />
+                  <item name="validate_call_decorator.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/validators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="validators.py" />
+                  <item name="validators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/version.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="version.py" />
+                  <item name="version.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/pydantic/warnings.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="warnings.py" />
+                  <item name="warnings.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/release" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="release" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/release}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/release/prepare.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="prepare.py" />
+                  <item name="prepare.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/release/push.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="push.py" />
+                  <item name="push.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/release/README.md" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                  <item name="README.md" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/release/shared.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="shared.py" />
+                  <item name="shared.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tests" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
+                <item name="dir{file:///Users/dshashev/sources/pydantic/tests}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/benchmarks" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="benchmarks" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/tests/benchmarks}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/mypy" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mypy" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/tests/mypy}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/plugin" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="plugin" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/tests/plugin}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="typechecking" />
+                  <item name="dir{file:///Users/dshashev/sources/pydantic/tests/typechecking}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/base_model.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="base_model.py" />
+                    <item name="base_model.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/computed_field.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="computed_field.py" />
+                    <item name="computed_field.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/decorators.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="decorators.py" />
+                    <item name="decorators.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/fields.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="fields.py" />
+                    <item name="fields.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/json_schema_examples.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="json_schema_examples.py" />
+                    <item name="json_schema_examples.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/misc.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="misc.py" />
+                    <item name="misc.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/pipeline_api.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="pipeline_api.py" />
+                    <item name="pipeline_api.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/pyproject.toml" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/toml-file.svg" iconPlugin="org.toml.lang" isLeaf="true" text="pyproject.toml" />
+                    <item name="pyproject.toml" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/README.md" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                    <item name="README.md" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/root_model.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="root_model.py" />
+                    <item name="root_model.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/type_adapter.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="type_adapter.py" />
+                    <item name="type_adapter.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/validate_call.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="validate_call.py" />
+                    <item name="validate_call.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/tests/typechecking/with_config_decorator.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="with_config_decorator.py" />
+                    <item name="with_config_decorator.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/__init__.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                  <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/conftest.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="conftest.py" />
+                  <item name="conftest.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_abc.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_abc.py" />
+                  <item name="test_abc.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_aliases.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_aliases.py" />
+                  <item name="test_aliases.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_allow_partial.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_allow_partial.py" />
+                  <item name="test_allow_partial.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_annotated.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_annotated.py" />
+                  <item name="test_annotated.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_assert_in_validators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_assert_in_validators.py" />
+                  <item name="test_assert_in_validators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_callable.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_callable.py" />
+                  <item name="test_callable.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_color.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_color.py" />
+                  <item name="test_color.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_computed_fields.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_computed_fields.py" />
+                  <item name="test_computed_fields.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_config.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_config.py" />
+                  <item name="test_config.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_construction.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_construction.py" />
+                  <item name="test_construction.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_create_model.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_create_model.py" />
+                  <item name="test_create_model.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_dataclasses.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_dataclasses.py" />
+                  <item name="test_dataclasses.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_datetime.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_datetime.py" />
+                  <item name="test_datetime.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_decorators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_decorators.py" />
+                  <item name="test_decorators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_deprecated.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_deprecated.py" />
+                  <item name="test_deprecated.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_deprecated_fields.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_deprecated_fields.py" />
+                  <item name="test_deprecated_fields.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_deprecated_validate_arguments.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_deprecated_validate_arguments.py" />
+                  <item name="test_deprecated_validate_arguments.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_discriminated_union.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_discriminated_union.py" />
+                  <item name="test_discriminated_union.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_docs.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_docs.py" />
+                  <item name="test_docs.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_docs_extraction.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_docs_extraction.py" />
+                  <item name="test_docs_extraction.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_dunder_all.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_dunder_all.py" />
+                  <item name="test_dunder_all.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_edge_cases.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_edge_cases.py" />
+                  <item name="test_edge_cases.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_errors.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_errors.py" />
+                  <item name="test_errors.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_exports.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_exports.py" />
+                  <item name="test_exports.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_fields.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_fields.py" />
+                  <item name="test_fields.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_forward_ref.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_forward_ref.py" />
+                  <item name="test_forward_ref.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_generics.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_generics.py" />
+                  <item name="test_generics.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_internal.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_internal.py" />
+                  <item name="test_internal.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_json.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_json.py" />
+                  <item name="test_json.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_json_schema.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_json_schema.py" />
+                  <item name="test_json_schema.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_main.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_main.py" />
+                  <item name="test_main.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_meta.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_meta.py" />
+                  <item name="test_meta.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_migration.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_migration.py" />
+                  <item name="test_migration.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_model_signature.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_model_signature.py" />
+                  <item name="test_model_signature.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_model_validator.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_model_validator.py" />
+                  <item name="test_model_validator.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_networks.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_networks.py" />
+                  <item name="test_networks.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_networks_ipaddress.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_networks_ipaddress.py" />
+                  <item name="test_networks_ipaddress.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_parse.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_parse.py" />
+                  <item name="test_parse.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_pickle.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_pickle.py" />
+                  <item name="test_pickle.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_pipeline.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_pipeline.py" />
+                  <item name="test_pipeline.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_plugin_loader.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_plugin_loader.py" />
+                  <item name="test_plugin_loader.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_plugins.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_plugins.py" />
+                  <item name="test_plugins.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_private_attributes.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_private_attributes.py" />
+                  <item name="test_private_attributes.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_pydantic_extra_types.sh" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="test_pydantic_extra_types.sh" />
+                  <item name="test_pydantic_extra_types.sh" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_pydantic_settings.sh" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="test_pydantic_settings.sh" />
+                  <item name="test_pydantic_settings.sh" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_rich_repr.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_rich_repr.py" />
+                  <item name="test_rich_repr.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_root_model.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_root_model.py" />
+                  <item name="test_root_model.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_serialize.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_serialize.py" />
+                  <item name="test_serialize.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_serialize_as_any.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_serialize_as_any.py" />
+                  <item name="test_serialize_as_any.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_strict.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_strict.py" />
+                  <item name="test_strict.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_structural_pattern_matching.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_structural_pattern_matching.py" />
+                  <item name="test_structural_pattern_matching.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_titles.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_titles.py" />
+                  <item name="test_titles.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_tools.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_tools.py" />
+                  <item name="test_tools.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_type_adapter.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_type_adapter.py" />
+                  <item name="test_type_adapter.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_type_alias_type.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_type_alias_type.py" />
+                  <item name="test_type_alias_type.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_type_hints.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_type_hints.py" />
+                  <item name="test_type_hints.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types.py" />
+                  <item name="test_types.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types_namedtuple.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types_namedtuple.py" />
+                  <item name="test_types_namedtuple.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types_payment_card_number.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types_payment_card_number.py" />
+                  <item name="test_types_payment_card_number.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types_self.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types_self.py" />
+                  <item name="test_types_self.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types_typeddict.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types_typeddict.py" />
+                  <item name="test_types_typeddict.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_types_zoneinfo.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_types_zoneinfo.py" />
+                  <item name="test_types_zoneinfo.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_typing.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_typing.py" />
+                  <item name="test_typing.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_utils.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_utils.py" />
+                  <item name="test_utils.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_v1.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_v1.py" />
+                  <item name="test_v1.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_validate_call.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_validate_call.py" />
+                  <item name="test_validate_call.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_validators.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_validators.py" />
+                  <item name="test_validators.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_validators_dataclass.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_validators_dataclass.py" />
+                  <item name="test_validators_dataclass.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_version.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_version.py" />
+                  <item name="test_version.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/tests/test_warnings.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="test_warnings.py" />
+                  <item name="test_warnings.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.git-blame-ignore-revs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text=".git-blame-ignore-revs" />
+                <item name=".git-blame-ignore-revs" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="vcs/ignore_file.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.pre-commit-config.yaml" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/yaml.svg" iconPlugin="com.intellij" isLeaf="true" text=".pre-commit-config.yaml" />
+                <item name=".pre-commit-config.yaml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build-docs.sh" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="build-docs.sh" />
+                <item name="build-docs.sh" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/CITATION.cff" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="CITATION.cff" />
+                <item name="CITATION.cff" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/HISTORY.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="HISTORY.md" />
+                <item name="HISTORY.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/LICENSE" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="LICENSE" />
+                <item name="LICENSE" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Makefile" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/makefile.svg" iconPlugin="name.kropp.intellij.makefile" isLeaf="true" text="Makefile" />
+                <item name="Makefile" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/mkdocs.yml" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/yaml.svg" iconPlugin="com.intellij" isLeaf="true" text="mkdocs.yml" />
+                <item name="mkdocs.yml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/pyproject.toml" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/toml-file.svg" iconPlugin="org.toml.lang" isLeaf="true" text="pyproject.toml" />
+                <item name="pyproject.toml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/update_v1.sh" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/console.svg" iconPlugin="com.intellij" isLeaf="true" text="update_v1.sh" />
+                <item name="update_v1.sh" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/uv.lock" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/toml-file.svg" iconPlugin="org.toml.lang" isLeaf="true" text="uv.lock" />
+                <item name="uv.lock" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1056000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2408854" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="GraphQL" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.1" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info active="true" anchor="right" id="AIAssistant" order="1" visible="true" weight="0.32994792" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <window_info anchor="right" id="LocalStack" order="6" />
+      <window_info anchor="right" id="make" order="7" side_tool="true" />
+      <unified_weights left="0.2408854" right="0.32994792" />
+    </layoutV2>
+    <recentWindows>
+      <value>AIAssistant</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="469" y="182" key="SettingsEditor" timestamp="1742908420035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1742908420035" />
+    <state x="625" y="234" width="699" height="683" key="search.everywhere.popup" timestamp="1742907435200">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="234" width="699" height="683" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1742907435200" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/test_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/tests/typechecking/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#99#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydantic/mypy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydantic/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

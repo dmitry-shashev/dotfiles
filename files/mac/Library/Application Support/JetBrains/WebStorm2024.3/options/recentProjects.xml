@@ -36,17 +36,17 @@
         </entry>
         <entry key="$USER_HOME$/work/current/next-web">
           <value>
-            <RecentProjectMetaInfo frameTitle="next-web – DownloadEdits.tsx" opened="true" projectWorkspaceId="2uLzWT1OPIby3uRUvfUivin0sts">
-              <option name="activationTimestamp" value="1742485953506" />
+            <RecentProjectMetaInfo frameTitle="next-web – poolPartyClient.ts" opened="true" projectWorkspaceId="2uLzWT1OPIby3uRUvfUivin0sts">
+              <option name="activationTimestamp" value="1743427025031" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-243.26053.12" />
               <option name="buildTimestamp" value="1741764660000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="1" />
               </option>
-              <frame x="204" y="65" width="1512" height="950" extendedState="6" />
+              <frame x="204" y="65" width="1512" height="950" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1742042673474" />
+              <option name="projectOpenTimestamp" value="1743168486394" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
