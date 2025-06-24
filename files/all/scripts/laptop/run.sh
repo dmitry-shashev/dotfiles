@@ -20,7 +20,7 @@ sleep 1
 i3-msg 'exec kitty tmux a -t console'
 sleep 4
 
-i3-msg 'workspace 5'
+i3-msg 'workspace 6'
 sleep 1
 i3-msg 'exec kitty tmux a -t home'
 
