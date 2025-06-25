@@ -1,4 +1,5 @@
-eval "$($HOME/.cargo/bin/starship init zsh)"
+# eval "$($HOME/.cargo/bin/starship init zsh)"
+eval "$(starship init zsh)"
 
 # ruby
 # eval "$(rbenv init -)"
