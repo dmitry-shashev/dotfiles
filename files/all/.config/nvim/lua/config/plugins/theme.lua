@@ -1,6 +1,6 @@
 -- transparent.lua contains opacity
--- vim.o.bg="light"
-vim.o.bg="dark"
+vim.o.bg="light"
+-- vim.o.bg="dark"
 
 -- return {
 --    "folke/tokyonight.nvim",
