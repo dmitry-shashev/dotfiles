@@ -173,7 +173,7 @@
     <option name="TypeScript" value="true" />
   </context>
 </template>
-<template name="rci" value="import { FC } from 'react'&#10;&#10;interface Props {&#10;  data: string$END$&#10;}&#10;&#10;export const $1$: FC&lt;Props&gt; = ({ data }) =&gt; {&#10;}&#10;" description="reac component with props" toReformat="false" toShortenFQNames="true">
+<template name="rci" value="import { type FC } from 'react'&#10;&#10;type Props = {&#10;  data: string$END$&#10;}&#10;&#10;export const $1$: FC&lt;Props&gt; = ({ data }) =&gt; {&#10;}&#10;" description="reac component with props" toReformat="false" toShortenFQNames="true">
   <variable name="1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
   <context>
     <option name="TypeScript" value="true" />
