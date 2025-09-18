@@ -47,25 +47,26 @@ vim.o.bg="light"
 --     end,
 -- }
 
-return {
-   "morhetz/gruvbox",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd([[colorscheme gruvbox]])
-    end,
-}
-
--- vim.g.material_style = "deep ocean"
--- vim.g.material_style = "lighter"
 -- return {
---     "marko-cerovac/material.nvim",
+--    "morhetz/gruvbox",
 --     lazy = false,
 --     priority = 1000,
 --     config = function()
---       vim.cmd([[colorscheme material]])
+--       vim.cmd([[colorscheme gruvbox]])
 --     end,
 -- }
+
+-- vim.g.material_style = "deep ocean"
+-- vim.g.material_style = "lighter"
+vim.g.material_style = "darker"
+return {
+    "marko-cerovac/material.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd([[colorscheme material]])
+    end,
+}
 
 -- return {
 --   'projekt0n/github-nvim-theme',
