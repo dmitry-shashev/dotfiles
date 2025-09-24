@@ -62,9 +62,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-# bindsym $mod+Return exec kitty
-# bindsym $mod+Return exec kitty -e tmux
-bindsym $mod+Return exec kitty -e zsh -c '~/scripts/tmuxn.sh'
+# bindsym $mod+Return exec kitty -e zsh -c '~/scripts/tmuxn.sh'
+bindsym $mod+Return exec ~/.cargo/bin/alacritty -e zsh -c '~/scripts/tmuxn.sh'
 
 # kill focused window
 bindsym $mod+q kill
