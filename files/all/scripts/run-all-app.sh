@@ -12,12 +12,12 @@ sleep 4
 #
 i3-msg 'workspace 3'
 sleep 1
-i3-msg 'exec alacritty tmux a -t console'
+i3-msg 'exec alacritty -e tmux a -t console'
 sleep 4
 
 i3-msg 'workspace 6'
 sleep 1
-i3-msg 'exec alacritty tmux a -t home'
+i3-msg 'exec alacritty -e tmux a -t home'
 sleep 4
 
 i3-msg 'workspace 8'
