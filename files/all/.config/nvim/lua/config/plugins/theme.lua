@@ -1,6 +1,6 @@
 -- transparent.lua contains opacity
-vim.o.bg="light"
--- vim.o.bg="dark"
+-- vim.o.bg="light"
+vim.o.bg="dark"
 
 -- return {
 --    "folke/tokyonight.nvim",
@@ -29,14 +29,14 @@ vim.o.bg="light"
 --     end,
 -- }
 
--- return {
---    "rose-pine/neovim",
---     lazy = false,
---     priority = 1000,
---     config = function()
---       vim.cmd([[colorscheme rose-pine]])
---     end,
--- }
+return {
+   "rose-pine/neovim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd([[colorscheme rose-pine]])
+    end,
+}
 
 -- return {
 --    "rmehri01/onenord.nvim",
@@ -58,15 +58,15 @@ vim.o.bg="light"
 
 -- vim.g.material_style = "deep ocean"
 -- vim.g.material_style = "lighter"
-vim.g.material_style = "darker"
-return {
-    "marko-cerovac/material.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd([[colorscheme material]])
-    end,
-}
+-- vim.g.material_style = "darker"
+-- return {
+--     "marko-cerovac/material.nvim",
+--     lazy = false,
+--     priority = 1000,
+--     config = function()
+--       vim.cmd([[colorscheme material]])
+--     end,
+-- }
 
 -- return {
 --   'projekt0n/github-nvim-theme',
