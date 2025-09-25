@@ -20,6 +20,7 @@ export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [
 ]
 
 export const FILES_LIST_UNIX: ReadonlyArray<string> = [
+  '.config/alacritty',
   '.config/nvim',
   '.config/prettier',
   '.config/vifm',
