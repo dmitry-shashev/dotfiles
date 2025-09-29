@@ -12,6 +12,7 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   // 'Library/Application Support/JetBrains',
   '.warp',
   'os-scripts',
+  '.config/alacritty',
   '.skhdrc',
 ]
 
@@ -20,7 +21,6 @@ export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [
 ]
 
 export const FILES_LIST_UNIX: ReadonlyArray<string> = [
-  '.config/alacritty',
   '.config/nvim',
   '.config/prettier',
   '.config/vifm',
