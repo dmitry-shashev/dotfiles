@@ -15,6 +15,7 @@ local paths=(
   "$HOME/miniconda/bin"
   "/opt/homebrew/Caskroom/miniconda/base/bin"
   "/opt/homebrew/bin"
+  "/snap/bin"
 )
 export PATH=$PATH:${"${paths[*]}"// /:}
 # export BROWSER='/usr/bin/google-chrome-stable'
