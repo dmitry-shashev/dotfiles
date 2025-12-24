@@ -17,7 +17,7 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
 ]
 
 export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [
-  // '/mnt/c/Users/user/AppData/Roaming/JetBrains',
+  // '/mnt/c/Users/oldre/.ideavimrc',
 ]
 
 export const FILES_LIST_UNIX: ReadonlyArray<string> = [
