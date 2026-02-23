@@ -1,6 +1,10 @@
 # eval "$($HOME/.cargo/bin/starship init zsh)"
 eval "$(starship init zsh)"
 
+if [[ `uname` == Darwin ]] then
+    eval "$(pyenv init -)"
+fi
+
 # ruby
 # eval "$(rbenv init -)"
 
