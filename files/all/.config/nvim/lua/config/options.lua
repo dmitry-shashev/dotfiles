@@ -42,6 +42,10 @@ vim.opt.clipboard = 'unnamedplus'
 -- highlight current cursor line
 vim.opt.cursorline = true
 
+-- spell checking
+vim.opt.spell = true
+vim.opt.spelllang = { 'en' }
+
 -- speed up scrolling
 vim.opt.ttyfast = true
 
