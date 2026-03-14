@@ -2,7 +2,8 @@
 eval "$(starship init zsh)"
 
 if [[ `uname` == Darwin ]] then
-    eval "$(pyenv init -)"
+    # eval "$(pyenv init -)"
+    alias python3=python3.10
 fi
 
 # ruby
