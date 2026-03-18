@@ -43,12 +43,6 @@ function gmainname() {
   git remote show origin 2>/dev/null | grep 'HEAD branch' | awk '{print $NF}'
 }
 
-function gchm() {
-  local DEFAULT_BRANCH_NAME=$(gmainname)
-  git checkout $DEFAULT_BRANCH_NAME
-  printCommand "[git checkout $DEFAULT_BRANCH_NAME]"
-}
-
 function gsync() {
   local DEFAULT_BRANCH_NAME=$(gmainname)
   git checkout $DEFAULT_BRANCH_NAME
@@ -62,17 +56,6 @@ function gamend() {
   printCommand "[git add --all]"
   git commit --amend --no-edit
   printCommand "[git commit --amend --no-edit]"
-}
-
-function gfilerevert() {
-  local COMMIT_HASH=$1
-  local FILE_PATH=$2
-  git checkout $COMMIT_HASH -- $FILE_PATH
-  printCommand "[git checkout $COMMIT_HASH -- $FILE_PATH]"
-  git add $FILE_PATH
-  printCommand "[git add $FILE_PATH]"
-  git commit -m "Revert $2 from commit $1"
-  printCommand "[git commit -m \"Revert $2 from commit $1\"]"
 }
 
 function gmerge() {
@@ -170,10 +153,24 @@ function gsearch() {
 }
 
 function grh() {
+  # Save current state to a temp branch
+  local temp_branch="backup/$(date +%Y%m%d_%H%M%S)"
+  local current_branch=$(git branch --show-current)
+  
+  # Stage everything (tracked + untracked) and create a temp commit
+  git checkout -b "$temp_branch"
+  git add -A
+  git commit -m "backup: auto-save before grh on '$current_branch'" --allow-empty --no-verify
+  
+  # Return to original branch and do the reset
+  git checkout "$current_branch"
   git reset --hard
   printCommand "[git reset --hard]"
   git clean -fd
   printCommand "[git clean -fd]"
+  
+  echo "💾 State saved to branch: $temp_branch"
+  echo "   Restore with: git checkout $temp_branch"
 }
 
 #open changed files
@@ -182,57 +179,11 @@ function go() {
   git status --porcelain | grep -v "[/]$" | grep -v "^\s*D" | sed s%...%% | sed "s%^%${REPO_PATH}/%g" | sed 's/ /\\ /g' | xargs -o nvim -p
 }
 
-function greview() {
-  local MAIN_BRANCH=$1
-  local TARGET_BRANCH=$2
-
-  # forbid if there any changes
-  local CURRENT_CHANGES=$(git status --short)
-  if [ ! -z "${CURRENT_CHANGES}" ]; then
-    echo "Error: changes found"
-    return
-  fi
-
-  # prepare the target branch
-  git checkout $MAIN_BRANCH
-  git branch -D $TARGET_BRANCH
-  git fetch origin $TARGET_BRANCH
-  git checkout $TARGET_BRANCH
-
-  # reset to the root branch commit
-  local FIRST_BRANCH_COMMIT=$(git rev-list --first-parent $TARGET_BRANCH ^$MAIN_BRANCH | tail -1)
-  local ROOT_COMMIT=$(git rev-parse $FIRST_BRANCH_COMMIT^)
-  git reset $ROOT_COMMIT
-
-  echo "Branch [$TARGET_BRANCH] has been prepared for review"
-}
-
 # navigate to the git root
 function groot() {
   local REPO_PATH="$(git rev-parse --show-toplevel)"
   cd $REPO_PATH
 }
-
-function gw() {
-  git worktree $@
-  printCommand '[git worktree <command>]'
-}
-
-function gwl() {
-  git worktree list
-  printCommand '[git worktree list]'
-}
-
-function gwa() {
-  git worktree add $@
-  printCommand '[git worktree add <name>]'
-}
-
-function gwr() {
-  git worktree remove $@
-  printCommand '[git worktree remove <name>]'
-}
-
 
 #----------------------------------------------------------
 # Autocompletion
