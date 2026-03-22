@@ -1,6 +1,8 @@
 Doesn't work with neovim in the terminal, because the terminal
 works on the system level.
 
+It uses `npm`, if the NodeJS was updated, it require re-installing
+
 On mac it uses skhd `/Users/dshashev/.skhdrc`
 
 ```
