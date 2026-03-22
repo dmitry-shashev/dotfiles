@@ -4,6 +4,7 @@ eval "$(starship init zsh)"
 if [[ `uname` == Darwin ]] then
     # eval "$(pyenv init -)"
     alias python3=python3.10
+    source /Users/dshashev/work/script-engine/shortcuts.sh
 fi
 
 # ruby
@@ -78,3 +79,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# bun completions
+[ -s "/Users/dshashev/.bun/_bun" ] && source "/Users/dshashev/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
