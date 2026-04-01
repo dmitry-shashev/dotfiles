@@ -5,6 +5,14 @@ if [[ `uname` == Darwin ]] then
     # eval "$(pyenv init -)"
     alias python3=python3.10
     source /Users/dshashev/work/script-engine/shortcuts.sh
+
+    mlt-play() {
+        CI=true MLT_MODE=play MLT_DB=true GITHUB_RUN_ID=0 pnpm test:mlt --ui
+    }
+
+    mlt-record() {
+        MLT_MODE=record MLT_DB=true pnpm test:mlt --ui
+    }
 fi
 
 # ruby
