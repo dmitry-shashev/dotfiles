@@ -7,6 +7,7 @@ if [[ `uname` == Darwin ]] then
     source /Users/dshashev/work/script-engine/shortcuts.sh
 
     mlt-play() {
+        # pnpm build
         CI=true MLT_MODE=play MLT_DB=true GITHUB_RUN_ID=0 pnpm test:mlt --ui
     }
 
