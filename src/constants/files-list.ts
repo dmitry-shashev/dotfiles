@@ -14,6 +14,7 @@ export const FILES_LIST_MAC: ReadonlyArray<string> = [
   'os-scripts',
   '.config/alacritty',
   '.skhdrc',
+  '.config/aerospace',
 ]
 
 export const FILES_LIST_WINDOWS: ReadonlyArray<string> = [

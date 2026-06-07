@@ -1,0 +1,194 @@
+config-version = 2
+start-at-login = true
+
+# Keep AeroSpace behavior close to i3 defaults where the macOS model allows it.
+enable-normalization-flatten-containers = false
+enable-normalization-opposite-orientation-for-nested-containers = true
+automatically-unhide-macos-hidden-apps = true
+accordion-padding = 0
+default-root-container-layout = 'tiles'
+default-root-container-orientation = 'auto'
+on-focused-monitor-changed = []
+persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+[key-mapping]
+    preset = 'qwerty'
+
+# i3: gaps outer 6; gaps inner 6
+[gaps]
+    inner.horizontal = 6
+    inner.vertical = 6
+    outer.left = 6
+    outer.bottom = 6
+    outer.top = 6
+    outer.right = 6
+
+[[on-window-detected]]
+    if.app-id = 'org.alacritty'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 6'
+
+[[on-window-detected]]
+    if.app-id = 'com.tinyspeck.slackmacgap'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 0'
+
+[[on-window-detected]]
+    if.app-id = 'com.google.Chrome'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 1'
+
+[[on-window-detected]]
+    if.app-id = 'org.mozilla.firefox'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 7'
+
+[[on-window-detected]]
+    if.app-id = 'com.jetbrains.WebStorm'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 2'
+
+[[on-window-detected]]
+    if.app-id = 'com.operasoftware.Opera'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 5'
+
+[[on-window-detected]]
+    if.app-id = 'net.kovidgoyal.kitty'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 3'
+
+[[on-window-detected]]
+    if.app-id = 'org.mozilla.thunderbird'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 8'
+
+[[on-window-detected]]
+    if.app-id = 'com.jetbrains.pycharm'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 2'
+
+[[on-window-detected]]
+    if.app-id = 'com.openai.codex'
+    if.during-aerospace-startup = true
+    run = 'move-node-to-workspace 4'
+
+[mode.main.binding]
+
+    # i3 $mod is Mod4; on macOS this config uses cmd as the closest equivalent.
+
+    # Launching / closing
+    cmd-enter = ['split horizontal', 'exec-and-forget open -na /Applications/Alacritty.app']
+    cmd-q = 'close'
+    cmd-d = "exec-and-forget osascript -e 'tell application \"System Events\" to key code 49 using {command down}'"
+
+    # Focus windows
+    cmd-h = 'focus left'
+    cmd-j = 'focus down'
+    cmd-k = 'focus up'
+    cmd-l = 'focus right'
+    cmd-left = 'focus left'
+    cmd-down = 'focus down'
+    cmd-up = 'focus up'
+    cmd-right = 'focus right'
+
+    # Move windows
+    cmd-shift-h = 'move left'
+    cmd-shift-j = 'move down'
+    cmd-shift-k = 'move up'
+    cmd-shift-l = 'move right'
+    cmd-shift-left = 'move left'
+    cmd-shift-down = 'move down'
+    cmd-shift-up = 'move up'
+    cmd-shift-right = 'move right'
+
+    # Splits and layouts
+    cmd-alt-v = 'split horizontal'
+    cmd-alt-b = 'split vertical'
+    cmd-f = 'fullscreen'
+    cmd-s = 'layout accordion vertical'
+    cmd-w = 'layout accordion horizontal'
+    cmd-e = 'layout tiles horizontal vertical'
+    cmd-shift-space = 'layout floating tiling'
+    cmd-a = 'flatten-workspace-tree'
+
+    # Fast resize, matching the i3 Ctrl bindings.
+    cmd-ctrl-h = 'resize width -10'
+    cmd-ctrl-j = 'resize height +10'
+    cmd-ctrl-k = 'resize height -10'
+    cmd-ctrl-l = 'resize width +10'
+
+    # i3-style workspace switching: bare F-keys switch, cmd+F-key moves.
+    f1 = 'workspace 1'
+    f2 = 'workspace 2'
+    f3 = 'workspace 3'
+    f4 = 'workspace 4'
+    f5 = 'workspace 5'
+    f8 = 'workspace 8'
+    f9 = 'workspace 9'
+    f10 = 'workspace 10'
+
+    cmd-f1 = 'move-node-to-workspace 1'
+    cmd-f2 = 'move-node-to-workspace 2'
+    cmd-f3 = 'move-node-to-workspace 3'
+    cmd-f4 = 'move-node-to-workspace 4'
+    cmd-f5 = 'move-node-to-workspace 5'
+    cmd-f8 = 'move-node-to-workspace 8'
+    cmd-f9 = 'move-node-to-workspace 9'
+    cmd-f10 = 'move-node-to-workspace 10'
+
+    # Number aliases. Workspace 0 is used for Slack.
+    cmd-1 = 'workspace 1'
+    cmd-2 = 'workspace 2'
+    cmd-3 = 'workspace 3'
+    cmd-4 = 'workspace 4'
+    cmd-5 = 'workspace 5'
+    cmd-6 = 'workspace 6'
+    cmd-7 = 'workspace 7'
+    cmd-8 = 'workspace 8'
+    cmd-9 = 'workspace 9'
+    cmd-0 = 'workspace 0'
+
+    cmd-shift-1 = 'move-node-to-workspace 1'
+    cmd-shift-2 = 'move-node-to-workspace 2'
+    cmd-shift-3 = 'move-node-to-workspace 3'
+    cmd-shift-4 = 'move-node-to-workspace 4'
+    cmd-shift-5 = 'move-node-to-workspace 5'
+    cmd-shift-6 = 'move-node-to-workspace 6'
+    cmd-shift-7 = 'move-node-to-workspace 7'
+    cmd-shift-8 = 'move-node-to-workspace 8'
+    cmd-shift-9 = 'move-node-to-workspace 9'
+    cmd-shift-0 = 'move-node-to-workspace 0'
+
+    # Config management and modes
+    cmd-shift-c = 'reload-config'
+    cmd-shift-r = 'reload-config'
+    cmd-r = 'mode resize'
+    cmd-shift-semicolon = 'mode service'
+
+[mode.resize.binding]
+    # i3 resize mode uses j/k/l/semicolon for left/down/up/right.
+    j = 'resize width -10'
+    k = 'resize height +10'
+    l = 'resize height -10'
+    semicolon = 'resize width +10'
+
+    left = 'resize width -10'
+    down = 'resize height +10'
+    up = 'resize height -10'
+    right = 'resize width +10'
+
+    enter = 'mode main'
+    esc = 'mode main'
+    cmd-r = 'mode main'
+
+[mode.service.binding]
+    esc = ['reload-config', 'mode main']
+    r = ['flatten-workspace-tree', 'mode main']
+    f = ['layout floating tiling', 'mode main']
+    backspace = ['close-all-windows-but-current', 'mode main']
+
+    cmd-shift-h = ['join-with left', 'mode main']
+    cmd-shift-j = ['join-with down', 'mode main']
+    cmd-shift-k = ['join-with up', 'mode main']
+    cmd-shift-l = ['join-with right', 'mode main']

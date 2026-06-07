@@ -3,7 +3,7 @@ eval "$(starship init zsh)"
 
 if [[ `uname` == Darwin ]] then
     # eval "$(pyenv init -)"
-    alias python3=python3.10
+    alias python3=python3.12
     source /Users/dshashev/work/script-engine/shortcuts.sh
 
     mlt-play() {
