@@ -163,24 +163,7 @@ persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
     # Config management and modes
     cmd-shift-c = 'reload-config'
     cmd-shift-r = 'reload-config'
-    cmd-r = 'mode resize'
     cmd-shift-semicolon = 'mode service'
-
-[mode.resize.binding]
-    # i3 resize mode uses j/k/l/semicolon for left/down/up/right, inverted.
-    j = 'resize width +80'
-    k = 'resize height -80'
-    l = 'resize height +80'
-    semicolon = 'resize width -80'
-
-    left = 'resize width +80'
-    down = 'resize height -80'
-    up = 'resize height +80'
-    right = 'resize width -80'
-
-    enter = 'mode main'
-    esc = 'mode main'
-    cmd-r = 'mode main'
 
 [mode.service.binding]
     esc = ['reload-config', 'mode main']
