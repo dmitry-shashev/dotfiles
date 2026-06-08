@@ -110,7 +110,7 @@ persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
     cmd-w = 'layout accordion horizontal'
     cmd-e = 'layout tiles horizontal vertical'
     cmd-shift-space = 'layout floating tiling'
-    cmd-a = 'flatten-workspace-tree'
+    cmd-alt-a = 'flatten-workspace-tree'
 
     # Fast resize, matching the i3 Ctrl bindings.
     cmd-ctrl-h = 'resize width -10'
