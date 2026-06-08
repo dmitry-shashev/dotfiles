@@ -78,7 +78,7 @@ persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
     # i3 $mod is Mod4; on macOS this config uses cmd as the closest equivalent.
 
     # Launching / closing
-    cmd-enter = ['split horizontal', 'exec-and-forget open -na /Applications/Alacritty.app']
+    cmd-enter = ['split horizontal', 'exec-and-forget /Applications/Alacritty.app/Contents/MacOS/alacritty -e zsh -c "$HOME/scripts/tmuxn.sh"']
     cmd-q = 'close'
     cmd-d = "exec-and-forget osascript -e 'tell application \"System Events\" to key code 49 using {command down}'"
 
