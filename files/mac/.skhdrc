@@ -59,24 +59,24 @@
 # skhd --stop-service && skhd --start-service
 
 # Layouts
-shift + cmd - q : osascript ~/os-scripts/layouts/q-ide-bw-30-70.scpt
-shift + cmd - w : osascript ~/os-scripts/layouts/w-ide-bw-50-50.scpt
-shift + cmd - e : osascript ~/os-scripts/layouts/e-ide-bw-70-30.scpt
-shift + cmd - a : osascript ~/os-scripts/layouts/a-ide-tm-30-70.scpt
-shift + cmd - s : osascript ~/os-scripts/layouts/s-ide-tm-50-50.scpt
-shift + cmd - d : osascript ~/os-scripts/layouts/d-ide-tm-70-30.scpt
-shift + cmd - z : osascript ~/os-scripts/layouts/z-reset-all.scpt
+# shift + cmd - q : osascript ~/os-scripts/layouts/q-ide-bw-30-70.scpt
+# shift + cmd - w : osascript ~/os-scripts/layouts/w-ide-bw-50-50.scpt
+# shift + cmd - e : osascript ~/os-scripts/layouts/e-ide-bw-70-30.scpt
+# shift + cmd - a : osascript ~/os-scripts/layouts/a-ide-tm-30-70.scpt
+# shift + cmd - s : osascript ~/os-scripts/layouts/s-ide-tm-50-50.scpt
+# shift + cmd - d : osascript ~/os-scripts/layouts/d-ide-tm-70-30.scpt
+# shift + cmd - z : osascript ~/os-scripts/layouts/z-reset-all.scpt
 
-cmd - 1 : osascript ~/os-scripts/f1.scpt
-cmd - 2 : osascript ~/os-scripts/f2.scpt
-cmd - 3 : osascript ~/os-scripts/f3.scpt
-cmd - 4 : osascript ~/os-scripts/f4.scpt
-cmd - 5 : osascript ~/os-scripts/f5.scpt
-cmd - 6 : osascript ~/os-scripts/f6.scpt
-cmd - 7 : osascript ~/os-scripts/f7.scpt
-cmd - 8 : osascript ~/os-scripts/f8.scpt
-cmd - 9 : osascript ~/os-scripts/f9.scpt
-cmd - 0 : osascript ~/os-scripts/f10.scpt
+# cmd - 1 : osascript ~/os-scripts/f1.scpt
+# cmd - 2 : osascript ~/os-scripts/f2.scpt
+# cmd - 3 : osascript ~/os-scripts/f3.scpt
+# cmd - 4 : osascript ~/os-scripts/f4.scpt
+# cmd - 5 : osascript ~/os-scripts/f5.scpt
+# cmd - 6 : osascript ~/os-scripts/f6.scpt
+# cmd - 7 : osascript ~/os-scripts/f7.scpt
+# cmd - 8 : osascript ~/os-scripts/f8.scpt
+# cmd - 9 : osascript ~/os-scripts/f9.scpt
+# cmd - 0 : osascript ~/os-scripts/f10.scpt
 
 
 shift + alt - 1 : tsx ~/scripts/custom-clipboard/load-clipboard.ts 1

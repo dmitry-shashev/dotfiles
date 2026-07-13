@@ -79,7 +79,7 @@ persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
 
     # Launching / closing
     cmd-enter = ['split horizontal', 'exec-and-forget /Applications/Alacritty.app/Contents/MacOS/alacritty -e zsh -c "$HOME/scripts/tmuxn.sh"']
-    cmd-q = 'close'
+    cmd-q = 'close --quit-if-last-window'
     cmd-d = "exec-and-forget osascript -e 'tell application \"System Events\" to key code 49 using {command down}'"
 
     # Focus windows
@@ -149,16 +149,16 @@ persistent-workspaces = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
     cmd-9 = 'workspace 9'
     cmd-0 = 'workspace 0'
 
-    cmd-shift-1 = 'move-node-to-workspace 1'
-    cmd-shift-2 = 'move-node-to-workspace 2'
-    cmd-shift-3 = 'move-node-to-workspace 3'
-    cmd-shift-4 = 'move-node-to-workspace 4'
-    cmd-shift-5 = 'move-node-to-workspace 5'
-    cmd-shift-6 = 'move-node-to-workspace 6'
-    cmd-shift-7 = 'move-node-to-workspace 7'
-    cmd-shift-8 = 'move-node-to-workspace 8'
-    cmd-shift-9 = 'move-node-to-workspace 9'
-    cmd-shift-0 = 'move-node-to-workspace 0'
+    cmd-alt-shift-1 = 'move-node-to-workspace 1'
+    cmd-alt-shift-2 = 'move-node-to-workspace 2'
+    cmd-alt-shift-3 = 'move-node-to-workspace 3'
+    cmd-alt-shift-4 = 'move-node-to-workspace 4'
+    cmd-alt-shift-5 = 'move-node-to-workspace 5'
+    cmd-alt-shift-6 = 'move-node-to-workspace 6'
+    cmd-alt-shift-7 = 'move-node-to-workspace 7'
+    cmd-alt-shift-8 = 'move-node-to-workspace 8'
+    cmd-alt-shift-9 = 'move-node-to-workspace 9'
+    cmd-alt-shift-0 = 'move-node-to-workspace 0'
 
     # Config management and modes
     cmd-shift-c = 'reload-config'
