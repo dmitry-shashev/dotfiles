@@ -6,6 +6,8 @@ export const FILES_LIST_LINUX: ReadonlyArray<string> = [
   // '.config/JetBrains',
   '.profile',
   '.xbindkeysrc',
+  '.codex/skills',
+  '.codex/config.toml',
 ]
 
 export const FILES_LIST_MAC: ReadonlyArray<string> = [

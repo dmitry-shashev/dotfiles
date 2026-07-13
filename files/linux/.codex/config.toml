@@ -1,0 +1,23 @@
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
+
+sandbox_mode = "danger-full-access"
+approval_policy = "on-request"
+
+[projects."/home/picnic/domains/ansible"]
+trust_level = "trusted"
+
+[projects."/home/picnic/domains/lib-python"]
+trust_level = "trusted"
+
+[projects."/home/picnic/.config/nvim"]
+trust_level = "trusted"
+
+[tui.model_availability_nux]
+"gpt-5.6-sol" = 4
+
+[tui.keymap.composer]
+submit = "ctrl-j"
+
+[tui.keymap.editor]
+insert_newline = "enter"
