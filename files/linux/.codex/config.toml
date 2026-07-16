@@ -1,4 +1,4 @@
-model = "gpt-5.6-terra"
+model = "gpt-5.6-sol"
 model_reasoning_effort = "medium"
 
 sandbox_mode = "danger-full-access"
@@ -11,6 +11,9 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/picnic/.config/nvim"]
+trust_level = "trusted"
+
+[projects."/home/picnic/domains/core"]
 trust_level = "trusted"
 
 [tui.model_availability_nux]
