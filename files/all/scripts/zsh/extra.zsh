@@ -21,10 +21,10 @@ function update() {
   sudo apt-get clean -y
 }
 
-function sync() {
-  local CURRENT_PATH=$(pwd)
-  node "$HOME/scripts/zsh/extra/sync.js"
-}
+# function sync() {
+#   local CURRENT_PATH=$(pwd)
+#   node "$HOME/scripts/zsh/extra/sync.js"
+# }
 
 function run() {
   update
