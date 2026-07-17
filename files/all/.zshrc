@@ -1,7 +1,7 @@
 # eval "$($HOME/.cargo/bin/starship init zsh)"
 eval "$(starship init zsh)"
 
-source /home/picnic/domains/core/shell/aliases.sh
+source $HOME/domains/core/shell/aliases.sh
 
 if [[ `uname` == Darwin ]] then
     # eval "$(pyenv init -)"
